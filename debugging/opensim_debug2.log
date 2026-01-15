@@ -254,51 +254,5 @@
 [2026-01-15 19:58:49.724] [info] pf_tx_r 	 0.00731534 	
 [2026-01-15 19:58:49.724] [info] pf_ty_r 	 0.0122087 	
 [2026-01-15 19:58:49.724] [info] pf_tz_r 	 -0.00728136 	
-[2026-01-15 22:36:26.642] [info] Set log level to Debug.
-[2026-01-15 22:36:26.788] [info] Loaded model lenhart2015-scaled from file D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\COMAK\data\STRATO_001\model\model_STRATO_001.osim
-[2026-01-15 22:36:39.366] [info] Secondary Coordinates:
-[2026-01-15 22:36:39.366] [info] ----------------------
-[2026-01-15 22:36:39.366] [info] knee_add_r
-[2026-01-15 22:36:39.366] [info] knee_rot_r
-[2026-01-15 22:36:39.366] [info] knee_tx_r
-[2026-01-15 22:36:39.366] [info] knee_ty_r
-[2026-01-15 22:36:39.366] [info] knee_tz_r
-[2026-01-15 22:36:39.366] [info] pf_flex_r
-[2026-01-15 22:36:39.366] [info] pf_rot_r
-[2026-01-15 22:36:39.366] [info] pf_tilt_r
-[2026-01-15 22:36:39.366] [info] pf_tx_r
-[2026-01-15 22:36:39.367] [info] pf_ty_r
-[2026-01-15 22:36:39.367] [info] pf_tz_r
-[2026-01-15 22:36:39.367] [info] Secondary Coupled Coordinate: 
-[2026-01-15 22:36:39.371] [info] Settle Threshold: 0.000100000
-[2026-01-15 22:36:39.371] [info] Sweep Time: 3.0
-[2026-01-15 22:36:39.371] [info] Sweep secondary_coupled_coordinate start value: 0.0
-[2026-01-15 22:36:39.371] [info] Sweep secondary_coupled_coordinate stop value: 100.0
-[2026-01-15 22:36:39.530] [info] Performing IK Secondary Constraint Simulation...
-[2026-01-15 22:36:40.536] [info] Starting Settling Simulation.
-[2026-01-15 22:36:52.889] [info] Time: 0.01
-[2026-01-15 22:36:52.889] [info] 		 VALUE 		DELTA
-[2026-01-15 22:36:52.889] [info] knee_add_r 	 -0.00201126 	
-[2026-01-15 22:36:52.889] [info] knee_rot_r 	 -0.000668084 	
-[2026-01-15 22:36:52.889] [info] knee_tx_r 	 -0.000115753 	
-[2026-01-15 22:36:52.889] [info] knee_ty_r 	 -7.53069e-05 	
-[2026-01-15 22:36:52.889] [info] knee_tz_r 	 -0.000605328 	
-[2026-01-15 22:36:52.889] [info] pf_flex_r 	 -0.00116798 	
-[2026-01-15 22:36:52.889] [info] pf_rot_r 	 -0.000231301 	
-[2026-01-15 22:36:52.889] [info] pf_tilt_r 	 0.000335630 	
-[2026-01-15 22:36:52.889] [info] pf_tx_r 	 0.00965643 	
-[2026-01-15 22:36:52.889] [info] pf_ty_r 	 0.00197708 	
-[2026-01-15 22:36:52.890] [info] pf_tz_r 	 0.00149977 	
-[2026-01-15 22:36:58.017] [info] Time: 0.02
-[2026-01-15 22:36:58.017] [info] 		 VALUE 		DELTA
-[2026-01-15 22:36:58.017] [info] knee_add_r 	 -0.00304918 	
-[2026-01-15 22:36:58.017] [info] knee_rot_r 	 -0.00138737 	
-[2026-01-15 22:36:58.017] [info] knee_tx_r 	 0.000314047 	
-[2026-01-15 22:36:58.018] [info] knee_ty_r 	 0.000267974 	
-[2026-01-15 22:36:58.018] [info] knee_tz_r 	 -0.000671541 	
-[2026-01-15 22:36:58.018] [info] pf_flex_r 	 -0.000593720 	
-[2026-01-15 22:36:58.018] [info] pf_rot_r 	 5.01335e-05 	
-[2026-01-15 22:36:58.018] [info] pf_tilt_r 	 0.000493556 	
-[2026-01-15 22:36:58.018] [info] pf_tx_r 	 0.0164824 	
-[2026-01-15 22:36:58.018] [info] pf_ty_r 	 0.00981404 	
-[2026-01-15 22:36:58.018] [info] pf_tz_r 	 0.00391959 	
+
+
