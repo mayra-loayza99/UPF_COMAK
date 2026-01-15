@@ -1,0 +1,21 @@
+•	Discrepancia entre nombres de markers en TRC vs modelo
+•	Problema con los datos numéricos en el TRC
+•	Verificar que los tiempos (Event Sequences file) son válidos
+•	Verificar que todas las coordenadas secundarias existen en el modelo
+•	Problema con el modelo escalado
+•	Comparar archivos entre sujetos:
+•	Problema con el modelo escalado (scaling)
+o	Geometrías que se intersectan
+o	Restricciones biomecánicas inconsistentes
+o	Momentos de inercia inválidos
+•	Conflicto en constraints/fuerzas durante settling simulation
+o	Verificar y regenerar el modelo escalado
+•	Ajustar parámetros del COMAKInverseKinematicsTool
+o	Modifica el archivo XML de configuración de COMAK IK:
+o	Verificar rangos de movimiento del TRC
+o	El problema puede ser que los datos de este sujeto tienen movimientos extremos
+•	Modelo original STRATO_01: 13947
+o	Volver a escalar el modelo con lenhart2015_itr y ejecutar COMAK para ver si funciona 
+	Without preserving mass distribution: no funciona
+	Preserving mass distribution
+•	Cambiar los labels de los marcadores en Smart Tracker manualmente y ejecutar con los correspondientes trc y mot files
