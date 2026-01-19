@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Diferencias OpenSim</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-left: 4px solid #3498db;
+        }
+        .summary {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .critical {
+            background-color: #ffe5e5;
+            border-left: 4px solid #e74c3c;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .difference {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .model-value {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        .model1 {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+        }
+        .model2 {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+        }
+        .ok {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .error {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            background-color: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        .file-info {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Reporte de Comparación de Modelos OpenSim</h1>
+    
+    <div class="summary">
+        <h2>📊 Resumen</h2>
+        <p><strong>Modelo 1 (funciona):</strong> <span class="file-info">D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\COMAK\models\lenhart2015_generic\lenhart2015.osim</span></p>
+        <p><strong>Modelo 2 (no funciona):</strong> <span class="file-info">D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\COMAK\testing\STRATO_001\model\model_STRATO_001.osim</span></p>
+        <p><strong>Total de diferencias encontradas:</strong> <span class="error">159</span></p>
+        <p><strong>Diferencias críticas:</strong> <span class="error">29</span></p>
+    </div>
+
+    <h2>⚠️ Diferencias Críticas (pueden causar el fallo de COMAK)</h2>
+    <div class="critical">❌ Número de músculos: 45 vs 44</div>
+    <div class="critical">❌ Músculo 'addmagDist_r' - optimal_fiber_length: 5.33% diferencia</div>
+    <div class="critical">❌ Músculo 'addmagDist_r' - tendon_slack_length: 5.33% diferencia</div>
+    <div class="critical">❌ Músculo 'addmagIsch_r' - optimal_fiber_length: 5.32% diferencia</div>
+    <div class="critical">❌ Músculo 'addmagIsch_r' - tendon_slack_length: 5.32% diferencia</div>
+    <div class="critical">❌ Músculo 'addmagMid_r' - optimal_fiber_length: 5.07% diferencia</div>
+    <div class="critical">❌ Músculo 'addmagMid_r' - tendon_slack_length: 5.07% diferencia</div>
+    <div class="critical">❌ Músculo 'bflh_r' - optimal_fiber_length: 5.24% diferencia</div>
+    <div class="critical">❌ Músculo 'bflh_r' - tendon_slack_length: 5.24% diferencia</div>
+    <div class="critical">❌ Músculo 'bfsh_r' - optimal_fiber_length: 5.10% diferencia</div>
+    <div class="critical">❌ Músculo 'bfsh_r' - tendon_slack_length: 5.10% diferencia</div>
+    <div class="critical">❌ Músculo 'default' faltante</div>
+    <div class="critical">❌ Músculo 'gaslat_r' - optimal_fiber_length: 5.04% diferencia</div>
+    <div class="critical">❌ Músculo 'gaslat_r' - tendon_slack_length: 5.04% diferencia</div>
+    <div class="critical">❌ Músculo 'gasmed_r' - optimal_fiber_length: 5.04% diferencia</div>
+    <div class="critical">❌ Músculo 'gasmed_r' - tendon_slack_length: 5.04% diferencia</div>
+    <div class="critical">❌ Músculo 'grac_r' - optimal_fiber_length: 5.27% diferencia</div>
+    <div class="critical">❌ Músculo 'grac_r' - tendon_slack_length: 5.27% diferencia</div>
+    <div class="critical">❌ Músculo 'semimem_r' - optimal_fiber_length: 5.23% diferencia</div>
+    <div class="critical">❌ Músculo 'semimem_r' - tendon_slack_length: 5.23% diferencia</div>
+    <div class="critical">❌ Músculo 'semiten_r' - optimal_fiber_length: 5.26% diferencia</div>
+    <div class="critical">❌ Músculo 'semiten_r' - tendon_slack_length: 5.26% diferencia</div>
+    <div class="critical">❌ Músculo 'soleus_r' - optimal_fiber_length: 5.01% diferencia</div>
+    <div class="critical">❌ Músculo 'soleus_r' - tendon_slack_length: 5.01% diferencia</div>
+    <div class="critical">❌ Músculo 'vasint_r' - optimal_fiber_length: 5.12% diferencia</div>
+    <div class="critical">❌ Músculo 'vasint_r' - tendon_slack_length: 5.12% diferencia</div>
+    <div class="critical">❌ Músculo 'vasmed_r' - optimal_fiber_length: 5.00% diferencia</div>
+    <div class="critical">❌ Músculo 'vasmed_r' - tendon_slack_length: 5.00% diferencia</div>
+    <div class="critical">❌ No hay geometrías de contacto definidas</div>
+
+    <h2>📋 Detalle de Todas las Diferencias</h2>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Modelo 1 (funciona)</th>
+            <th>Modelo 2 (no funciona)</th>
+        </tr>
+
+        <tr>
+            <td><strong>Body_calcn_l_mass</strong></td>
+            <td class="model1">1.0085616438356162</td>
+            <td class="model2">1.0833904109589045</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_calcn_l_mass_center</strong></td>
+            <td class="model1">0.10270709904485761 0.015728962304027674 0</td>
+            <td class="model2">0.10402153373878903 0.015930259915821029 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_calcn_l_inertia</strong></td>
+            <td class="model1">0.0010535327938929594 0.0026807386851697133 0.0031082953351735539 0 0 0</td>
+            <td class="model2">0.0011608501948891963 0.0029538103067747951 0.0034249197239284088 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_calcn_r_mass</strong></td>
+            <td class="model1">1.0085616438356162</td>
+            <td class="model2">1.0833904109589045</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_calcn_r_mass_center</strong></td>
+            <td class="model1">0.10270709904485761 0.015728962304027674 0</td>
+            <td class="model2">0.099242564481934872 0.015198390084113132 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_calcn_r_inertia</strong></td>
+            <td class="model1">0.0010535327938929594 0.0026807386851697133 0.0031082953351735539 0 0 0</td>
+            <td class="model2">0.0010566365496578092 0.0026886362638652997 0.0031174525153024719 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_femur_distal_r_mass</strong></td>
+            <td class="model1">0.0081664910432033694</td>
+            <td class="model2">0.008772391991570077</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_femur_distal_r_inertia</strong></td>
+            <td class="model1">0.000816649104320337 0.000816649104320337 0.000816649104320337 0 0 0</td>
+            <td class="model2">0.00079008474829566635 0.00079008474829566635 0.00079008474829566635 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_femur_l_mass</strong></td>
+            <td class="model1">8.2746970495258143</td>
+            <td class="model2">8.8886261854583797</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_femur_l_mass_center</strong></td>
+            <td class="model1">0 -0.1500352601468932 0</td>
+            <td class="model2">0 -0.14553870877907868 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_femur_l_inertia</strong></td>
+            <td class="model1">0.12023256811614236 0.024660581394428907 0.12023256811614236 0 0 0</td>
+            <td class="model2">0.12152762958834006 0.024926207999152759 0.12152762958834006 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_femur_r_mass</strong></td>
+            <td class="model1">8.2746970495258143</td>
+            <td class="model2">8.8886261854583797</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_femur_r_mass_center</strong></td>
+            <td class="model1">0 -0.1500352601468932 0</td>
+            <td class="model2">0 -0.14238726887597267 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_femur_r_inertia</strong></td>
+            <td class="model1">0.12023256811614236 0.024660581394428907 0.12023256811614236 0 0 0</td>
+            <td class="model2">0.11632158513911967 0.02385841010633059 0.11632158513911967 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_hand_l_mass</strong></td>
+            <td class="model1">0.37361696522655419</td>
+            <td class="model2">0.40133693361433104</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_hand_l_mass_center</strong></td>
+            <td class="model1">0 -0.057192754529130918 0</td>
+            <td class="model2">0 -0.055128488735354739 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_hand_l_inertia</strong></td>
+            <td class="model1">0.00051386841352461126 0.0003151188589663255 0.00077195479161768952 0 0 0</td>
+            <td class="model2">0.00051286682790547937 0.00031450465791961572 0.00077045016748132536 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_hand_r_mass</strong></td>
+            <td class="model1">0.37361696522655419</td>
+            <td class="model2">0.40133693361433104</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_hand_r_mass_center</strong></td>
+            <td class="model1">0 -0.057192754529130918 0</td>
+            <td class="model2">0 -0.055128488735354739 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_hand_r_inertia</strong></td>
+            <td class="model1">0.00051386841352461126 0.0003151188589663255 0.00077195479161768952 0 0 0</td>
+            <td class="model2">0.00051286682790547937 0.00031450465791961572 0.00077045016748132536 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_humerus_l_mass</strong></td>
+            <td class="model1">1.6598393045310851</td>
+            <td class="model2">1.7829886722866184</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_humerus_l_mass_center</strong></td>
+            <td class="model1">0 -0.1512730676086548 0</td>
+            <td class="model2">0 -0.14581314840114251 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_humerus_l_inertia</strong></td>
+            <td class="model1">0.0082497134422881424 0.0028458956216029993 0.0092600374642258249 0 0 0</td>
+            <td class="model2">0.0082336338504543482 0.0028403486604488834 0.0092419886406112806 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_humerus_r_mass</strong></td>
+            <td class="model1">1.6598393045310851</td>
+            <td class="model2">1.7829886722866184</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_humerus_r_mass_center</strong></td>
+            <td class="model1">0 -0.1512730676086548 0</td>
+            <td class="model2">0 -0.14581314840114251 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_humerus_r_inertia</strong></td>
+            <td class="model1">0.0082497134422881424 0.0028458956216029993 0.0092600374642258249 0 0 0</td>
+            <td class="model2">0.0082336338504543482 0.0028403486604488834 0.0092419886406112806 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_neckhead_mass</strong></td>
+            <td class="model1">4.2506585879873544</td>
+            <td class="model2">4.5660300316122253</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_neckhead_mass_center</strong></td>
+            <td class="model1">0.023052360335188909 0.12927011272546335 0</td>
+            <td class="model2">0.02222032838817899 0.12460434913261442 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_neckhead_inertia</strong></td>
+            <td class="model1">0.015942925648046388 0.010945686211713775 0.014752085216982307 0 0 0</td>
+            <td class="model2">0.015911851146022712 0.01092435187472663 0.014723331792921479 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_patella_l_mass</strong></td>
+            <td class="model1">0.39811643835616428</td>
+            <td class="model2">0.42765410958904126</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_patella_l_mass_center</strong></td>
+            <td class="model1">0.0016653930530235673 0.02442576477767899 0</td>
+            <td class="model2">0.0016154812829290563 0.023693725482959494 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_patella_l_inertia</strong></td>
+            <td class="model1">1.1185205304197256e-05 5.1731574531912317e-05 5.1731574531912317e-05 0 0 0</td>
+            <td class="model2">1.130568454434868e-05 5.2288791017612649e-05 5.2288791017612649e-05 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_patella_r_mass</strong></td>
+            <td class="model1">0.39811643835616428</td>
+            <td class="model2">0.42765410958904126</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_patella_r_inertia</strong></td>
+            <td class="model1">1.3066385669125391e-05 6.0432033719704932e-05 6.0432033719704932e-05 0 0 0</td>
+            <td class="model2">1.2641355972730659e-05 5.8466271373879306e-05 5.8466271373879306e-05 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_pelvis_mass</strong></td>
+            <td class="model1">6.8414778714436224</td>
+            <td class="model2">7.3490713909378318</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_pelvis_mass_center</strong></td>
+            <td class="model1">-0.10678971290091625 -0.027357584214788611 0</td>
+            <td class="model2">-0.10293533740731665 -0.026370163242326536 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_pelvis_inertia</strong></td>
+            <td class="model1">0.044093335089567955 0.050043440463645929 0.054930268703898832 0 0 0</td>
+            <td class="model2">0.044007392367339984 0.049945900336677465 0.05482320361536476 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_radius_l_mass</strong></td>
+            <td class="model1">0.49611433087460477</td>
+            <td class="model2">0.53292281348788229</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_radius_l_mass_center</strong></td>
+            <td class="model1">0 -0.10122852984247747 0</td>
+            <td class="model2">0 -0.097574874878164769 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_radius_l_inertia</strong></td>
+            <td class="model1">0.0017063657408743257 0.00035602094120875533 0.0018509632428862963 0 0 0</td>
+            <td class="model2">0.0017030398478206613 0.00035532701753989489 0.0018473555135205219 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_radius_r_mass</strong></td>
+            <td class="model1">0.49611433087460477</td>
+            <td class="model2">0.53292281348788229</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_radius_r_mass_center</strong></td>
+            <td class="model1">0 -0.10122852984247747 0</td>
+            <td class="model2">0 -0.097574874878164769 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_radius_r_inertia</strong></td>
+            <td class="model1">0.0017063657408743257 0.00035602094120875533 0.0018509632428862963 0 0 0</td>
+            <td class="model2">0.0017030398478206613 0.00035532701753989489 0.0018473555135205219 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_talus_l_mass</strong></td>
+            <td class="model1">0.036749209694415162</td>
+            <td class="model2">0.039475763962065348</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_talus_l_mass_center</strong></td>
+            <td class="model1">0.0055454674789841155 0.0023190136730297209 0</td>
+            <td class="model2">0.0056164377908343366 0.002348692167076177 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_talus_l_inertia</strong></td>
+            <td class="model1">2.4906212621582962e-06 8.3020708738609889e-07 2.4906212621582962e-06 0 0 0</td>
+            <td class="model2">2.744326701865712e-06 9.1477556728857068e-07 2.744326701865712e-06 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_talus_r_mass</strong></td>
+            <td class="model1">0.036749209694415162</td>
+            <td class="model2">0.039475763962065348</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_talus_r_mass_center</strong></td>
+            <td class="model1">0.0055454674789841155 0.0023190136730297209 0</td>
+            <td class="model2">0.0053584067604245016 0.0022407882816320641 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_tibia_l_mass</strong></td>
+            <td class="model1">2.6520679662802946</td>
+            <td class="model2">2.848834299262383</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_tibia_l_mass_center</strong></td>
+            <td class="model1">0 -0.17313251949432718 0</td>
+            <td class="model2">0 -0.16794374409191049 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_tibia_l_inertia</strong></td>
+            <td class="model1">0.02490538241449558 0.0042813779496501114 0.02592819754615525 0 0 0</td>
+            <td class="model2">0.025173645845284202 0.0043274939706033745 0.026207478029069996 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_tibia_proximal_r_mass</strong></td>
+            <td class="model1">0.0081664910432033694</td>
+            <td class="model2">0.008772391991570077</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_tibia_proximal_r_inertia</strong></td>
+            <td class="model1">0.000816649104320337 0.000816649104320337 0.000816649104320337 0 0 0</td>
+            <td class="model2">0.00079008474829566635 0.00079008474829566635 0.00079008474829566635 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_tibia_r_mass</strong></td>
+            <td class="model1">2.6520679662802946</td>
+            <td class="model2">2.848834299262383</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_tibia_r_mass_center</strong></td>
+            <td class="model1">0 -0.17313251949432718 0</td>
+            <td class="model2">0 -0.16430715406683563 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_tibia_r_inertia</strong></td>
+            <td class="model1">0.02490538241449558 0.0042813779496501114 0.02592819754615525 0 0 0</td>
+            <td class="model2">0.024095248120722182 0.0041421112223262203 0.025084792628363425 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_toes_l_mass</strong></td>
+            <td class="model1">0.16128819810326656</td>
+            <td class="model2">0.17325474183350903</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_toes_l_mass_center</strong></td>
+            <td class="model1">0.030953791200874974 -0.0026214937173379455 -0.010586801550787858</td>
+            <td class="model2">0.031349934577929846 -0.0026550433193035044 -0.010722290327956461</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_toes_l_inertia</strong></td>
+            <td class="model1">0.00016770183165199198 0.00042921706417861307 0.00049397321699472892 0 0 0</td>
+            <td class="model2">0.00018478466459229129 0.00047293896828819101 0.00054429146253669972 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_toes_r_mass</strong></td>
+            <td class="model1">0.16128819810326656</td>
+            <td class="model2">0.17325474183350903</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_toes_r_mass_center</strong></td>
+            <td class="model1">0.030953791200874974 -0.0026214937173379455 0.010586801550787858</td>
+            <td class="model2">0.029909652280914946 -0.0025330650140188552 0.010229685633537685</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_toes_r_inertia</strong></td>
+            <td class="model1">0.00016770183165199198 0.00042921706417861307 0.00049397321699472892 0 0 0</td>
+            <td class="model2">0.00016819588891322097 0.00043048155726799621 0.00049542848467013119 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_torso_mass</strong></td>
+            <td class="model1">19.777199683877761</td>
+            <td class="model2">21.244540305584835</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_torso_mass_center</strong></td>
+            <td class="model1">0 0.2052604576262213 0</td>
+            <td class="model2">0 0.19785196427805013 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_torso_inertia</strong></td>
+            <td class="model1">0.35999607481559531 0.22610727081138035 0.48714017386722858 0 0 0</td>
+            <td class="model2">0.35929440317750783 0.22566656306428898 0.48619068450418279 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_ulna_l_mass</strong></td>
+            <td class="model1">0.49611433087460477</td>
+            <td class="model2">0.53292281348788229</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_ulna_l_mass_center</strong></td>
+            <td class="model1">0 -0.10122852984247747 0</td>
+            <td class="model2">0 -0.097574874878164769 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_ulna_l_inertia</strong></td>
+            <td class="model1">0.0017063657408743257 0.00035602094120875533 0.0018509632428862963 0 0 0</td>
+            <td class="model2">0.0017030398478206613 0.00035532701753989489 0.0018473555135205219 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_ulna_r_mass</strong></td>
+            <td class="model1">0.49611433087460477</td>
+            <td class="model2">0.53292281348788229</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_ulna_r_mass_center</strong></td>
+            <td class="model1">0 -0.10122852984247747 0</td>
+            <td class="model2">0 -0.097574874878164769 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Body_ulna_r_inertia</strong></td>
+            <td class="model1">0.0017063657408743257 0.00035602094120875533 0.0018509632428862963 0 0 0</td>
+            <td class="model2">0.0017030398478206613 0.00035532701753989489 0.0018473555135205219 0 0 0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addbrev_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.10463770501577838</td>
+            <td class="model2">0.099902406140224734</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addbrev_r_tendon_slack_length</strong></td>
+            <td class="model1">0.036536929006479354</td>
+            <td class="model2">0.03488347838067983</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addlong_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.10293757599574678</td>
+            <td class="model2">0.097873438339739327</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addlong_r_tendon_slack_length</strong></td>
+            <td class="model1">0.12367730942187691</td>
+            <td class="model2">0.11759285567621176</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addmagDist_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.16174126038445669</td>
+            <td class="model2">0.15312132511065812</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addmagDist_r_tendon_slack_length</strong></td>
+            <td class="model1">0.082148495680593125</td>
+            <td class="model2">0.077770424717602885</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addmagIsch_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.14198799416177008</td>
+            <td class="model2">0.13443307998112988</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addmagIsch_r_tendon_slack_length</strong></td>
+            <td class="model1">0.20089210441582064</td>
+            <td class="model2">0.19020301328956274</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addmagMid_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.13041476997892926</td>
+            <td class="model2">0.12379810377656206</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addmagMid_r_tendon_slack_length</strong></td>
+            <td class="model1">0.045460486267164882</td>
+            <td class="model2">0.043154023102941023</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addmagProx_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.11195733437979985</td>
+            <td class="model2">0.10715607049077024</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_addmagProx_r_tendon_slack_length</strong></td>
+            <td class="model1">0.045588687294804857</td>
+            <td class="model2">0.043633627188476506</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_bflh_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.090223873590921752</td>
+            <td class="model2">0.085499437494673841</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_bflh_r_tendon_slack_length</strong></td>
+            <td class="model1">0.2976648288552951</td>
+            <td class="model2">0.28207806222628046</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_bfsh_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.10383225913134626</td>
+            <td class="model2">0.098539448556691916</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_bfsh_r_tendon_slack_length</strong></td>
+            <td class="model1">0.097901676787488776</td>
+            <td class="model2">0.092911175429700454</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_edl_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.069872890235199853</td>
+            <td class="model2">0.066769339071928308</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_edl_r_tendon_slack_length</strong></td>
+            <td class="model1">0.37033640091470288</td>
+            <td class="model2">0.35388713190648297</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_ehl_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.075418357714183981</td>
+            <td class="model2">0.072133375668849753</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_ehl_r_tendon_slack_length</strong></td>
+            <td class="model1">0.33424044896058808</td>
+            <td class="model2">0.31968200580512957</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_fdl_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.044968699920489373</td>
+            <td class="model2">0.043057685088158403</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_fdl_r_tendon_slack_length</strong></td>
+            <td class="model1">0.38082237578405459</td>
+            <td class="model2">0.36463873672191544</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_fhl_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.053135661116811429</td>
+            <td class="model2">0.050924067462357822</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_fhl_r_tendon_slack_length</strong></td>
+            <td class="model1">0.35894298591242635</td>
+            <td class="model2">0.34400318817076631</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_gaslat_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.058954341271248677</td>
+            <td class="model2">0.055982549236439319</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_gaslat_r_tendon_slack_length</strong></td>
+            <td class="model1">0.36996857022263202</td>
+            <td class="model2">0.35131905898377735</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_gasmed_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.051063432459836272</td>
+            <td class="model2">0.048490119605736577</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_gasmed_r_tendon_slack_length</strong></td>
+            <td class="model1">0.38948382797796688</td>
+            <td class="model2">0.36985601032610843</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_gem_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.025826818268894498</td>
+            <td class="model2">0.024763709354964508</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_gem_r_tendon_slack_length</strong></td>
+            <td class="model1">0.041968579686953555</td>
+            <td class="model2">0.040241027701817318</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmax1_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.15446898667641681</td>
+            <td class="model2">0.14854053139461432</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmax1_r_tendon_slack_length</strong></td>
+            <td class="model1">0.05243346458805731</td>
+            <td class="model2">0.050421090086427138</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmax2_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.16298228840038687</td>
+            <td class="model2">0.15630302692560713</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmax2_r_tendon_slack_length</strong></td>
+            <td class="model1">0.076141502484055809</td>
+            <td class="model2">0.073021108181306568</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmax3_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.17258995492236853</td>
+            <td class="model2">0.1653216885074196</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmax3_r_tendon_slack_length</strong></td>
+            <td class="model1">0.072767656669971592</td>
+            <td class="model2">0.069703198397722849</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmed1_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.075963740077936423</td>
+            <td class="model2">0.073065969786576548</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmed1_r_tendon_slack_length</strong></td>
+            <td class="model1">0.058553223934562186</td>
+            <td class="model2">0.05631960836209516</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmed2_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.07606894991221784</td>
+            <td class="model2">0.07312132762427373</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmed2_r_tendon_slack_length</strong></td>
+            <td class="model1">0.068493188188354398</td>
+            <td class="model2">0.065839121735362424</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmed3_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.078254726875099961</td>
+            <td class="model2">0.075196037107822494</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmed3_r_tendon_slack_length</strong></td>
+            <td class="model1">0.049109378393650725</td>
+            <td class="model2">0.047189873219097338</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmin1_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.068272707380532191</td>
+            <td class="model2">0.065524621038307959</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmin1_r_tendon_slack_length</strong></td>
+            <td class="model1">0.016064166442478163</td>
+            <td class="model2">0.015417557891366578</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmin2_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.055773390716722528</td>
+            <td class="model2">0.053492563005244631</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmin2_r_tendon_slack_length</strong></td>
+            <td class="model1">0.025894788547049744</td>
+            <td class="model2">0.024835832823863577</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmin3_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.038314930348300288</td>
+            <td class="model2">0.036732911104012306</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_glmin3_r_tendon_slack_length</strong></td>
+            <td class="model1">0.051422669677981966</td>
+            <td class="model2">0.049299433323805993</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_grac_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.21126978227667242</td>
+            <td class="model2">0.20012627257254026</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_grac_r_tendon_slack_length</strong></td>
+            <td class="model1">0.1567365812324743</td>
+            <td class="model2">0.14846944716751234</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_iliacus_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.11208831858813331</td>
+            <td class="model2">0.10759891108290891</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_iliacus_r_tendon_slack_length</strong></td>
+            <td class="model1">0.098839605509235748</td>
+            <td class="model2">0.094880840917386827</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_pect_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.10005036307554233</td>
+            <td class="model2">0.095452420272270688</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_pect_r_tendon_slack_length</strong></td>
+            <td class="model1">0.033016619814928969</td>
+            <td class="model2">0.031499298689849325</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_perbrev_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.045775313371977967</td>
+            <td class="model2">0.043604459695385268</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_perbrev_r_tendon_slack_length</strong></td>
+            <td class="model1">0.14932431520682679</td>
+            <td class="model2">0.14224274186974795</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_perlong_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.051219954169526023</td>
+            <td class="model2">0.048881715646725221</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_perlong_r_tendon_slack_length</strong></td>
+            <td class="model1">0.33575284918212928</td>
+            <td class="model2">0.32042541949526576</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_pertert_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.079653078334499111</td>
+            <td class="model2">0.075928590580330038</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_pertert_r_tendon_slack_length</strong></td>
+            <td class="model1">0.10082668143607483</td>
+            <td class="model2">0.096112139975101318</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_piri_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.028761406044190113</td>
+            <td class="model2">0.027660414350224396</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_piri_r_tendon_slack_length</strong></td>
+            <td class="model1">0.12721391134930243</td>
+            <td class="model2">0.1223441403952233</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_psoas_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.12329696106186568</td>
+            <td class="model2">0.11848872314069134</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_psoas_r_tendon_slack_length</strong></td>
+            <td class="model1">0.10230800019675766</td>
+            <td class="model2">0.098318273264731054</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_quadfem_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.060339931838490249</td>
+            <td class="model2">0.058020909957658157</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_quadfem_r_tendon_slack_length</strong></td>
+            <td class="model1">0.026817747483773444</td>
+            <td class="model2">0.025787071092292516</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_recfem_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.070966782610886098</td>
+            <td class="model2">0.06742486576689409</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_recfem_r_tendon_slack_length</strong></td>
+            <td class="model1">0.34052835608543769</td>
+            <td class="model2">0.3235327551028041</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_sart_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.38651764683388534</td>
+            <td class="model2">0.36759709189820117</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_sart_r_tendon_slack_length</strong></td>
+            <td class="model1">0.10550109466929872</td>
+            <td class="model2">0.10033667520794573</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_semimem_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.063683424193825847</td>
+            <td class="model2">0.060350479696000679</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_semimem_r_tendon_slack_length</strong></td>
+            <td class="model1">0.34887441080095893</td>
+            <td class="model2">0.33061567137809061</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_semiten_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.17949047456071174</td>
+            <td class="model2">0.17005550079637044</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_semiten_r_tendon_slack_length</strong></td>
+            <td class="model1">0.22785060242162888</td>
+            <td class="model2">0.21587356318710235</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_soleus_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.044363739831872924</td>
+            <td class="model2">0.042143192327192755</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_soleus_r_tendon_slack_length</strong></td>
+            <td class="model1">0.28382710824255059</td>
+            <td class="model2">0.26962065091147175</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_tfl_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.090713731104079237</td>
+            <td class="model2">0.086365367050376896</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_tfl_r_tendon_slack_length</strong></td>
+            <td class="model1">0.42969662101932271</td>
+            <td class="model2">0.40909910708073266</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_tibant_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.068864623420839127</td>
+            <td class="model2">0.065580374935176711</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_tibant_r_tendon_slack_length</strong></td>
+            <td class="model1">0.24299230226094037</td>
+            <td class="model2">0.23140366558385922</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_tibpost_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.038112485582836302</td>
+            <td class="model2">0.036272116613486505</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_tibpost_r_tendon_slack_length</strong></td>
+            <td class="model1">0.28412958828685897</td>
+            <td class="model2">0.27040958893334643</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_vasint_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.091100821760138534</td>
+            <td class="model2">0.086433981393249426</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_vasint_r_tendon_slack_length</strong></td>
+            <td class="model1">0.11155951587142846</td>
+            <td class="model2">0.10584463381086737</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_vaslat_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.091523166050652527</td>
+            <td class="model2">0.087000473534374026</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_vaslat_r_tendon_slack_length</strong></td>
+            <td class="model1">0.13102360693166856</td>
+            <td class="model2">0.12454896764528596</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_vasmed_r_optimal_fiber_length</strong></td>
+            <td class="model1">0.089013721838503229</td>
+            <td class="model2">0.084561926327808151</td>
+        </tr>
+
+        <tr>
+            <td><strong>Muscle_vasmed_r_tendon_slack_length</strong></td>
+            <td class="model1">0.11641670645407551</td>
+            <td class="model2">0.11059442017665817</td>
+        </tr>
+    </table>
+
+    <h2>💡 Recomendaciones para Solucionar Problemas con COMAK</h2>
+    <div class="difference">
+        <h3>1. Escalado de Músculos (causa más común)</h3>
+        <ul>
+            <li>Verifica que <code>max_isometric_force</code> se haya escalado correctamente</li>
+            <li>Comprueba <code>optimal_fiber_length</code> y <code>tendon_slack_length</code></li>
+            <li>El factor de escala debe aplicarse consistentemente</li>
+        </ul>
+    </div>
+    
+    <div class="difference">
+        <h3>2. Geometrías de Contacto</h3>
+        <ul>
+            <li><strong>COMAK REQUIERE</strong> geometrías de contacto definidas</li>
+            <li>Verifica que existan ContactSphere, ContactMesh o ContactHalfSpace</li>
+            <li>Comprueba que las rutas a archivos .vtp/.stl sean correctas y los archivos existan</li>
+        </ul>
+    </div>
+    
+    <div class="difference">
+        <h3>3. Propiedades de Masa e Inercia</h3>
+        <ul>
+            <li>Las masas deben ser realistas después del escalado</li>
+            <li>Verifica centros de masa e inercias de cada body</li>
+        </ul>
+    </div>
+    
+    <div class="difference">
+        <h3>4. Archivos de Geometría Externa</h3>
+        <ul>
+            <li>Comprueba que todos los archivos .vtp, .stl, .obj referenciados existan</li>
+            <li>Verifica las rutas relativas en el archivo .osim</li>
+        </ul>
+    </div>
+</body>
+</html>
