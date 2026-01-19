@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Diferencias OpenSim</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-left: 4px solid #3498db;
+        }
+        .summary {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .critical {
+            background-color: #ffe5e5;
+            border-left: 4px solid #e74c3c;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .difference {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .model-value {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        .model1 {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+        }
+        .model2 {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+        }
+        .ok {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .error {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            background-color: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        .file-info {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Reporte de Comparación de Modelos OpenSim</h1>
+    
+    <div class="summary">
+        <h2>📊 Resumen</h2>
+        <p><strong>Modelo 1 (funciona):</strong> <span class="file-info">D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\COMAK\models\lenhart2015_generic\lenhart2015.osim</span></p>
+        <p><strong>Modelo 2 (no funciona):</strong> <span class="file-info">D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\COMAK\models\lenhart2015_generic\lenhart2015_itr.osim</span></p>
+        <p><strong>Total de diferencias encontradas:</strong> <span class="error">72</span></p>
+        <p><strong>Diferencias críticas:</strong> <span class="error">1</span></p>
+    </div>
+
+    <h2>⚠️ Diferencias Críticas (pueden causar el fallo de COMAK)</h2>
+    <div class="critical">❌ No hay geometrías de contacto definidas</div>
+
+    <h2>📋 Detalle de Todas las Diferencias</h2>
+    <table>
+        <tr>
+            <th>Elemento</th>
+            <th>Modelo 1 (funciona)</th>
+            <th>Modelo 2 (no funciona)</th>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_ankle_flex_l_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">0.001115964903963597</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_ankle_flex_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_ankle_flex_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">0.15556875887811578</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_ankle_flex_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_arm_add_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_arm_add_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_arm_flex_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_arm_flex_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_arm_rot_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_arm_rot_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_elbow_flex_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_elbow_flex_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_add_l_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-0.013020310607662249</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_add_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_add_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">0.0037185433484110651</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_add_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_flex_l_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">0.19172019789412867</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_flex_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_flex_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">0.16516825779805477</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_flex_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_rot_l_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-0.087423728151417232</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_rot_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_rot_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-0.20721597437887951</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_hip_rot_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_add_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">1.8437261077280223e-07</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_add_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_flex_l_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">0.00072775641194728713</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_flex_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_flex_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">0.088178884103388824</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_flex_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_rot_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">8.7493425076298179e-07</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_rot_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_tx_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-2.7554254927443417e-08</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_tx_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_ty_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-2.052486298198601e-07</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_ty_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_tz_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-3.8137360186193044e-08</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_knee_tz_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_lumbar_ext_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">0.072783458324136158</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_lumbar_ext_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_lumbar_latbend_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-0.0009933318610390509</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_lumbar_latbend_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_lumbar_rot_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-0.22069343420940668</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_lumbar_rot_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_mtp_angle_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_mtp_angle_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_neck_ext_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_neck_latbend_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_neck_rot_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pelvis_list_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-0.034957827988243526</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pelvis_rot_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">0.15001462573378374</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pelvis_tilt_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-0.16631894970591621</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pelvis_ty_default_value</strong></td>
+            <td class="model1">0.96899999999999997</td>
+            <td class="model2">0</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_flex_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_l_tx_default_value</strong></td>
+            <td class="model1">0.044350000000000001</td>
+            <td class="model2">0.00077405352325948459</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_l_ty_default_value</strong></td>
+            <td class="model1">-0.41871199999999997</td>
+            <td class="model2">-0.0073079030176104879</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_rot_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_tilt_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_tx_r_default_value</strong></td>
+            <td class="model1">0.052999999999999999</td>
+            <td class="model2">0.00092502450355699361</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_tx_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_ty_r_default_value</strong></td>
+            <td class="model1">0.0050000000000000001</td>
+            <td class="model2">8.7266462599716536e-05</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_ty_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_tz_r_default_value</strong></td>
+            <td class="model1">0.0040000000000000001</td>
+            <td class="model2">6.9813170079773226e-05</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pf_tz_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pro_sup_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_pro_sup_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_subt_angle_l_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-0.00061598896818802946</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_subt_angle_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_subt_angle_r_default_value</strong></td>
+            <td class="model1">0</td>
+            <td class="model2">-0.083814162692247507</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_subt_angle_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_wrist_flex_l_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+
+        <tr>
+            <td><strong>Coord_wrist_flex_r_clamped</strong></td>
+            <td class="model1">true</td>
+            <td class="model2">false</td>
+        </tr>
+    </table>
+
+    <h2>💡 Recomendaciones para Solucionar Problemas con COMAK</h2>
+    <div class="difference">
+        <h3>1. Escalado de Músculos (causa más común)</h3>
+        <ul>
+            <li>Verifica que <code>max_isometric_force</code> se haya escalado correctamente</li>
+            <li>Comprueba <code>optimal_fiber_length</code> y <code>tendon_slack_length</code></li>
+            <li>El factor de escala debe aplicarse consistentemente</li>
+        </ul>
+    </div>
+    
+    <div class="difference">
+        <h3>2. Geometrías de Contacto</h3>
+        <ul>
+            <li><strong>COMAK REQUIERE</strong> geometrías de contacto definidas</li>
+            <li>Verifica que existan ContactSphere, ContactMesh o ContactHalfSpace</li>
+            <li>Comprueba que las rutas a archivos .vtp/.stl sean correctas y los archivos existan</li>
+        </ul>
+    </div>
+    
+    <div class="difference">
+        <h3>3. Propiedades de Masa e Inercia</h3>
+        <ul>
+            <li>Las masas deben ser realistas después del escalado</li>
+            <li>Verifica centros de masa e inercias de cada body</li>
+        </ul>
+    </div>
+    
+    <div class="difference">
+        <h3>4. Archivos de Geometría Externa</h3>
+        <ul>
+            <li>Comprueba que todos los archivos .vtp, .stl, .obj referenciados existan</li>
+            <li>Verifica las rutas relativas en el archivo .osim</li>
+        </ul>
+    </div>
+</body>
+</html>
