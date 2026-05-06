@@ -1,20 +1,13 @@
 function [] = run_ik(model_file, motion_file, ik_result_dir, numeric_id, project_id, results_basename, time_start, time_stop)
     %% Perform Inverse Kinematics
     % This function performs inverse kinematics using the COMAKInverseKinematicsTool.
-    % It sets up the model, directories, and various parameters for the inverse 
-    % kinematics analysis, including secondary constraints and marker tasks.
-    %
-    % Parameters:
-    %   model_file (string): Path to the model .osim file.
-    %   motion_file (string): Path to the motion .trc file.
-    %   ik_result_dir (string): Directory to store the results.
-    %   numeric_id: string, numerical identifier for results directories
-    %   results_basename (string): Basename for the result files.
-    %   time_start (double): Start time for the analysis.
-    %   time_stop (double): Stop time for the analysis.
-
+    
+    % LIMPIEZA INICIAL
     import org.opensim.modeling.*
     Logger.setLevelString('Debug');
+    
+    % Verificar y limpiar archivos previos de IK
+    limpiar_archivos_ik(ik_result_dir);
 
     comak_ik = COMAKInverseKinematicsTool();
     comak_ik.set_model_file(model_file);
@@ -57,88 +50,72 @@ function [] = run_ik(model_file, motion_file, ik_result_dir, numeric_id, project
     comak_ik.set_use_visualizer(false);
     comak_ik.set_verbose(10);
     
-    
+    % ✅ SOLUCIÓN: Crear objeto NUEVO para cada marker
     ik_task_set = IKTaskSet();
     
-    ik_task=IKMarkerTask();
+    % Helper function para crear markers
+    function agregar_marker(nombre, peso)
+        marker_task = IKMarkerTask();  % NUEVO objeto cada vez
+        marker_task.setName(nombre);
+        marker_task.setWeight(peso);
+        ik_task_set.cloneAndAppend(marker_task);
+        clear marker_task  % Limpiar referencia
+    end
     
-    
-    ik_task.setName('r.should');
-    ik_task.setWeight(1);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('l.should');
-    ik_task.setWeight(1);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('c7');
-    ik_task.setWeight(1);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('r.asis');
-    ik_task.setWeight(15);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('l.asis');
-    ik_task.setWeight(15);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('sacrum');
-    ik_task.setWeight(15);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('r.bar1');
-    ik_task.setWeight(5);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('r.knee1');
-    ik_task.setWeight(20);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('r.bar2');
-    ik_task.setWeight(5);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('r.mall');
-    ik_task.setWeight(20);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('r.heel');
-    ik_task.setWeight(20);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('r.met');
-    ik_task.setWeight(20);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('l.bar1');
-    ik_task.setWeight(5);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('l.knee1');
-    ik_task.setWeight(20);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('l.bar2');
-    ik_task.setWeight(5);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('l.mall');
-    ik_task.setWeight(20);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('l.heel');
-    ik_task.setWeight(20);
-    ik_task_set.cloneAndAppend(ik_task);
-    
-    ik_task.setName('l.met');
-    ik_task.setWeight(20);
-    ik_task_set.cloneAndAppend(ik_task);
+    % Agregar todos los markers
+    agregar_marker('r.should', 1);
+    agregar_marker('l.should', 1);
+    agregar_marker('c7', 1);
+    agregar_marker('r.asis', 15);
+    agregar_marker('l.asis', 15);
+    agregar_marker('sacrum', 15);
+    agregar_marker('r.bar1', 5);
+    agregar_marker('r.knee1', 20);
+    agregar_marker('r.bar2', 5);
+    agregar_marker('r.mall', 20);
+    agregar_marker('r.heel', 20);
+    agregar_marker('r.met', 20);
+    agregar_marker('l.bar1', 5);
+    agregar_marker('l.knee1', 20);
+    agregar_marker('l.bar2', 5);
+    agregar_marker('l.mall', 20);
+    agregar_marker('l.heel', 20);
+    agregar_marker('l.met', 20);
     
     comak_ik.set_IKTaskSet(ik_task_set);
     
     comak_ik.print(['../inputs/' project_id '_' numeric_id '/comak_inverse_kinematics_settings.xml']);
+    
+    fprintf('=== EJECUTANDO IK: %s ===\n', datestr(now));
+    fprintf('Paciente: %s_%s\n', project_id, numeric_id);
     disp('Running COMAKInverseKinematicsTool...')
+    
     comak_ik.run();
+    
+    % LIMPIEZA POST-EJECUCIÓN
+    clear comak_ik ik_task_set
+    java.lang.System.gc()
+    pause(0.2)
+    
+    fprintf('IK completado y memoria limpiada.\n');
+end
 
+function limpiar_archivos_ik(ik_result_dir)
+    % Limpia archivos críticos de IK previos
+    if ~exist(ik_result_dir, 'dir')
+        mkdir(ik_result_dir);
+        return;
+    end
+    
+    % CRÍTICO: Eliminar el archivo de restricciones secundarias
+    constraint_file = fullfile(ik_result_dir, 'secondary_coordinate_constraint_functions.xml');
+    if exist(constraint_file, 'file')
+        delete(constraint_file);
+        fprintf('Eliminado: %s\n', constraint_file);
+    end
+    
+    % Eliminar otros archivos de resultados previos
+    delete(fullfile(ik_result_dir, '*.mot'));
+    delete(fullfile(ik_result_dir, '*.sto'));
+    delete(fullfile(ik_result_dir, '*.log'));
 end
