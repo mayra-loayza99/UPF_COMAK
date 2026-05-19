@@ -1,0 +1,118 @@
+{% extends "base.html.j2" %}
+
+{% block title %}COMAK Results — {{ patient_id }}{% endblock %}
+
+{% block nav %}
+  <a href="COMAK_Simulation_Results.html" class="highlight">Main Page</a>
+  <a href="#kinematics">Kinematics</a>
+  <a href="#validation">MoCap Validation</a>
+  <a href="#activations">Muscle Activations</a>
+  <a href="#emg">EMG Validation</a>
+  <a href="#joint_mechanics">Joint Mechanics</a>
+{% endblock %}
+
+{% block header %}
+<div class="page-header">
+  <h1>COMAK Simulation Results — {{ patient_id }}</h1>
+  <p>Report generated: {{ generated_at }}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+{# ── Kinematics ──────────────────────────────────────────────────────────── #}
+<section id="kinematics">
+  <h2>Joint Kinematics</h2>
+  <p>Gait-cycle-normalised tibiofemoral and patellofemoral joint coordinates from the COMAK simulation.</p>
+
+  <h3>Tibiofemoral Joint</h3>
+  <img class="img-full" src="{{ results_prefix }}kinematics/tibiofemoral_rotations.png"    alt="TF Rotations">
+  <img class="img-full" src="{{ results_prefix }}kinematics/tibiofemoral_translations.png" alt="TF Translations">
+
+  <h3>Patellofemoral Joint</h3>
+  <img class="img-full" src="{{ results_prefix }}kinematics/patellofemoral_rotations.png"    alt="PF Rotations">
+  <img class="img-full" src="{{ results_prefix }}kinematics/patellofemoral_translations.png" alt="PF Translations">
+</section>
+
+{# ── MoCap Validation ────────────────────────────────────────────────────── #}
+<section id="validation">
+  <h2>Kinematics Validation vs Motion Capture</h2>
+  <p>Comparison of simulated and MoCap knee flexion-extension.  Scatter plot shows linear regression vs the identity (perfect-agreement) line.  Bland-Altman plot shows systematic bias and limits of agreement (±1.96 σ).</p>
+
+  <img class="img-full" src="{{ results_prefix }}validation/primary_tibiofemoral_kinematics_with_mocap_1.png"
+       alt="Time-series and scatter comparison">
+  <img class="img-full" src="{{ results_prefix }}validation/primary_tibiofemoral_kinematics_with_mocap_2.png"
+       alt="Bland-Altman plot">
+</section>
+
+{# ── Muscle Activations ──────────────────────────────────────────────────── #}
+<section id="activations">
+  <h2>Muscle Activations and Reserve Actuators</h2>
+  <p>Select a muscle or reserve actuator below to view its activation pattern over the gait cycle.</p>
+
+  <h3>Muscles</h3>
+  <div class="select-row">
+    <select id="muscleSelect"
+            data-base="{{ results_prefix }}muscle_activations/"
+            onchange="updateImg('muscleSelect','muscleImg')">
+      {% for m in muscles %}
+      <option value="{{ m.id }}">{{ m.display_name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <img id="muscleImg" class="img-full"
+       src="{{ results_prefix }}muscle_activations/{{ muscles[0].id }}.png"
+       alt="Muscle Activation">
+
+  <h3>Reserve Actuators</h3>
+  <div class="select-row">
+    <select id="reserveSelect"
+            data-base="{{ results_prefix }}reserve_actuators/"
+            onchange="updateImg('reserveSelect','reserveImg')">
+      {% for r in reserves %}
+      <option value="{{ r.id }}">{{ r.display_name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <img id="reserveImg" class="img-full"
+       src="{{ results_prefix }}reserve_actuators/{{ reserves[0].id }}.png"
+       alt="Reserve Actuator">
+</section>
+
+{# ── EMG Validation ──────────────────────────────────────────────────────── #}
+<section id="emg">
+  <h2>Validation of Muscle Activations vs EMG</h2>
+  <p>Simulated activation (blue, left axis) overlaid on the preprocessed EMG linear envelope (red, right axis) for the four instrumented muscles.  Cross-correlation lag and peak correlation are annotated on each subplot.</p>
+  <img class="img-full" src="{{ results_prefix }}validation/muscle_activations_vs_EMG.png"
+       alt="Activation vs EMG">
+</section>
+
+{# ── Joint Mechanics ─────────────────────────────────────────────────────── #}
+<section id="joint_mechanics">
+  <h2>Extended Joint Mechanics</h2>
+  <p>Contact forces (normalised to body weight), joint reaction moments, and centre of pressure for total (black), medial (red), and lateral (blue) compartments.</p>
+
+  {% for direction in directions %}
+  <h3>{{ direction }}</h3>
+  <div class="img-grid">
+    <div>
+      <img src="{{ results_prefix }}extended_joint_mechanics/Contact_Forces_{{ direction | replace('-','_') }}_plot.png" alt="Contact Forces {{ direction }}">
+      <caption>Contact Forces [BW]</caption>
+    </div>
+    <div>
+      <img src="{{ results_prefix }}extended_joint_mechanics/Reaction_Moments_{{ direction | replace('-','_') }}_plot.png" alt="Moments {{ direction }}">
+      <caption>Reaction Moments [Nm]</caption>
+    </div>
+    <div>
+      <img src="{{ results_prefix }}extended_joint_mechanics/Center_of_Pressure_{{ direction | replace('-','_') }}_plot.png" alt="CoP {{ direction }}">
+      <caption>Centre of Pressure [mm]</caption>
+    </div>
+  </div>
+  {% endfor %}
+
+  <h3>Contact Pressure and Area</h3>
+  <img class="img-full" src="{{ results_prefix }}extended_joint_mechanics/Pressure_and_Area_plot.png"
+       alt="Contact Pressure and Area">
+</section>
+
+{% endblock %}

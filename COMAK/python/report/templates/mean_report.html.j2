@@ -1,0 +1,109 @@
+{% extends "base.html.j2" %}
+
+{% block title %}COMAK Group Results (n={{ n_subjects }}){% endblock %}
+
+{% block nav %}
+  <a href="COMAK_Simulation_Results.html" class="highlight">Main Page</a>
+  <a href="#kinematics">Kinematics</a>
+  <a href="#validation">MoCap Validation</a>
+  <a href="#activations">Activations</a>
+  <a href="#emg">EMG Validation</a>
+  <a href="#joint_mechanics">Joint Mechanics</a>
+{% endblock %}
+
+{% block header %}
+<div class="page-header">
+  <h1>Group Mean Simulation Results</h1>
+  <p>{{ n_subjects }} subjects &nbsp;·&nbsp; Mean ± 95 % CI &nbsp;·&nbsp; Report generated: {{ generated_at }}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+{# ── Kinematics ──────────────────────────────────────────────────────────── #}
+<section id="kinematics">
+  <h2>Group Kinematics (Mean ± 95 % CI)</h2>
+  <h3>Tibiofemoral Joint</h3>
+  <img class="img-full" src="{{ mean_prefix }}kinematics/tibiofemoral_rotations.png"    alt="TF Rotations">
+  <img class="img-full" src="{{ mean_prefix }}kinematics/tibiofemoral_translations.png" alt="TF Translations">
+  <h3>Patellofemoral Joint</h3>
+  <img class="img-full" src="{{ mean_prefix }}kinematics/patellofemoral_rotations.png"    alt="PF Rotations">
+  <img class="img-full" src="{{ mean_prefix }}kinematics/patellofemoral_translations.png" alt="PF Translations">
+</section>
+
+{# ── MoCap Validation ────────────────────────────────────────────────────── #}
+<section id="validation">
+  <h2>Group MoCap Validation</h2>
+  <p>Group mean ± CI for both simulation and motion-capture knee flexion.</p>
+  <img class="img-full" src="{{ mean_prefix }}validation/primary_tibiofemoral_kinematics_with_mocap.png"
+       alt="Group MoCap validation">
+</section>
+
+{# ── Activations ─────────────────────────────────────────────────────────── #}
+<section id="activations">
+  <h2>Group Muscle Activations (Mean ± 95 % CI)</h2>
+
+  <h3>Muscles</h3>
+  <div class="select-row">
+    <select id="grpMuscleSelect"
+            data-base="{{ mean_prefix }}muscle_activations/"
+            onchange="updateImg('grpMuscleSelect','grpMuscleImg')">
+      {% for m in muscles %}
+      <option value="{{ m.id }}">{{ m.display_name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <img id="grpMuscleImg" class="img-full"
+       src="{{ mean_prefix }}muscle_activations/{{ muscles[0].id }}.png"
+       alt="Group Muscle Activation">
+
+  <h3>Reserve Actuators</h3>
+  <div class="select-row">
+    <select id="grpReserveSelect"
+            data-base="{{ mean_prefix }}reserve_actuators/"
+            onchange="updateImg('grpReserveSelect','grpReserveImg')">
+      {% for r in reserves %}
+      <option value="{{ r.id }}">{{ r.display_name }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <img id="grpReserveImg" class="img-full"
+       src="{{ mean_prefix }}reserve_actuators/{{ reserves[0].id }}.png"
+       alt="Group Reserve Actuator">
+</section>
+
+{# ── EMG Validation ──────────────────────────────────────────────────────── #}
+<section id="emg">
+  <h2>Group Activation vs EMG (Mean ± 95 % CI)</h2>
+  <img class="img-full" src="{{ mean_prefix }}validation/Population_Level_Activation_vs_EMG.png"
+       alt="Group Activation vs EMG">
+</section>
+
+{# ── Joint Mechanics ─────────────────────────────────────────────────────── #}
+<section id="joint_mechanics">
+  <h2>Group Joint Mechanics (Mean ± 95 % CI)</h2>
+
+  {% for direction in directions %}
+  <h3>{{ direction }}</h3>
+  <div class="img-grid">
+    <div>
+      <img src="{{ mean_prefix }}joint_mechanics/Contact_Forces_{{ direction | replace('-','_') }}_plot.png" alt="">
+      <caption>Contact Forces [BW]</caption>
+    </div>
+    <div>
+      <img src="{{ mean_prefix }}joint_mechanics/Reaction_Moments_{{ direction | replace('-','_') }}_plot.png" alt="">
+      <caption>Reaction Moments [Nm]</caption>
+    </div>
+    <div>
+      <img src="{{ mean_prefix }}joint_mechanics/Center_of_Pressure_{{ direction | replace('-','_') }}_plot.png" alt="">
+      <caption>Centre of Pressure [mm]</caption>
+    </div>
+  </div>
+  {% endfor %}
+
+  <h3>Contact Pressure and Area</h3>
+  <img class="img-full" src="{{ mean_prefix }}joint_mechanics/combined_joint_mechanics_plot.png"
+       alt="Group Pressure and Area">
+</section>
+
+{% endblock %}
