@@ -1,5 +1,5 @@
-function [] = run_comak(model_file, ext_load_file, comak_result_dir, numeric_id, project_id, results_basename, time_start, time_stop, contact_energy_weight, custom_muscle_weights, comak_muscle_weight_result_dir, compare_contact_energy_weight, comak_contact_energy_result_dir)
-    
+function [] = run_comak(model_file, ext_load_file, comak_result_dir, numeric_id, project_id, results_basename, time_start, time_stop, contact_energy_weight, custom_muscle_weights, comak_muscle_weight_result_dir, compare_contact_energy_weight, comak_contact_energy_result_dir, side)
+
     arguments
         model_file
         ext_load_file
@@ -11,9 +11,10 @@ function [] = run_comak(model_file, ext_load_file, comak_result_dir, numeric_id,
         time_stop = -1
         contact_energy_weight = 100
         custom_muscle_weights = false
-        comak_muscle_weight_result_dir = [] 
+        comak_muscle_weight_result_dir = []
         compare_contact_energy_weight = 0
         comak_contact_energy_result_dir = []
+        side = 'r'
     end
      
     % LIMPIEZA INICIAL
@@ -56,7 +57,7 @@ function [] = run_comak(model_file, ext_load_file, comak_result_dir, numeric_id,
         comak_muscle_weight = configurar_comak_base(model_file, ext_load_file, ...
             results_basename, time_start, time_stop, contact_energy_weight, ...
             comak_muscle_weight_result_dir, [results_basename '_muscle_weight'], ...
-            project_id, numeric_id);
+            project_id, numeric_id, side);
         
         % Configurar muscle weights
         cost_fun_param_set = configurar_muscle_weights();
@@ -78,7 +79,7 @@ function [] = run_comak(model_file, ext_load_file, comak_result_dir, numeric_id,
             comak_contact_energy = configurar_comak_base(model_file, ext_load_file, ...
                 results_basename, time_start, time_stop, compare_contact_energy_weight, ...
                 comak_contact_energy_result_dir, [results_basename '_contact_energy_2_' num2str(compare_contact_energy_weight)], ...
-                project_id, numeric_id);
+                project_id, numeric_id, side);
             
             % Volver a configurar muscle weights
             cost_fun_param_set = configurar_muscle_weights();
@@ -99,7 +100,7 @@ function [] = run_comak(model_file, ext_load_file, comak_result_dir, numeric_id,
         % ✅ CREAR OBJETO NUEVO
         comak = configurar_comak_base(model_file, ext_load_file, ...
             results_basename, time_start, time_stop, contact_energy_weight, ...
-            comak_result_dir, results_basename, project_id, numeric_id);
+            comak_result_dir, results_basename, project_id, numeric_id, side);
         
         comak.print(['../inputs/' project_id '_' numeric_id '/comak_settings.xml']);
         disp(['Running COMAK Tool with default muscle weights and contact energy weight = ' num2str(contact_energy_weight) ' ...'])
@@ -116,7 +117,7 @@ function [] = run_comak(model_file, ext_load_file, comak_result_dir, numeric_id,
             comak_contact_energy = configurar_comak_base(model_file, ext_load_file, ...
                 results_basename, time_start, time_stop, compare_contact_energy_weight, ...
                 comak_contact_energy_result_dir, [results_basename '_contact_energy_' num2str(compare_contact_energy_weight)], ...
-                project_id, numeric_id);
+                project_id, numeric_id, side);
             
             comak_contact_energy.print(['../inputs/' project_id '_' numeric_id '/comak_contact_energy_' num2str(compare_contact_energy_weight) '_settings.xml']);
             
