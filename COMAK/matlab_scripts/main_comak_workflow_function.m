@@ -193,17 +193,31 @@ function main_comak_workflow_function(directory_path, side)
 %                 fprintf('Usando modelo con restricciones IK\n');
 %             end
 %             
-            comak_time_start = tic;
+           comak_time_start = tic;
             try
-                run_comak(model_file, ext_load_file, comak_result_dir, numeric_id, project_id, results_basename, time_start, time_stop, 100, false, [], 0, [], side);
-                time_comak = time_comak + toc(comak_time_start);
-                fprintf('✓ COMAK completado para %s: %.2f segundos\n', subdir, toc(comak_time_start));
+                run_comak(model_file, ext_load_file, comak_result_dir, numeric_id, ...
+                          project_id, results_basename, time_start, time_stop, 100, false, [], 0, [], side)
+                elapsed_comak = toc(comak_time_start);
+                time_comak = time_comak + elapsed_comak;
+                fprintf('✓ COMAK completado para %s: %.2f segundos\n', subdir, elapsed_comak);
             catch ME
                 fprintf('✗ ERROR en COMAK para %s:\n%s\n', subdir, ME.message);
-                continue; % Saltar al siguiente paciente
+                fprintf('Stack trace:\n');
+                for k = 1:length(ME.stack)
+                    fprintf('  en %s (línea %d)\n', ME.stack(k).name, ME.stack(k).line);
+                end
+                rethrow(ME);
             end
 
-            % ✅ LIMPIEZA POST-COMAK
+            % Validaciones post-COMAK
+            expected_sto = fullfile(comak_result_dir, [results_basename '_states.sto']);
+            assert(isfile(expected_sto), 'COMAK no generó %s', expected_sto);
+            info = dir(expected_sto);
+            assert(info.bytes > 10000, 'COMAK generó un .sto vacío (%d bytes)', info.bytes);
+            assert(elapsed_comak > 60, ...
+            'COMAK terminó en %.1f s — sospechosamente rápido, revisa logs', elapsed_comak);
+
+            % Limpieza
             clear ext_load_file grf_file grf_file_1 ext_load_file_1 template_file model_file_1
             java.lang.System.gc()
             pause(0.5)
@@ -324,7 +338,8 @@ function main_comak_workflow_function(directory_path, side)
 
     %% ========== REPORTES POBLACIONALES (OPCIONAL) ==========
     % Descomentar si quieres generar reportes para todos los pacientes
-    
+    sf_emg = 1000;
+
     fprintf('\n========================================\n');
     fprintf('GENERANDO REPORTES POBLACIONALES\n');
     fprintf('========================================\n');
