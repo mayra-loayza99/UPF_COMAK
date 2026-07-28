@@ -1,4 +1,4 @@
-function main_comak_workflow_function(directory_path)
+function main_comak_workflow_function(directory_path, side)
     % MAIN_COMAK_WORKFLOW_FUNCTION Executes the COMAK workflow for motion analysis.
     %
     % This function processes directories containing patient data, extracting
@@ -10,7 +10,10 @@ function main_comak_workflow_function(directory_path)
     %
     % Author: Mayra Loayza
     % Date: February 2026
-    
+
+    if nargin < 2 || isempty(side)
+        side = 'r';
+    end
     % ✅ NO usar clear all aquí - preservar directory_path
     close all
     clc
@@ -88,8 +91,13 @@ function main_comak_workflow_function(directory_path)
             % Get first and second heel strike to set times for the analysis
             file_hs = dir(fullfile(directory_walking, '*Event*'));
             hs_data = readtable(fullfile(file_hs.folder, file_hs.name), 'FileType', 'text', 'Delimiter', '\t', 'HeaderLines', 7); 
-            time_start = hs_data.eRHS(1);
-            time_stop = hs_data.eRHS(2);
+            if strcmp(side, 'l')
+                time_start = hs_data.eLHS(1);
+                time_stop  = hs_data.eLHS(2);
+            else
+                time_start = hs_data.eRHS(1);
+                time_stop  = hs_data.eRHS(2);
+            end
             disp('______________________________________________________________________');
             disp('INPUTS FOR COMAK:');
             disp(['First HS: ' num2str(time_start)]); 
@@ -97,9 +105,16 @@ function main_comak_workflow_function(directory_path)
             fprintf('Body weight: %.2f kg\n', BW);
     
             % Select the scaled model
-            model_file_1 = dir(fullfile(directory_model, '*.osim'));
-            model_file = fullfile(model_file_1.folder, model_file_1.name);
-            disp(['OpenSim scaled model file: ' model_file_1.name]);
+            if strcmp(side, 'l')
+                model_filename = sprintf('model_%s_%s_left.osim', project_id, numeric_id);
+            else
+                model_filename = sprintf('model_%s_%s.osim', project_id, numeric_id);
+            end
+            model_file = fullfile(directory_model, model_filename);
+            if ~isfile(model_file)
+                error('Model file not found: %s', model_file);
+            end
+            disp(['OpenSim scaled model file: ' model_filename]);
     
             % Select motion file
             motion_file_1 = dir(fullfile(directory_walking, '*.trc'));
@@ -144,7 +159,7 @@ function main_comak_workflow_function(directory_path)
             fprintf('\n--- PASO 1/3: INVERSE KINEMATICS ---\n');
             ik_time_start = tic;
             try
-                run_ik(model_file, motion_file, comak_inverse_kinematics_result_dir, numeric_id, project_id, results_basename, time_start, time_stop);
+                run_ik(model_file, motion_file, comak_inverse_kinematics_result_dir, numeric_id, project_id, results_basename, time_start, time_stop, side);
                 time_ik = time_ik + toc(ik_time_start);
                 fprintf('✓ IK completado para %s: %.2f segundos\n', subdir, toc(ik_time_start));
             catch ME
@@ -161,8 +176,15 @@ function main_comak_workflow_function(directory_path)
             fprintf('\n--- PASO 2/3: COMAK ---\n');
             
             % ✅ Re-definir variables necesarias (se perdieron con clear)
-            model_file_1 = dir(fullfile(directory_model, '*.osim'));
-            model_file = fullfile(model_file_1.folder, model_file_1.name);
+            if strcmp(side, 'l')
+                model_filename = sprintf('model_%s_%s_left.osim', project_id, numeric_id);
+            else
+                model_filename = sprintf('model_%s_%s.osim', project_id, numeric_id);
+            end
+            model_file = fullfile(directory_model, model_filename);
+            if ~isfile(model_file)
+                error('Model file not found: %s', model_file);
+            end
             
 %             % ✅ Usar modelo con restricciones si existe
 %             constrained_model = fullfile(comak_inverse_kinematics_result_dir, 'ik_constrained_model.osim');
@@ -173,7 +195,7 @@ function main_comak_workflow_function(directory_path)
 %             
             comak_time_start = tic;
             try
-                run_comak(model_file, ext_load_file, comak_result_dir, numeric_id, project_id, results_basename, time_start, time_stop);
+                run_comak(model_file, ext_load_file, comak_result_dir, numeric_id, project_id, results_basename, time_start, time_stop, 100, false, [], 0, [], side);
                 time_comak = time_comak + toc(comak_time_start);
                 fprintf('✓ COMAK completado para %s: %.2f segundos\n', subdir, toc(comak_time_start));
             catch ME
