@@ -1,0 +1,30 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\AppData\Local\Temp\Editor_kkjxv] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[> In path (line 109)
+In addpath (line 86)
+In startup (line 2)] 
+model_filename: model_HOLOA_040.osim
+model_file (abs): D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\model\model_HOLOA_040.osim
+isfile(model_file): 1
+hs_data.eRHS(1:2): 4.088, 5.064
+hs_data.eLHS(1:2): 4.564, 5.56
+time_start: 4.088
+time_stop: 5.064
+
+ side='r' validation PASSED
+
+model_filename: model_HOLOA_040_left.osim
+model_file (abs): D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\model\model_HOLOA_040_left.osim
+isfile(model_file): 1
+hs_data.eRHS(1:2): 4.088, 5.064
+hs_data.eLHS(1:2): 4.564, 5.56
+time_start: 4.564
+time_stop: 5.56
+
+ side='l' validation PASSED
+
+
+========================================
+All side validations passed.
+========================================

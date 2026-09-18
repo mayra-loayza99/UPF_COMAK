@@ -1,0 +1,3882 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\AppData\Local\Temp\Editor_kkjxv] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[> In path (line 109)
+In addpath (line 86)
+In startup (line 2)] 
+[info] Loaded library D:\mayra\Descargas\UPF_COMAK\bin\osimJAM.dll
+[info] Set log level to Debug.
+=== EJECUTANDO IK: 10-Sep-2026 15:19:43 ===
+Paciente: STRATO_001_mirror  |  Side: R
+Running COMAKInverseKinematicsTool...
+[debug] Object.registerType: Millard2012EquilibriumMuscle.
+[debug] Object.registerType: replacing registered object of type Millard2012EquilibriumMuscle with a new default object of the same type.
+[info] Loaded model lenhart2015-scaled from file D:\mayra\Descargas\UPF_COMAK\COMAK\data\STRATO_001\model\model_STRATO_001_mirror.osim
+[info] Secondary Coordinates:
+[info] ----------------------
+[info] knee_add_r
+[info] knee_rot_r
+[info] knee_tx_r
+[info] knee_ty_r
+[info] knee_tz_r
+[info] pf_flex_r
+[info] pf_rot_r
+[info] pf_tilt_r
+[info] pf_tx_r
+[info] pf_ty_r
+[info] pf_tz_r
+[info] Secondary Coupled Coordinate: 
+[info] Settle Threshold: 0.000100000
+[info] Sweep Time: 3.0
+[info] Sweep secondary_coupled_coordinate start value: 0.0
+[info] Sweep secondary_coupled_coordinate stop value: 100.0
+[info] Performing IK Secondary Constraint Simulation...
+[info] Starting Settling Simulation.
+[info] Time: 0.01
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00174866 	
+[info] knee_rot_r 	 1.35496e-05 	
+[info] knee_tx_r 	 0.000574386 	
+[info] knee_ty_r 	 0.000152740 	
+[info] knee_tz_r 	 -0.000513995 	
+[info] pf_flex_r 	 0.00146549 	
+[info] pf_rot_r 	 -0.000123185 	
+[info] pf_tilt_r 	 -0.000847315 	
+[info] pf_tx_r 	 0.0528043 	
+[info] pf_ty_r 	 0.00642406 	
+[info] pf_tz_r 	 0.00455253 	
+[info] Time: 0.02
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00211285 	
+[info] knee_rot_r 	 0.000235916 	
+[info] knee_tx_r 	 0.00180968 	
+[info] knee_ty_r 	 0.000303836 	
+[info] knee_tz_r 	 -0.000371538 	
+[info] pf_flex_r 	 0.00296397 	
+[info] pf_rot_r 	 7.76233e-05 	
+[info] pf_tilt_r 	 -0.00180234 	
+[info] pf_tx_r 	 0.0532505 	
+[info] pf_ty_r 	 0.00665251 	
+[info] pf_tz_r 	 0.00499195 	
+[info] Time: 0.03
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00267272 	
+[info] knee_rot_r 	 0.000735539 	
+[info] knee_tx_r 	 0.00257411 	
+[info] knee_ty_r 	 0.000424911 	
+[info] knee_tz_r 	 -0.000164890 	
+[info] pf_flex_r 	 0.00489083 	
+[info] pf_rot_r 	 0.000400584 	
+[info] pf_tilt_r 	 -0.00288550 	
+[info] pf_tx_r 	 0.0531106 	
+[info] pf_ty_r 	 0.00752509 	
+[info] pf_tz_r 	 0.00519446 	
+[info] Time: 0.04
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00354680 	
+[info] knee_rot_r 	 0.000769103 	
+[info] knee_tx_r 	 0.00249652 	
+[info] knee_ty_r 	 0.000403555 	
+[info] knee_tz_r 	 -0.000234394 	
+[info] pf_flex_r 	 0.00641228 	
+[info] pf_rot_r 	 0.000574433 	
+[info] pf_tilt_r 	 -0.00380557 	
+[info] pf_tx_r 	 0.0530589 	
+[info] pf_ty_r 	 0.00746943 	
+[info] pf_tz_r 	 0.00507630 	
+[info] Time: 0.05
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00406253 	
+[info] knee_rot_r 	 0.000937613 	
+[info] knee_tx_r 	 0.00194321 	
+[info] knee_ty_r 	 0.000301197 	
+[info] knee_tz_r 	 -0.000333875 	
+[info] pf_flex_r 	 0.00834835 	
+[info] pf_rot_r 	 0.000721172 	
+[info] pf_tilt_r 	 -0.00485830 	
+[info] pf_tx_r 	 0.0530605 	
+[info] pf_ty_r 	 0.00698332 	
+[info] pf_tz_r 	 0.00494819 	
+[info] Time: 0.06
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424010 	
+[info] knee_rot_r 	 0.00107977 	
+[info] knee_tx_r 	 0.00154395 	
+[info] knee_ty_r 	 0.000237022 	
+[info] knee_tz_r 	 -0.000392565 	
+[info] pf_flex_r 	 0.00992040 	
+[info] pf_rot_r 	 0.000756987 	
+[info] pf_tilt_r 	 -0.00574051 	
+[info] pf_tx_r 	 0.0529381 	
+[info] pf_ty_r 	 0.00693052 	
+[info] pf_tz_r 	 0.00495527 	
+[info] Time: 0.07
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00432207 	
+[info] knee_rot_r 	 0.00131636 	
+[info] knee_tx_r 	 0.00156050 	
+[info] knee_ty_r 	 0.000214618 	
+[info] knee_tz_r 	 -0.000414118 	
+[info] pf_flex_r 	 0.0115687 	
+[info] pf_rot_r 	 0.000796102 	
+[info] pf_tilt_r 	 -0.00664455 	
+[info] pf_tx_r 	 0.0529963 	
+[info] pf_ty_r 	 0.00680304 	
+[info] pf_tz_r 	 0.00492379 	
+[info] Time: 0.08
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00429429 	
+[info] knee_rot_r 	 0.00158903 	
+[info] knee_tx_r 	 0.00178331 	
+[info] knee_ty_r 	 0.000278158 	
+[info] knee_tz_r 	 -0.000378726 	
+[info] pf_flex_r 	 0.0132027 	
+[info] pf_rot_r 	 0.000831341 	
+[info] pf_tilt_r 	 -0.00754947 	
+[info] pf_tx_r 	 0.0529833 	
+[info] pf_ty_r 	 0.00709571 	
+[info] pf_tz_r 	 0.00495776 	
+[info] Time: 0.09
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425264 	
+[info] knee_rot_r 	 0.00187910 	
+[info] knee_tx_r 	 0.00199538 	
+[info] knee_ty_r 	 0.000341204 	
+[info] knee_tz_r 	 -0.000344533 	
+[info] pf_flex_r 	 0.0147677 	
+[info] pf_rot_r 	 0.000860348 	
+[info] pf_tilt_r 	 -0.00843918 	
+[info] pf_tx_r 	 0.0530612 	
+[info] pf_ty_r 	 0.00718227 	
+[info] pf_tz_r 	 0.00496390 	
+[info] Time: 0.1
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00418710 	
+[info] knee_rot_r 	 0.00216109 	
+[info] knee_tx_r 	 0.00202747 	
+[info] knee_ty_r 	 0.000369399 	
+[info] knee_tz_r 	 -0.000341457 	
+[info] pf_flex_r 	 0.016446 	
+[info] pf_rot_r 	 0.000916833 	
+[info] pf_tilt_r 	 -0.00937880 	
+[info] pf_tx_r 	 0.0530714 	
+[info] pf_ty_r 	 0.00723150 	
+[info] pf_tz_r 	 0.00498949 	
+[info] Time: 0.11
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00400707 	
+[info] knee_rot_r 	 0.00239612 	
+[info] knee_tx_r 	 0.00192953 	
+[info] knee_ty_r 	 0.000348431 	
+[info] knee_tz_r 	 -0.000341286 	
+[info] pf_flex_r 	 0.0180351 	
+[info] pf_rot_r 	 0.000963560 	
+[info] pf_tilt_r 	 -0.0102804 	
+[info] pf_tx_r 	 0.0530548 	
+[info] pf_ty_r 	 0.00719049 	
+[info] pf_tz_r 	 0.00499372 	
+[info] Time: 0.12
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00381352 	
+[info] knee_rot_r 	 0.00263643 	
+[info] knee_tx_r 	 0.00183639 	
+[info] knee_ty_r 	 0.000291964 	
+[info] knee_tz_r 	 -0.000348158 	
+[info] pf_flex_r 	 0.0196535 	
+[info] pf_rot_r 	 0.00100336 	
+[info] pf_tilt_r 	 -0.01118 	
+[info] pf_tx_r 	 0.0530124 	
+[info] pf_ty_r 	 0.00712298 	
+[info] pf_tz_r 	 0.00497861 	
+[info] Time: 0.13
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00359610 	
+[info] knee_rot_r 	 0.00285814 	
+[info] knee_tx_r 	 0.00181843 	
+[info] knee_ty_r 	 0.000247799 	
+[info] knee_tz_r 	 -0.000334041 	
+[info] pf_flex_r 	 0.0212107 	
+[info] pf_rot_r 	 0.00101724 	
+[info] pf_tilt_r 	 -0.0120442 	
+[info] pf_tx_r 	 0.0529424 	
+[info] pf_ty_r 	 0.00716602 	
+[info] pf_tz_r 	 0.00498036 	
+[info] Time: 0.14
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00344070 	
+[info] knee_rot_r 	 0.00308366 	
+[info] knee_tx_r 	 0.00186810 	
+[info] knee_ty_r 	 0.000241707 	
+[info] knee_tz_r 	 -0.000316179 	
+[info] pf_flex_r 	 0.0227503 	
+[info] pf_rot_r 	 0.00102013 	
+[info] pf_tilt_r 	 -0.0128974 	
+[info] pf_tx_r 	 0.0529388 	
+[info] pf_ty_r 	 0.00720076 	
+[info] pf_tz_r 	 0.00498309 	
+[info] Time: 0.15
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00336323 	
+[info] knee_rot_r 	 0.00331777 	
+[info] knee_tx_r 	 0.00191851 	
+[info] knee_ty_r 	 0.000282193 	
+[info] knee_tz_r 	 -0.000303379 	
+[info] pf_flex_r 	 0.0242903 	
+[info] pf_rot_r 	 0.00102716 	
+[info] pf_tilt_r 	 -0.0137552 	
+[info] pf_tx_r 	 0.0529799 	
+[info] pf_ty_r 	 0.00725945 	
+[info] pf_tz_r 	 0.00498870 	
+[info] Time: 0.16
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00335146 	
+[info] knee_rot_r 	 0.00355209 	
+[info] knee_tx_r 	 0.00193240 	
+[info] knee_ty_r 	 0.000337426 	
+[info] knee_tz_r 	 -0.000301201 	
+[info] pf_flex_r 	 0.0258111 	
+[info] pf_rot_r 	 0.00103991 	
+[info] pf_tilt_r 	 -0.014615 	
+[info] pf_tx_r 	 0.0530488 	
+[info] pf_ty_r 	 0.00727432 	
+[info] pf_tz_r 	 0.00497578 	
+[info] Time: 0.17
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00338459 	
+[info] knee_rot_r 	 0.00378420 	
+[info] knee_tx_r 	 0.00191184 	
+[info] knee_ty_r 	 0.000370695 	
+[info] knee_tz_r 	 -0.000307882 	
+[info] pf_flex_r 	 0.0273434 	
+[info] pf_rot_r 	 0.00105443 	
+[info] pf_tilt_r 	 -0.0154836 	
+[info] pf_tx_r 	 0.0530917 	
+[info] pf_ty_r 	 0.00726718 	
+[info] pf_tz_r 	 0.00495506 	
+[info] Time: 0.18
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00343027 	
+[info] knee_rot_r 	 0.00399307 	
+[info] knee_tx_r 	 0.00188610 	
+[info] knee_ty_r 	 0.000355884 	
+[info] knee_tz_r 	 -0.000313427 	
+[info] pf_flex_r 	 0.028857 	
+[info] pf_rot_r 	 0.00105666 	
+[info] pf_tilt_r 	 -0.016342 	
+[info] pf_tx_r 	 0.0530727 	
+[info] pf_ty_r 	 0.00727258 	
+[info] pf_tz_r 	 0.00494982 	
+[info] Time: 0.19
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00347962 	
+[info] knee_rot_r 	 0.00417225 	
+[info] knee_tx_r 	 0.00187804 	
+[info] knee_ty_r 	 0.000299903 	
+[info] knee_tz_r 	 -0.000313691 	
+[info] pf_flex_r 	 0.0303550 	
+[info] pf_rot_r 	 0.00104555 	
+[info] pf_tilt_r 	 -0.0171846 	
+[info] pf_tx_r 	 0.0530164 	
+[info] pf_ty_r 	 0.00728879 	
+[info] pf_tz_r 	 0.00496427 	
+[info] Time: 0.2
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00352346 	
+[info] knee_rot_r 	 0.00432054 	
+[info] knee_tx_r 	 0.00188510 	
+[info] knee_ty_r 	 0.000241696 	
+[info] knee_tz_r 	 -0.000307394 	
+[info] pf_flex_r 	 0.0318185 	
+[info] pf_rot_r 	 0.00102127 	
+[info] pf_tilt_r 	 -0.0180042 	
+[info] pf_tx_r 	 0.0529462 	
+[info] pf_ty_r 	 0.00733781 	
+[info] pf_tz_r 	 0.00499308 	
+[info] Time: 0.21
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00358056 	
+[info] knee_rot_r 	 0.00446095 	
+[info] knee_tx_r 	 0.00189548 	
+[info] knee_ty_r 	 0.000222962 	
+[info] knee_tz_r 	 -0.000303863 	
+[info] pf_flex_r 	 0.033253 	
+[info] pf_rot_r 	 0.000986869 	
+[info] pf_tilt_r 	 -0.0188017 	
+[info] pf_tx_r 	 0.0529225 	
+[info] pf_ty_r 	 0.00735632 	
+[info] pf_tz_r 	 0.00500500 	
+[info] Time: 0.22
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00365479 	
+[info] knee_rot_r 	 0.00461942 	
+[info] knee_tx_r 	 0.00189542 	
+[info] knee_ty_r 	 0.000258686 	
+[info] knee_tz_r 	 -0.000307688 	
+[info] pf_flex_r 	 0.0346987 	
+[info] pf_rot_r 	 0.000952417 	
+[info] pf_tilt_r 	 -0.0196040 	
+[info] pf_tx_r 	 0.0529623 	
+[info] pf_ty_r 	 0.00736888 	
+[info] pf_tz_r 	 0.00499175 	
+[info] Time: 0.23
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00373208 	
+[info] knee_rot_r 	 0.00479785 	
+[info] knee_tx_r 	 0.00188563 	
+[info] knee_ty_r 	 0.000325777 	
+[info] knee_tz_r 	 -0.000316199 	
+[info] pf_flex_r 	 0.0361273 	
+[info] pf_rot_r 	 0.000917119 	
+[info] pf_tilt_r 	 -0.0204060 	
+[info] pf_tx_r 	 0.0530449 	
+[info] pf_ty_r 	 0.00736280 	
+[info] pf_tz_r 	 0.00495702 	
+[info] Time: 0.24
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00380646 	
+[info] knee_rot_r 	 0.00499133 	
+[info] knee_tx_r 	 0.00187429 	
+[info] knee_ty_r 	 0.000375126 	
+[info] knee_tz_r 	 -0.000327225 	
+[info] pf_flex_r 	 0.0375713 	
+[info] pf_rot_r 	 0.000884108 	
+[info] pf_tilt_r 	 -0.0212207 	
+[info] pf_tx_r 	 0.0531148 	
+[info] pf_ty_r 	 0.00735835 	
+[info] pf_tz_r 	 0.00492350 	
+[info] Time: 0.25
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00384948 	
+[info] knee_rot_r 	 0.00516599 	
+[info] knee_tx_r 	 0.00186759 	
+[info] knee_ty_r 	 0.000371524 	
+[info] knee_tz_r 	 -0.000331243 	
+[info] pf_flex_r 	 0.0389846 	
+[info] pf_rot_r 	 0.000842658 	
+[info] pf_tilt_r 	 -0.0220266 	
+[info] pf_tx_r 	 0.0531143 	
+[info] pf_ty_r 	 0.00738568 	
+[info] pf_tz_r 	 0.00491678 	
+[info] Time: 0.26
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00386374 	
+[info] knee_rot_r 	 0.00530991 	
+[info] knee_tx_r 	 0.00187093 	
+[info] knee_ty_r 	 0.000306961 	
+[info] knee_tz_r 	 -0.000328601 	
+[info] pf_flex_r 	 0.0403912 	
+[info] pf_rot_r 	 0.000796571 	
+[info] pf_tilt_r 	 -0.0228236 	
+[info] pf_tx_r 	 0.0530622 	
+[info] pf_ty_r 	 0.00741283 	
+[info] pf_tz_r 	 0.00493353 	
+[info] Time: 0.27
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00384665 	
+[info] knee_rot_r 	 0.00541685 	
+[info] knee_tx_r 	 0.00187544 	
+[info] knee_ty_r 	 0.000229922 	
+[info] knee_tz_r 	 -0.000318825 	
+[info] pf_flex_r 	 0.0417601 	
+[info] pf_rot_r 	 0.000742428 	
+[info] pf_tilt_r 	 -0.0235982 	
+[info] pf_tx_r 	 0.0529772 	
+[info] pf_ty_r 	 0.00746639 	
+[info] pf_tz_r 	 0.00496816 	
+[info] Time: 0.28
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00383026 	
+[info] knee_rot_r 	 0.00551703 	
+[info] knee_tx_r 	 0.00187913 	
+[info] knee_ty_r 	 0.000187353 	
+[info] knee_tz_r 	 -0.000311827 	
+[info] pf_flex_r 	 0.043123 	
+[info] pf_rot_r 	 0.000683286 	
+[info] pf_tilt_r 	 -0.0243592 	
+[info] pf_tx_r 	 0.0529406 	
+[info] pf_ty_r 	 0.00748159 	
+[info] pf_tz_r 	 0.00498461 	
+[info] Time: 0.29
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00382643 	
+[info] knee_rot_r 	 0.00563132 	
+[info] knee_tx_r 	 0.00187315 	
+[info] knee_ty_r 	 0.000223905 	
+[info] knee_tz_r 	 -0.000310624 	
+[info] pf_flex_r 	 0.0444532 	
+[info] pf_rot_r 	 0.000618948 	
+[info] pf_tilt_r 	 -0.0250994 	
+[info] pf_tx_r 	 0.0529899 	
+[info] pf_ty_r 	 0.00749501 	
+[info] pf_tz_r 	 0.00496123 	
+[info] Time: 0.3
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00385462 	
+[info] knee_rot_r 	 0.00578842 	
+[info] knee_tx_r 	 0.00186856 	
+[info] knee_ty_r 	 0.000300727 	
+[info] knee_tz_r 	 -0.000319167 	
+[info] pf_flex_r 	 0.0457969 	
+[info] pf_rot_r 	 0.000557376 	
+[info] pf_tilt_r 	 -0.0258428 	
+[info] pf_tx_r 	 0.0530882 	
+[info] pf_ty_r 	 0.00746268 	
+[info] pf_tz_r 	 0.00490761 	
+[info] Time: 0.31
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00388481 	
+[info] knee_rot_r 	 0.00596239 	
+[info] knee_tx_r 	 0.00186212 	
+[info] knee_ty_r 	 0.000379341 	
+[info] knee_tz_r 	 -0.000327645 	
+[info] pf_flex_r 	 0.0471258 	
+[info] pf_rot_r 	 0.000490039 	
+[info] pf_tilt_r 	 -0.0265888 	
+[info] pf_tx_r 	 0.0531395 	
+[info] pf_ty_r 	 0.00747722 	
+[info] pf_tz_r 	 0.00487615 	
+[info] Time: 0.32
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00391133 	
+[info] knee_rot_r 	 0.00613408 	
+[info] knee_tx_r 	 0.00186548 	
+[info] knee_ty_r 	 0.000391128 	
+[info] knee_tz_r 	 -0.000333445 	
+[info] pf_flex_r 	 0.0484611 	
+[info] pf_rot_r 	 0.000428157 	
+[info] pf_tilt_r 	 -0.0273482 	
+[info] pf_tx_r 	 0.0531366 	
+[info] pf_ty_r 	 0.00745610 	
+[info] pf_tz_r 	 0.00487659 	
+[info] Time: 0.33
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00391617 	
+[info] knee_rot_r 	 0.00626626 	
+[info] knee_tx_r 	 0.00186770 	
+[info] knee_ty_r 	 0.000331480 	
+[info] knee_tz_r 	 -0.000331966 	
+[info] pf_flex_r 	 0.0498004 	
+[info] pf_rot_r 	 0.000377115 	
+[info] pf_tilt_r 	 -0.0281205 	
+[info] pf_tx_r 	 0.0530335 	
+[info] pf_ty_r 	 0.00747728 	
+[info] pf_tz_r 	 0.00492172 	
+[info] Time: 0.34
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00389034 	
+[info] knee_rot_r 	 0.00634527 	
+[info] knee_tx_r 	 0.00186718 	
+[info] knee_ty_r 	 0.000241821 	
+[info] knee_tz_r 	 -0.000320977 	
+[info] pf_flex_r 	 0.0510868 	
+[info] pf_rot_r 	 0.000321571 	
+[info] pf_tilt_r 	 -0.0288632 	
+[info] pf_tx_r 	 0.0529191 	
+[info] pf_ty_r 	 0.00750981 	
+[info] pf_tz_r 	 0.00497237 	
+[info] Time: 0.35
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00388246 	
+[info] knee_rot_r 	 0.00641818 	
+[info] knee_tx_r 	 0.00186898 	
+[info] knee_ty_r 	 0.000192909 	
+[info] knee_tz_r 	 -0.000315682 	
+[info] pf_flex_r 	 0.0523592 	
+[info] pf_rot_r 	 0.000250420 	
+[info] pf_tilt_r 	 -0.0295569 	
+[info] pf_tx_r 	 0.0528673 	
+[info] pf_ty_r 	 0.00748951 	
+[info] pf_tz_r 	 0.00497281 	
+[info] Time: 0.36
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00389478 	
+[info] knee_rot_r 	 0.00651662 	
+[info] knee_tx_r 	 0.00186987 	
+[info] knee_ty_r 	 0.000219376 	
+[info] knee_tz_r 	 -0.000316386 	
+[info] pf_flex_r 	 0.0535203 	
+[info] pf_rot_r 	 0.000166193 	
+[info] pf_tilt_r 	 -0.0302388 	
+[info] pf_tx_r 	 0.0527708 	
+[info] pf_ty_r 	 0.00748451 	
+[info] pf_tz_r 	 0.00497495 	
+[info] Time: 0.37
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00390652 	
+[info] knee_rot_r 	 0.00661241 	
+[info] knee_tx_r 	 0.00187523 	
+[info] knee_ty_r 	 0.000251392 	
+[info] knee_tz_r 	 -0.000317103 	
+[info] pf_flex_r 	 0.0546452 	
+[info] pf_rot_r 	 8.47543e-05 	
+[info] pf_tilt_r 	 -0.0309423 	
+[info] pf_tx_r 	 0.0527831 	
+[info] pf_ty_r 	 0.00746998 	
+[info] pf_tz_r 	 0.00496384 	
+[info] Time: 0.38
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00390606 	
+[info] knee_rot_r 	 0.00669990 	
+[info] knee_tx_r 	 0.00187079 	
+[info] knee_ty_r 	 0.000282167 	
+[info] knee_tz_r 	 -0.000314261 	
+[info] pf_flex_r 	 0.0557793 	
+[info] pf_rot_r 	 1.74317e-05 	
+[info] pf_tilt_r 	 -0.0316677 	
+[info] pf_tx_r 	 0.0529046 	
+[info] pf_ty_r 	 0.00755366 	
+[info] pf_tz_r 	 0.00494534 	
+[info] Time: 0.39
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00391463 	
+[info] knee_rot_r 	 0.00679961 	
+[info] knee_tx_r 	 0.00186445 	
+[info] knee_ty_r 	 0.000303958 	
+[info] knee_tz_r 	 -0.000314272 	
+[info] pf_flex_r 	 0.0570052 	
+[info] pf_rot_r 	 -4.06436e-05 	
+[info] pf_tilt_r 	 -0.0323914 	
+[info] pf_tx_r 	 0.0531057 	
+[info] pf_ty_r 	 0.00760638 	
+[info] pf_tz_r 	 0.00489321 	
+[info] Time: 0.4
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00394015 	
+[info] knee_rot_r 	 0.00692495 	
+[info] knee_tx_r 	 0.00185883 	
+[info] knee_ty_r 	 0.000325134 	
+[info] knee_tz_r 	 -0.000319129 	
+[info] pf_flex_r 	 0.0583137 	
+[info] pf_rot_r 	 -0.000108510 	
+[info] pf_tilt_r 	 -0.0330844 	
+[info] pf_tx_r 	 0.0532056 	
+[info] pf_ty_r 	 0.00763709 	
+[info] pf_tz_r 	 0.00484435 	
+[info] Time: 0.41
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00396845 	
+[info] knee_rot_r 	 0.00705835 	
+[info] knee_tx_r 	 0.00185985 	
+[info] knee_ty_r 	 0.000342791 	
+[info] knee_tz_r 	 -0.000324968 	
+[info] pf_flex_r 	 0.0595848 	
+[info] pf_rot_r 	 -0.000194822 	
+[info] pf_tilt_r 	 -0.0337582 	
+[info] pf_tx_r 	 0.0531351 	
+[info] pf_ty_r 	 0.00761019 	
+[info] pf_tz_r 	 0.00483829 	
+[info] Time: 0.42
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00399469 	
+[info] knee_rot_r 	 0.00718342 	
+[info] knee_tx_r 	 0.00186463 	
+[info] knee_ty_r 	 0.000350221 	
+[info] knee_tz_r 	 -0.000330594 	
+[info] pf_flex_r 	 0.0607765 	
+[info] pf_rot_r 	 -0.000275699 	
+[info] pf_tilt_r 	 -0.0344544 	
+[info] pf_tx_r 	 0.0529589 	
+[info] pf_ty_r 	 0.00754170 	
+[info] pf_tz_r 	 0.00489156 	
+[info] Time: 0.43
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00399962 	
+[info] knee_rot_r 	 0.00727331 	
+[info] knee_tx_r 	 0.00186606 	
+[info] knee_ty_r 	 0.000343303 	
+[info] knee_tz_r 	 -0.000330505 	
+[info] pf_flex_r 	 0.0618475 	
+[info] pf_rot_r 	 -0.000332864 	
+[info] pf_tilt_r 	 -0.0351699 	
+[info] pf_tx_r 	 0.0528354 	
+[info] pf_ty_r 	 0.00751291 	
+[info] pf_tz_r 	 0.00495156 	
+[info] Time: 0.44
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00398652 	
+[info] knee_rot_r 	 0.00733194 	
+[info] knee_tx_r 	 0.00186562 	
+[info] knee_ty_r 	 0.000317425 	
+[info] knee_tz_r 	 -0.000325404 	
+[info] pf_flex_r 	 0.0628683 	
+[info] pf_rot_r 	 -0.000385084 	
+[info] pf_tilt_r 	 -0.035863 	
+[info] pf_tx_r 	 0.0528784 	
+[info] pf_ty_r 	 0.00754734 	
+[info] pf_tz_r 	 0.00493932 	
+[info] Time: 0.45
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00396553 	
+[info] knee_rot_r 	 0.00738200 	
+[info] knee_tx_r 	 0.00186413 	
+[info] knee_ty_r 	 0.000282154 	
+[info] knee_tz_r 	 -0.000317781 	
+[info] pf_flex_r 	 0.0639462 	
+[info] pf_rot_r 	 -0.000457924 	
+[info] pf_tilt_r 	 -0.0365263 	
+[info] pf_tx_r 	 0.0530093 	
+[info] pf_ty_r 	 0.00764514 	
+[info] pf_tz_r 	 0.00487450 	
+[info] Time: 0.46
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00395352 	
+[info] knee_rot_r 	 0.00744791 	
+[info] knee_tx_r 	 0.00186284 	
+[info] knee_ty_r 	 0.000254978 	
+[info] knee_tz_r 	 -0.000312487 	
+[info] pf_flex_r 	 0.0651258 	
+[info] pf_rot_r 	 -0.000548248 	
+[info] pf_tilt_r 	 -0.0371811 	
+[info] pf_tx_r 	 0.0531093 	
+[info] pf_ty_r 	 0.00772775 	
+[info] pf_tz_r 	 0.00482919 	
+[info] Time: 0.47
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00396360 	
+[info] knee_rot_r 	 0.00753933 	
+[info] knee_tx_r 	 0.00186186 	
+[info] knee_ty_r 	 0.000250339 	
+[info] knee_tz_r 	 -0.000313481 	
+[info] pf_flex_r 	 0.0663519 	
+[info] pf_rot_r 	 -0.000635138 	
+[info] pf_tilt_r 	 -0.0378424 	
+[info] pf_tx_r 	 0.0530820 	
+[info] pf_ty_r 	 0.00773291 	
+[info] pf_tz_r 	 0.00485010 	
+[info] Time: 0.48
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00398565 	
+[info] knee_rot_r 	 0.00763698 	
+[info] knee_tx_r 	 0.00186202 	
+[info] knee_ty_r 	 0.000267402 	
+[info] knee_tz_r 	 -0.000318033 	
+[info] pf_flex_r 	 0.0674952 	
+[info] pf_rot_r 	 -0.000709809 	
+[info] pf_tilt_r 	 -0.0385016 	
+[info] pf_tx_r 	 0.0529557 	
+[info] pf_ty_r 	 0.00767352 	
+[info] pf_tz_r 	 0.00490074 	
+[info] Time: 0.49
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00400372 	
+[info] knee_rot_r 	 0.00771828 	
+[info] knee_tx_r 	 0.00186325 	
+[info] knee_ty_r 	 0.000288968 	
+[info] knee_tz_r 	 -0.000321612 	
+[info] pf_flex_r 	 0.0685127 	
+[info] pf_rot_r 	 -0.000775379 	
+[info] pf_tilt_r 	 -0.0391595 	
+[info] pf_tx_r 	 0.0528322 	
+[info] pf_ty_r 	 0.00762263 	
+[info] pf_tz_r 	 0.00492837 	
+[info] Time: 0.5
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00400903 	
+[info] knee_rot_r 	 0.00777825 	
+[info] knee_tx_r 	 0.00186323 	
+[info] knee_ty_r 	 0.000301284 	
+[info] knee_tz_r 	 -0.000321451 	
+[info] pf_flex_r 	 0.0694675 	
+[info] pf_rot_r 	 -0.000836398 	
+[info] pf_tilt_r 	 -0.0398283 	
+[info] pf_tx_r 	 0.0528288 	
+[info] pf_ty_r 	 0.00763047 	
+[info] pf_tz_r 	 0.00491663 	
+[info] Time: 0.51
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00400502 	
+[info] knee_rot_r 	 0.00782797 	
+[info] knee_tx_r 	 0.00185986 	
+[info] knee_ty_r 	 0.000301667 	
+[info] knee_tz_r 	 -0.000318286 	
+[info] pf_flex_r 	 0.0704570 	
+[info] pf_rot_r 	 -0.000900045 	
+[info] pf_tilt_r 	 -0.0405020 	
+[info] pf_tx_r 	 0.0529508 	
+[info] pf_ty_r 	 0.00769711 	
+[info] pf_tz_r 	 0.00488069 	
+[info] Time: 0.52
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00400787 	
+[info] knee_rot_r 	 0.00788859 	
+[info] knee_tx_r 	 0.00185636 	
+[info] knee_ty_r 	 0.000297753 	
+[info] knee_tz_r 	 -0.000316681 	
+[info] pf_flex_r 	 0.0715345 	
+[info] pf_rot_r 	 -0.000969239 	
+[info] pf_tilt_r 	 -0.0411583 	
+[info] pf_tx_r 	 0.0530758 	
+[info] pf_ty_r 	 0.00775364 	
+[info] pf_tz_r 	 0.00484447 	
+[info] Time: 0.53
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00402505 	
+[info] knee_rot_r 	 0.00796702 	
+[info] knee_tx_r 	 0.00185463 	
+[info] knee_ty_r 	 0.000300145 	
+[info] knee_tz_r 	 -0.000318999 	
+[info] pf_flex_r 	 0.0726524 	
+[info] pf_rot_r 	 -0.00104260 	
+[info] pf_tilt_r 	 -0.0418013 	
+[info] pf_tx_r 	 0.0530794 	
+[info] pf_ty_r 	 0.00776796 	
+[info] pf_tz_r 	 0.00483580 	
+[info] Time: 0.54
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00404727 	
+[info] knee_rot_r 	 0.00804838 	
+[info] knee_tx_r 	 0.00185602 	
+[info] knee_ty_r 	 0.000307666 	
+[info] knee_tz_r 	 -0.000322873 	
+[info] pf_flex_r 	 0.0737115 	
+[info] pf_rot_r 	 -0.00111624 	
+[info] pf_tilt_r 	 -0.0424457 	
+[info] pf_tx_r 	 0.0529698 	
+[info] pf_ty_r 	 0.00772887 	
+[info] pf_tz_r 	 0.00486090 	
+[info] Time: 0.55
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00406324 	
+[info] knee_rot_r 	 0.00811427 	
+[info] knee_tx_r 	 0.00185733 	
+[info] knee_ty_r 	 0.000312178 	
+[info] knee_tz_r 	 -0.000325383 	
+[info] pf_flex_r 	 0.0746753 	
+[info] pf_rot_r 	 -0.00117815 	
+[info] pf_tilt_r 	 -0.0431023 	
+[info] pf_tx_r 	 0.0528675 	
+[info] pf_ty_r 	 0.00769249 	
+[info] pf_tz_r 	 0.00489279 	
+[info] Time: 0.56
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00406324 	
+[info] knee_rot_r 	 0.00815707 	
+[info] knee_tx_r 	 0.00185616 	
+[info] knee_ty_r 	 0.000306830 	
+[info] knee_tz_r 	 -0.000323576 	
+[info] pf_flex_r 	 0.075583 	
+[info] pf_rot_r 	 -0.00123482 	
+[info] pf_tilt_r 	 -0.0437551 	
+[info] pf_tx_r 	 0.0528743 	
+[info] pf_ty_r 	 0.00771275 	
+[info] pf_tz_r 	 0.00489129 	
+[info] Time: 0.57
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00405743 	
+[info] knee_rot_r 	 0.00819257 	
+[info] knee_tx_r 	 0.00185436 	
+[info] knee_ty_r 	 0.000292570 	
+[info] knee_tz_r 	 -0.000320086 	
+[info] pf_flex_r 	 0.0765256 	
+[info] pf_rot_r 	 -0.00129895 	
+[info] pf_tilt_r 	 -0.0443943 	
+[info] pf_tx_r 	 0.0529696 	
+[info] pf_ty_r 	 0.00776719 	
+[info] pf_tz_r 	 0.00485377 	
+[info] Time: 0.58
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00405754 	
+[info] knee_rot_r 	 0.00823887 	
+[info] knee_tx_r 	 0.00185248 	
+[info] knee_ty_r 	 0.000281435 	
+[info] knee_tz_r 	 -0.000318157 	
+[info] pf_flex_r 	 0.0775395 	
+[info] pf_rot_r 	 -0.00137363 	
+[info] pf_tilt_r 	 -0.0450235 	
+[info] pf_tx_r 	 0.0530360 	
+[info] pf_ty_r 	 0.00781688 	
+[info] pf_tz_r 	 0.00482479 	
+[info] Time: 0.59
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00406864 	
+[info] knee_rot_r 	 0.00829882 	
+[info] knee_tx_r 	 0.00185235 	
+[info] knee_ty_r 	 0.000281115 	
+[info] knee_tz_r 	 -0.000319465 	
+[info] pf_flex_r 	 0.0785636 	
+[info] pf_rot_r 	 -0.00145122 	
+[info] pf_tilt_r 	 -0.0456473 	
+[info] pf_tx_r 	 0.0530024 	
+[info] pf_ty_r 	 0.00781113 	
+[info] pf_tz_r 	 0.00483277 	
+[info] Time: 0.6
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00408453 	
+[info] knee_rot_r 	 0.00835902 	
+[info] knee_tx_r 	 0.00185314 	
+[info] knee_ty_r 	 0.000289310 	
+[info] knee_tz_r 	 -0.000322547 	
+[info] pf_flex_r 	 0.0795193 	
+[info] pf_rot_r 	 -0.00152096 	
+[info] pf_tilt_r 	 -0.0462722 	
+[info] pf_tx_r 	 0.0529010 	
+[info] pf_ty_r 	 0.00777185 	
+[info] pf_tz_r 	 0.00486408 	
+[info] Time: 0.61
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00409062 	
+[info] knee_rot_r 	 0.00840225 	
+[info] knee_tx_r 	 0.00185310 	
+[info] knee_ty_r 	 0.000295503 	
+[info] knee_tz_r 	 -0.000323167 	
+[info] pf_flex_r 	 0.0803852 	
+[info] pf_rot_r 	 -0.00158204 	
+[info] pf_tilt_r 	 -0.0468957 	
+[info] pf_tx_r 	 0.0528469 	
+[info] pf_ty_r 	 0.00775799 	
+[info] pf_tz_r 	 0.00487651 	
+[info] Time: 0.62
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00408726 	
+[info] knee_rot_r 	 0.00843226 	
+[info] knee_tx_r 	 0.00185168 	
+[info] knee_ty_r 	 0.000293086 	
+[info] knee_tz_r 	 -0.000321136 	
+[info] pf_flex_r 	 0.0812388 	
+[info] pf_rot_r 	 -0.00164319 	
+[info] pf_tilt_r 	 -0.0475161 	
+[info] pf_tx_r 	 0.0529046 	
+[info] pf_ty_r 	 0.00779008 	
+[info] pf_tz_r 	 0.00485116 	
+[info] Time: 0.63
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00408409 	
+[info] knee_rot_r 	 0.00846542 	
+[info] knee_tx_r 	 0.00184913 	
+[info] knee_ty_r 	 0.000287369 	
+[info] knee_tz_r 	 -0.000318947 	
+[info] pf_flex_r 	 0.082157 	
+[info] pf_rot_r 	 -0.00171337 	
+[info] pf_tilt_r 	 -0.0481278 	
+[info] pf_tx_r 	 0.0530073 	
+[info] pf_ty_r 	 0.00784362 	
+[info] pf_tz_r 	 0.00481315 	
+[info] Time: 0.64
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00409178 	
+[info] knee_rot_r 	 0.00851404 	
+[info] knee_tx_r 	 0.00184787 	
+[info] knee_ty_r 	 0.000287708 	
+[info] knee_tz_r 	 -0.000319702 	
+[info] pf_flex_r 	 0.0831259 	
+[info] pf_rot_r 	 -0.00179079 	
+[info] pf_tilt_r 	 -0.0487273 	
+[info] pf_tx_r 	 0.0530304 	
+[info] pf_ty_r 	 0.00785886 	
+[info] pf_tz_r 	 0.00480120 	
+[info] Time: 0.65
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00410820 	
+[info] knee_rot_r 	 0.00857037 	
+[info] knee_tx_r 	 0.00184860 	
+[info] knee_ty_r 	 0.000296017 	
+[info] knee_tz_r 	 -0.000323082 	
+[info] pf_flex_r 	 0.0840588 	
+[info] pf_rot_r 	 -0.00186566 	
+[info] pf_tilt_r 	 -0.0493241 	
+[info] pf_tx_r 	 0.0529448 	
+[info] pf_ty_r 	 0.00782506 	
+[info] pf_tz_r 	 0.00482368 	
+[info] Time: 0.66
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00411892 	
+[info] knee_rot_r 	 0.00861411 	
+[info] knee_tx_r 	 0.00184929 	
+[info] knee_ty_r 	 0.000303844 	
+[info] knee_tz_r 	 -0.000325121 	
+[info] pf_flex_r 	 0.084895 	
+[info] pf_rot_r 	 -0.00192962 	
+[info] pf_tilt_r 	 -0.0499237 	
+[info] pf_tx_r 	 0.0528523 	
+[info] pf_ty_r 	 0.00779374 	
+[info] pf_tz_r 	 0.00484939 	
+[info] Time: 0.67
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00411686 	
+[info] knee_rot_r 	 0.00863857 	
+[info] knee_tx_r 	 0.00184834 	
+[info] knee_ty_r 	 0.000301588 	
+[info] knee_tz_r 	 -0.000323619 	
+[info] pf_flex_r 	 0.0856794 	
+[info] pf_rot_r 	 -0.00198819 	
+[info] pf_tilt_r 	 -0.0505196 	
+[info] pf_tx_r 	 0.0528729 	
+[info] pf_ty_r 	 0.00781150 	
+[info] pf_tz_r 	 0.00483833 	
+[info] Time: 0.68
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00411044 	
+[info] knee_rot_r 	 0.00865928 	
+[info] knee_tx_r 	 0.00184602 	
+[info] knee_ty_r 	 0.000291549 	
+[info] knee_tz_r 	 -0.000320682 	
+[info] pf_flex_r 	 0.0865156 	
+[info] pf_rot_r 	 -0.00205531 	
+[info] pf_tilt_r 	 -0.0511052 	
+[info] pf_tx_r 	 0.0529852 	
+[info] pf_ty_r 	 0.00786828 	
+[info] pf_tz_r 	 0.00479604 	
+[info] Time: 0.69
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00411278 	
+[info] knee_rot_r 	 0.00869446 	
+[info] knee_tx_r 	 0.00184447 	
+[info] knee_ty_r 	 0.000285321 	
+[info] knee_tz_r 	 -0.000319981 	
+[info] pf_flex_r 	 0.0874289 	
+[info] pf_rot_r 	 -0.00213408 	
+[info] pf_tilt_r 	 -0.0516773 	
+[info] pf_tx_r 	 0.0530459 	
+[info] pf_ty_r 	 0.00790294 	
+[info] pf_tz_r 	 0.00477014 	
+[info] Time: 0.7
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00412749 	
+[info] knee_rot_r 	 0.00874352 	
+[info] knee_tx_r 	 0.00184517 	
+[info] knee_ty_r 	 0.000289818 	
+[info] knee_tz_r 	 -0.000322862 	
+[info] pf_flex_r 	 0.088335 	
+[info] pf_rot_r 	 -0.00221395 	
+[info] pf_tilt_r 	 -0.0522447 	
+[info] pf_tx_r 	 0.0529712 	
+[info] pf_ty_r 	 0.00787507 	
+[info] pf_tz_r 	 0.00478956 	
+[info] Time: 0.71
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00414082 	
+[info] knee_rot_r 	 0.00878446 	
+[info] knee_tx_r 	 0.00184653 	
+[info] knee_ty_r 	 0.000298313 	
+[info] knee_tz_r 	 -0.000325710 	
+[info] pf_flex_r 	 0.0891368 	
+[info] pf_rot_r 	 -0.00228202 	
+[info] pf_tilt_r 	 -0.0528124 	
+[info] pf_tx_r 	 0.0528445 	
+[info] pf_ty_r 	 0.00782727 	
+[info] pf_tz_r 	 0.00482692 	
+[info] Time: 0.72
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00413975 	
+[info] knee_rot_r 	 0.00880271 	
+[info] knee_tx_r 	 0.00184574 	
+[info] knee_ty_r 	 0.000298774 	
+[info] knee_tz_r 	 -0.000324723 	
+[info] pf_flex_r 	 0.0898518 	
+[info] pf_rot_r 	 -0.00233867 	
+[info] pf_tilt_r 	 -0.0533784 	
+[info] pf_tx_r 	 0.0528313 	
+[info] pf_ty_r 	 0.00783605 	
+[info] pf_tz_r 	 0.00482663 	
+[info] Time: 0.73
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00412865 	
+[info] knee_rot_r 	 0.00881082 	
+[info] knee_tx_r 	 0.00184374 	
+[info] knee_ty_r 	 0.000287760 	
+[info] knee_tz_r 	 -0.000320664 	
+[info] pf_flex_r 	 0.0906032 	
+[info] pf_rot_r 	 -0.00240500 	
+[info] pf_tilt_r 	 -0.053931 	
+[info] pf_tx_r 	 0.0529593 	
+[info] pf_ty_r 	 0.00789387 	
+[info] pf_tz_r 	 0.00477766 	
+[info] Time: 0.74
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00412966 	
+[info] knee_rot_r 	 0.00883762 	
+[info] knee_tx_r 	 0.00184161 	
+[info] knee_ty_r 	 0.000280251 	
+[info] knee_tz_r 	 -0.000319802 	
+[info] pf_flex_r 	 0.0914743 	
+[info] pf_rot_r 	 -0.00248389 	
+[info] pf_tilt_r 	 -0.0544745 	
+[info] pf_tx_r 	 0.0530691 	
+[info] pf_ty_r 	 0.00794281 	
+[info] pf_tz_r 	 0.00473568 	
+[info] Time: 0.75
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00414171 	
+[info] knee_rot_r 	 0.00888131 	
+[info] knee_tx_r 	 0.00184128 	
+[info] knee_ty_r 	 0.000286260 	
+[info] knee_tz_r 	 -0.000322001 	
+[info] pf_flex_r 	 0.0923528 	
+[info] pf_rot_r 	 -0.00256971 	
+[info] pf_tilt_r 	 -0.0550070 	
+[info] pf_tx_r 	 0.0530033 	
+[info] pf_ty_r 	 0.00792798 	
+[info] pf_tz_r 	 0.00475328 	
+[info] Time: 0.76
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00416250 	
+[info] knee_rot_r 	 0.00892616 	
+[info] knee_tx_r 	 0.00184470 	
+[info] knee_ty_r 	 0.000298356 	
+[info] knee_tz_r 	 -0.000327160 	
+[info] pf_flex_r 	 0.0931304 	
+[info] pf_rot_r 	 -0.00264253 	
+[info] pf_tilt_r 	 -0.0555365 	
+[info] pf_tx_r 	 0.0528438 	
+[info] pf_ty_r 	 0.00784237 	
+[info] pf_tz_r 	 0.00479906 	
+[info] Time: 0.77
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00416283 	
+[info] knee_rot_r 	 0.00894195 	
+[info] knee_tx_r 	 0.00184356 	
+[info] knee_ty_r 	 0.000304424 	
+[info] knee_tz_r 	 -0.000326808 	
+[info] pf_flex_r 	 0.0937779 	
+[info] pf_rot_r 	 -0.00269767 	
+[info] pf_tilt_r 	 -0.0560627 	
+[info] pf_tx_r 	 0.0527883 	
+[info] pf_ty_r 	 0.00784519 	
+[info] pf_tz_r 	 0.00481254 	
+[info] Time: 0.78
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00414788 	
+[info] knee_rot_r 	 0.00893993 	
+[info] knee_tx_r 	 0.00184173 	
+[info] knee_ty_r 	 0.000293424 	
+[info] knee_tz_r 	 -0.000321979 	
+[info] pf_flex_r 	 0.0944429 	
+[info] pf_rot_r 	 -0.00276136 	
+[info] pf_tilt_r 	 -0.0565762 	
+[info] pf_tx_r 	 0.0529315 	
+[info] pf_ty_r 	 0.00790198 	
+[info] pf_tz_r 	 0.00475973 	
+[info] Time: 0.79
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00414451 	
+[info] knee_rot_r 	 0.00895676 	
+[info] knee_tx_r 	 0.00183863 	
+[info] knee_ty_r 	 0.000281931 	
+[info] knee_tz_r 	 -0.000320076 	
+[info] pf_flex_r 	 0.0952608 	
+[info] pf_rot_r 	 -0.00283926 	
+[info] pf_tilt_r 	 -0.0570836 	
+[info] pf_tx_r 	 0.0530928 	
+[info] pf_ty_r 	 0.00797536 	
+[info] pf_tz_r 	 0.00470286 	
+[info] Time: 0.8
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00415362 	
+[info] knee_rot_r 	 0.00899566 	
+[info] knee_tx_r 	 0.00183799 	
+[info] knee_ty_r 	 0.000284674 	
+[info] knee_tz_r 	 -0.000321447 	
+[info] pf_flex_r 	 0.0961171 	
+[info] pf_rot_r 	 -0.00292836 	
+[info] pf_tilt_r 	 -0.0575758 	
+[info] pf_tx_r 	 0.0530550 	
+[info] pf_ty_r 	 0.00797439 	
+[info] pf_tz_r 	 0.00470993 	
+[info] Time: 0.81
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00417893 	
+[info] knee_rot_r 	 0.00904376 	
+[info] knee_tx_r 	 0.00184194 	
+[info] knee_ty_r 	 0.000297367 	
+[info] knee_tz_r 	 -0.000327915 	
+[info] pf_flex_r 	 0.0968862 	
+[info] pf_rot_r 	 -0.00300453 	
+[info] pf_tilt_r 	 -0.0580695 	
+[info] pf_tx_r 	 0.0528741 	
+[info] pf_ty_r 	 0.00787771 	
+[info] pf_tz_r 	 0.00476287 	
+[info] Time: 0.82
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00418323 	
+[info] knee_rot_r 	 0.00906153 	
+[info] knee_tx_r 	 0.00184183 	
+[info] knee_ty_r 	 0.000306977 	
+[info] knee_tz_r 	 -0.000328760 	
+[info] pf_flex_r 	 0.0974923 	
+[info] pf_rot_r 	 -0.00306009 	
+[info] pf_tilt_r 	 -0.0585527 	
+[info] pf_tx_r 	 0.0527644 	
+[info] pf_ty_r 	 0.00785395 	
+[info] pf_tz_r 	 0.00479504 	
+[info] Time: 0.83
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00416981 	
+[info] knee_rot_r 	 0.00905490 	
+[info] knee_tx_r 	 0.00183960 	
+[info] knee_ty_r 	 0.000299015 	
+[info] knee_tz_r 	 -0.000324642 	
+[info] pf_flex_r 	 0.0980875 	
+[info] pf_rot_r 	 -0.00311628 	
+[info] pf_tilt_r 	 -0.0590387 	
+[info] pf_tx_r 	 0.0528823 	
+[info] pf_ty_r 	 0.00790918 	
+[info] pf_tz_r 	 0.00475259 	
+[info] Time: 0.84
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00415990 	
+[info] knee_rot_r 	 0.00905847 	
+[info] knee_tx_r 	 0.00183649 	
+[info] knee_ty_r 	 0.000285169 	
+[info] knee_tz_r 	 -0.000320986 	
+[info] pf_flex_r 	 0.0988183 	
+[info] pf_rot_r 	 -0.00318726 	
+[info] pf_tilt_r 	 -0.0595248 	
+[info] pf_tx_r 	 0.0530463 	
+[info] pf_ty_r 	 0.00798875 	
+[info] pf_tz_r 	 0.00469621 	
+[info] Time: 0.85
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00416665 	
+[info] knee_rot_r 	 0.00908692 	
+[info] knee_tx_r 	 0.00183539 	
+[info] knee_ty_r 	 0.000282864 	
+[info] knee_tz_r 	 -0.000321742 	
+[info] pf_flex_r 	 0.0996228 	
+[info] pf_rot_r 	 -0.00326526 	
+[info] pf_tilt_r 	 -0.0600049 	
+[info] pf_tx_r 	 0.0530492 	
+[info] pf_ty_r 	 0.00800638 	
+[info] pf_tz_r 	 0.00469283 	
+[info] Time: 0.86
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00418560 	
+[info] knee_rot_r 	 0.00912482 	
+[info] knee_tx_r 	 0.00183774 	
+[info] knee_ty_r 	 0.000292222 	
+[info] knee_tz_r 	 -0.000326171 	
+[info] pf_flex_r 	 0.100355 	
+[info] pf_rot_r 	 -0.00333500 	
+[info] pf_tilt_r 	 -0.0604836 	
+[info] pf_tx_r 	 0.0529021 	
+[info] pf_ty_r 	 0.00794201 	
+[info] pf_tz_r 	 0.00473662 	
+[info] Time: 0.87
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00419421 	
+[info] knee_rot_r 	 0.00914240 	
+[info] knee_tx_r 	 0.00183867 	
+[info] knee_ty_r 	 0.000300135 	
+[info] knee_tz_r 	 -0.000328089 	
+[info] pf_flex_r 	 0.100951 	
+[info] pf_rot_r 	 -0.00338608 	
+[info] pf_tilt_r 	 -0.0609577 	
+[info] pf_tx_r 	 0.0527964 	
+[info] pf_ty_r 	 0.00790600 	
+[info] pf_tz_r 	 0.00476637 	
+[info] Time: 0.88
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00418507 	
+[info] knee_rot_r 	 0.00913711 	
+[info] knee_tx_r 	 0.00183676 	
+[info] knee_ty_r 	 0.000295327 	
+[info] knee_tz_r 	 -0.000325024 	
+[info] pf_flex_r 	 0.101518 	
+[info] pf_rot_r 	 -0.00343740 	
+[info] pf_tilt_r 	 -0.0614288 	
+[info] pf_tx_r 	 0.0528735 	
+[info] pf_ty_r 	 0.00794777 	
+[info] pf_tz_r 	 0.00473589 	
+[info] Time: 0.89
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00417928 	
+[info] knee_rot_r 	 0.00913924 	
+[info] knee_tx_r 	 0.00183411 	
+[info] knee_ty_r 	 0.000285881 	
+[info] knee_tz_r 	 -0.000322657 	
+[info] pf_flex_r 	 0.102199 	
+[info] pf_rot_r 	 -0.00349867 	
+[info] pf_tilt_r 	 -0.0619124 	
+[info] pf_tx_r 	 0.0529984 	
+[info] pf_ty_r 	 0.00800834 	
+[info] pf_tz_r 	 0.00469332 	
+[info] Time: 0.9
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00418456 	
+[info] knee_rot_r 	 0.00915946 	
+[info] knee_tx_r 	 0.00183299 	
+[info] knee_ty_r 	 0.000285520 	
+[info] knee_tz_r 	 -0.000323149 	
+[info] pf_flex_r 	 0.102926 	
+[info] pf_rot_r 	 -0.00356487 	
+[info] pf_tilt_r 	 -0.0623906 	
+[info] pf_tx_r 	 0.05299 	
+[info] pf_ty_r 	 0.00802087 	
+[info] pf_tz_r 	 0.00469420 	
+[info] Time: 0.91
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00419848 	
+[info] knee_rot_r 	 0.00918489 	
+[info] knee_tx_r 	 0.00183430 	
+[info] knee_ty_r 	 0.000292414 	
+[info] knee_tz_r 	 -0.000326355 	
+[info] pf_flex_r 	 0.103588 	
+[info] pf_rot_r 	 -0.00362123 	
+[info] pf_tilt_r 	 -0.0628687 	
+[info] pf_tx_r 	 0.0528886 	
+[info] pf_ty_r 	 0.00798043 	
+[info] pf_tz_r 	 0.00472267 	
+[info] Time: 0.92
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00420260 	
+[info] knee_rot_r 	 0.00919439 	
+[info] knee_tx_r 	 0.00183424 	
+[info] knee_ty_r 	 0.000296601 	
+[info] knee_tz_r 	 -0.000327023 	
+[info] pf_flex_r 	 0.104160 	
+[info] pf_rot_r 	 -0.00366797 	
+[info] pf_tilt_r 	 -0.0633433 	
+[info] pf_tx_r 	 0.0528403 	
+[info] pf_ty_r 	 0.00797055 	
+[info] pf_tz_r 	 0.00473362 	
+[info] Time: 0.93
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00419802 	
+[info] knee_rot_r 	 0.00919291 	
+[info] knee_tx_r 	 0.00183325 	
+[info] knee_ty_r 	 0.000292065 	
+[info] knee_tz_r 	 -0.000325243 	
+[info] pf_flex_r 	 0.104736 	
+[info] pf_rot_r 	 -0.00371773 	
+[info] pf_tilt_r 	 -0.0638132 	
+[info] pf_tx_r 	 0.0529070 	
+[info] pf_ty_r 	 0.00799704 	
+[info] pf_tz_r 	 0.00470676 	
+[info] Time: 0.94
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00419652 	
+[info] knee_rot_r 	 0.00919845 	
+[info] knee_tx_r 	 0.00183145 	
+[info] knee_ty_r 	 0.000287130 	
+[info] knee_tz_r 	 -0.000324197 	
+[info] pf_flex_r 	 0.105382 	
+[info] pf_rot_r 	 -0.00377618 	
+[info] pf_tilt_r 	 -0.0642827 	
+[info] pf_tx_r 	 0.0529727 	
+[info] pf_ty_r 	 0.00803414 	
+[info] pf_tz_r 	 0.00468124 	
+[info] Time: 0.95
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00420263 	
+[info] knee_rot_r 	 0.00921504 	
+[info] knee_tx_r 	 0.00183149 	
+[info] knee_ty_r 	 0.000288354 	
+[info] knee_tz_r 	 -0.000325288 	
+[info] pf_flex_r 	 0.106038 	
+[info] pf_rot_r 	 -0.00383818 	
+[info] pf_tilt_r 	 -0.0647447 	
+[info] pf_tx_r 	 0.0529374 	
+[info] pf_ty_r 	 0.00802511 	
+[info] pf_tz_r 	 0.00468854 	
+[info] Time: 0.96
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00421129 	
+[info] knee_rot_r 	 0.00923038 	
+[info] knee_tx_r 	 0.00183228 	
+[info] knee_ty_r 	 0.000293016 	
+[info] knee_tz_r 	 -0.000327387 	
+[info] pf_flex_r 	 0.106629 	
+[info] pf_rot_r 	 -0.00389100 	
+[info] pf_tilt_r 	 -0.0652015 	
+[info] pf_tx_r 	 0.0528624 	
+[info] pf_ty_r 	 0.00799736 	
+[info] pf_tz_r 	 0.00470894 	
+[info] Time: 0.97
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00420933 	
+[info] knee_rot_r 	 0.00923153 	
+[info] knee_tx_r 	 0.00183160 	
+[info] knee_ty_r 	 0.000293341 	
+[info] knee_tz_r 	 -0.000326589 	
+[info] pf_flex_r 	 0.107166 	
+[info] pf_rot_r 	 -0.00394009 	
+[info] pf_tilt_r 	 -0.0656483 	
+[info] pf_tx_r 	 0.0528659 	
+[info] pf_ty_r 	 0.00800753 	
+[info] pf_tz_r 	 0.00470342 	
+[info] Time: 0.98
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00420468 	
+[info] knee_rot_r 	 0.00923021 	
+[info] knee_tx_r 	 0.00183044 	
+[info] knee_ty_r 	 0.000288122 	
+[info] knee_tz_r 	 -0.000324951 	
+[info] pf_flex_r 	 0.107738 	
+[info] pf_rot_r 	 -0.00399510 	
+[info] pf_tilt_r 	 -0.0660915 	
+[info] pf_tx_r 	 0.0529412 	
+[info] pf_ty_r 	 0.00803999 	
+[info] pf_tz_r 	 0.00467358 	
+[info] Time: 0.99
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00420721 	
+[info] knee_rot_r 	 0.00924066 	
+[info] knee_tx_r 	 0.00182979 	
+[info] knee_ty_r 	 0.000286536 	
+[info] knee_tz_r 	 -0.000325205 	
+[info] pf_flex_r 	 0.108368 	
+[info] pf_rot_r 	 -0.00405780 	
+[info] pf_tilt_r 	 -0.0665318 	
+[info] pf_tx_r 	 0.052962 	
+[info] pf_ty_r 	 0.00805259 	
+[info] pf_tz_r 	 0.00466217 	
+[info] Time: 1.0
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00421524 	
+[info] knee_rot_r 	 0.00925655 	
+[info] knee_tx_r 	 0.00183046 	
+[info] knee_ty_r 	 0.000291260 	
+[info] knee_tz_r 	 -0.000327128 	
+[info] pf_flex_r 	 0.108962 	
+[info] pf_rot_r 	 -0.00411786 	
+[info] pf_tilt_r 	 -0.0669646 	
+[info] pf_tx_r 	 0.0528845 	
+[info] pf_ty_r 	 0.00802641 	
+[info] pf_tz_r 	 0.00468386 	
+[info] Time: 1.01
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00421768 	
+[info] knee_rot_r 	 0.00926136 	
+[info] knee_tx_r 	 0.00183085 	
+[info] knee_ty_r 	 0.000294005 	
+[info] knee_tz_r 	 -0.000327691 	
+[info] pf_flex_r 	 0.109472 	
+[info] pf_rot_r 	 -0.00416866 	
+[info] pf_tilt_r 	 -0.0673803 	
+[info] pf_tx_r 	 0.0528386 	
+[info] pf_ty_r 	 0.00801192 	
+[info] pf_tz_r 	 0.00469537 	
+[info] Time: 1.02
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00421122 	
+[info] knee_rot_r 	 0.00925559 	
+[info] knee_tx_r 	 0.00182948 	
+[info] knee_ty_r 	 0.000289610 	
+[info] knee_tz_r 	 -0.000325674 	
+[info] pf_flex_r 	 0.109984 	
+[info] pf_rot_r 	 -0.00422108 	
+[info] pf_tilt_r 	 -0.0677898 	
+[info] pf_tx_r 	 0.0529145 	
+[info] pf_ty_r 	 0.00804695 	
+[info] pf_tz_r 	 0.00466666 	
+[info] Time: 1.03
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00420991 	
+[info] knee_rot_r 	 0.00925964 	
+[info] knee_tx_r 	 0.00182831 	
+[info] knee_ty_r 	 0.000285694 	
+[info] knee_tz_r 	 -0.000324879 	
+[info] pf_flex_r 	 0.110580 	
+[info] pf_rot_r 	 -0.00428389 	
+[info] pf_tilt_r 	 -0.0682005 	
+[info] pf_tx_r 	 0.0529817 	
+[info] pf_ty_r 	 0.00807596 	
+[info] pf_tz_r 	 0.00464070 	
+[info] Time: 1.04
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00421873 	
+[info] knee_rot_r 	 0.00927644 	
+[info] knee_tx_r 	 0.00182885 	
+[info] knee_ty_r 	 0.000289900 	
+[info] knee_tz_r 	 -0.000326941 	
+[info] pf_flex_r 	 0.111176 	
+[info] pf_rot_r 	 -0.00434745 	
+[info] pf_tilt_r 	 -0.0686055 	
+[info] pf_tx_r 	 0.0529134 	
+[info] pf_ty_r 	 0.00805369 	
+[info] pf_tz_r 	 0.00466026 	
+[info] Time: 1.05
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00422484 	
+[info] knee_rot_r 	 0.00928496 	
+[info] knee_tx_r 	 0.00182994 	
+[info] knee_ty_r 	 0.000295012 	
+[info] knee_tz_r 	 -0.000328486 	
+[info] pf_flex_r 	 0.11167 	
+[info] pf_rot_r 	 -0.00440046 	
+[info] pf_tilt_r 	 -0.0689868 	
+[info] pf_tx_r 	 0.0528272 	
+[info] pf_ty_r 	 0.00802154 	
+[info] pf_tz_r 	 0.00468586 	
+[info] Time: 1.06
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00421880 	
+[info] knee_rot_r 	 0.00927713 	
+[info] knee_tx_r 	 0.00182881 	
+[info] knee_ty_r 	 0.000291820 	
+[info] knee_tz_r 	 -0.000326615 	
+[info] pf_flex_r 	 0.112129 	
+[info] pf_rot_r 	 -0.00445074 	
+[info] pf_tilt_r 	 -0.0693529 	
+[info] pf_tx_r 	 0.0528886 	
+[info] pf_ty_r 	 0.00805064 	
+[info] pf_tz_r 	 0.00466371 	
+[info] Time: 1.07
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00421396 	
+[info] knee_rot_r 	 0.00927495 	
+[info] knee_tx_r 	 0.00182727 	
+[info] knee_ty_r 	 0.000285602 	
+[info] knee_tz_r 	 -0.000324796 	
+[info] pf_flex_r 	 0.112684 	
+[info] pf_rot_r 	 -0.00451178 	
+[info] pf_tilt_r 	 -0.0697254 	
+[info] pf_tx_r 	 0.052993 	
+[info] pf_ty_r 	 0.00809353 	
+[info] pf_tz_r 	 0.00462740 	
+[info] Time: 1.08
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00422185 	
+[info] knee_rot_r 	 0.00929031 	
+[info] knee_tx_r 	 0.00182777 	
+[info] knee_ty_r 	 0.000287598 	
+[info] knee_tz_r 	 -0.000326461 	
+[info] pf_flex_r 	 0.113273 	
+[info] pf_rot_r 	 -0.00457712 	
+[info] pf_tilt_r 	 -0.0700907 	
+[info] pf_tx_r 	 0.0529431 	
+[info] pf_ty_r 	 0.00807780 	
+[info] pf_tz_r 	 0.00464214 	
+[info] Time: 1.09
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00423034 	
+[info] knee_rot_r 	 0.00930102 	
+[info] knee_tx_r 	 0.00182861 	
+[info] knee_ty_r 	 0.000293637 	
+[info] knee_tz_r 	 -0.000328623 	
+[info] pf_flex_r 	 0.113757 	
+[info] pf_rot_r 	 -0.00462748 	
+[info] pf_tilt_r 	 -0.0704434 	
+[info] pf_tx_r 	 0.052835 	
+[info] pf_ty_r 	 0.00804439 	
+[info] pf_tz_r 	 0.00467406 	
+[info] Time: 1.1
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00422605 	
+[info] knee_rot_r 	 0.00929372 	
+[info] knee_tx_r 	 0.00182830 	
+[info] knee_ty_r 	 0.000291523 	
+[info] knee_tz_r 	 -0.000327250 	
+[info] pf_flex_r 	 0.114184 	
+[info] pf_rot_r 	 -0.00467742 	
+[info] pf_tilt_r 	 -0.0707691 	
+[info] pf_tx_r 	 0.0528713 	
+[info] pf_ty_r 	 0.00805542 	
+[info] pf_tz_r 	 0.00465842 	
+[info] Time: 1.11
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00422187 	
+[info] knee_rot_r 	 0.00928920 	
+[info] knee_tx_r 	 0.00182625 	
+[info] knee_ty_r 	 0.000286300 	
+[info] knee_tz_r 	 -0.000325745 	
+[info] pf_flex_r 	 0.114698 	
+[info] pf_rot_r 	 -0.00473081 	
+[info] pf_tilt_r 	 -0.0711193 	
+[info] pf_tx_r 	 0.0529722 	
+[info] pf_ty_r 	 0.00810169 	
+[info] pf_tz_r 	 0.00462262 	
+[info] Time: 1.12
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00422541 	
+[info] knee_rot_r 	 0.00929815 	
+[info] knee_tx_r 	 0.00182594 	
+[info] knee_ty_r 	 0.000287340 	
+[info] knee_tz_r 	 -0.000326208 	
+[info] pf_flex_r 	 0.115247 	
+[info] pf_rot_r 	 -0.00478938 	
+[info] pf_tilt_r 	 -0.071469 	
+[info] pf_tx_r 	 0.0529406 	
+[info] pf_ty_r 	 0.00809965 	
+[info] pf_tz_r 	 0.00463123 	
+[info] Time: 1.13
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00423542 	
+[info] knee_rot_r 	 0.00930896 	
+[info] knee_tx_r 	 0.00182774 	
+[info] knee_ty_r 	 0.000291801 	
+[info] knee_tz_r 	 -0.000328764 	
+[info] pf_flex_r 	 0.115721 	
+[info] pf_rot_r 	 -0.00483899 	
+[info] pf_tilt_r 	 -0.0717969 	
+[info] pf_tx_r 	 0.0528439 	
+[info] pf_ty_r 	 0.00805586 	
+[info] pf_tz_r 	 0.00465995 	
+[info] Time: 1.14
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00423138 	
+[info] knee_rot_r 	 0.00930140 	
+[info] knee_tx_r 	 0.00182683 	
+[info] knee_ty_r 	 0.000291197 	
+[info] knee_tz_r 	 -0.000327416 	
+[info] pf_flex_r 	 0.116121 	
+[info] pf_rot_r 	 -0.00488712 	
+[info] pf_tilt_r 	 -0.0720834 	
+[info] pf_tx_r 	 0.0528703 	
+[info] pf_ty_r 	 0.00807552 	
+[info] pf_tz_r 	 0.00465091 	
+[info] Time: 1.15
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00422559 	
+[info] knee_rot_r 	 0.00929485 	
+[info] knee_tx_r 	 0.00182539 	
+[info] knee_ty_r 	 0.000285548 	
+[info] knee_tz_r 	 -0.000325358 	
+[info] pf_flex_r 	 0.11661 	
+[info] pf_rot_r 	 -0.00494113 	
+[info] pf_tilt_r 	 -0.0723888 	
+[info] pf_tx_r 	 0.0529942 	
+[info] pf_ty_r 	 0.00812025 	
+[info] pf_tz_r 	 0.00461059 	
+[info] Time: 1.16
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00423423 	
+[info] knee_rot_r 	 0.00930919 	
+[info] knee_tx_r 	 0.00182591 	
+[info] knee_ty_r 	 0.000288389 	
+[info] knee_tz_r 	 -0.000327208 	
+[info] pf_flex_r 	 0.117164 	
+[info] pf_rot_r 	 -0.00499866 	
+[info] pf_tilt_r 	 -0.0726986 	
+[info] pf_tx_r 	 0.0529536 	
+[info] pf_ty_r 	 0.00810570 	
+[info] pf_tz_r 	 0.00462609 	
+[info] Time: 1.17
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424383 	
+[info] knee_rot_r 	 0.00931982 	
+[info] knee_tx_r 	 0.00182804 	
+[info] knee_ty_r 	 0.000295814 	
+[info] knee_tz_r 	 -0.000329626 	
+[info] pf_flex_r 	 0.117592 	
+[info] pf_rot_r 	 -0.00504901 	
+[info] pf_tilt_r 	 -0.0729541 	
+[info] pf_tx_r 	 0.0528144 	
+[info] pf_ty_r 	 0.00805223 	
+[info] pf_tz_r 	 0.00467280 	
+[info] Time: 1.18
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00423725 	
+[info] knee_rot_r 	 0.00930740 	
+[info] knee_tx_r 	 0.00182768 	
+[info] knee_ty_r 	 0.000292818 	
+[info] knee_tz_r 	 -0.000327608 	
+[info] pf_flex_r 	 0.117946 	
+[info] pf_rot_r 	 -0.00509694 	
+[info] pf_tilt_r 	 -0.0731594 	
+[info] pf_tx_r 	 0.0528854 	
+[info] pf_ty_r 	 0.00807556 	
+[info] pf_tz_r 	 0.00465240 	
+[info] Time: 1.19
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00423084 	
+[info] knee_rot_r 	 0.00930011 	
+[info] knee_tx_r 	 0.00182502 	
+[info] knee_ty_r 	 0.000286496 	
+[info] knee_tz_r 	 -0.000325419 	
+[info] pf_flex_r 	 0.118436 	
+[info] pf_rot_r 	 -0.00514269 	
+[info] pf_tilt_r 	 -0.0734323 	
+[info] pf_tx_r 	 0.0530071 	
+[info] pf_ty_r 	 0.00813603 	
+[info] pf_tz_r 	 0.00460798 	
+[info] Time: 1.2
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00423998 	
+[info] knee_rot_r 	 0.00931461 	
+[info] knee_tx_r 	 0.00182552 	
+[info] knee_ty_r 	 0.000289772 	
+[info] knee_tz_r 	 -0.000327568 	
+[info] pf_flex_r 	 0.11896 	
+[info] pf_rot_r 	 -0.00519457 	
+[info] pf_tilt_r 	 -0.0737033 	
+[info] pf_tx_r 	 0.0529437 	
+[info] pf_ty_r 	 0.00811095 	
+[info] pf_tz_r 	 0.00462146 	
+[info] Time: 1.21
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424750 	
+[info] knee_rot_r 	 0.00932154 	
+[info] knee_tx_r 	 0.00182586 	
+[info] knee_ty_r 	 0.000296324 	
+[info] knee_tz_r 	 -0.000329620 	
+[info] pf_flex_r 	 0.119351 	
+[info] pf_rot_r 	 -0.00523339 	
+[info] pf_tilt_r 	 -0.0739403 	
+[info] pf_tx_r 	 0.0528291 	
+[info] pf_ty_r 	 0.00807892 	
+[info] pf_tz_r 	 0.00465668 	
+[info] Time: 1.22
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424047 	
+[info] knee_rot_r 	 0.00930896 	
+[info] knee_tx_r 	 0.00182523 	
+[info] knee_ty_r 	 0.000291921 	
+[info] knee_tz_r 	 -0.000327527 	
+[info] pf_flex_r 	 0.119704 	
+[info] pf_rot_r 	 -0.00527401 	
+[info] pf_tilt_r 	 -0.0741525 	
+[info] pf_tx_r 	 0.0529075 	
+[info] pf_ty_r 	 0.00810209 	
+[info] pf_tz_r 	 0.00463105 	
+[info] Time: 1.23
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00423926 	
+[info] knee_rot_r 	 0.00930708 	
+[info] knee_tx_r 	 0.00182368 	
+[info] knee_ty_r 	 0.000287076 	
+[info] knee_tz_r 	 -0.000326798 	
+[info] pf_flex_r 	 0.120184 	
+[info] pf_rot_r 	 -0.00531455 	
+[info] pf_tilt_r 	 -0.0744109 	
+[info] pf_tx_r 	 0.0529999 	
+[info] pf_ty_r 	 0.00814179 	
+[info] pf_tz_r 	 0.00459925 	
+[info] Time: 1.24
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424733 	
+[info] knee_rot_r 	 0.00931960 	
+[info] knee_tx_r 	 0.00182460 	
+[info] knee_ty_r 	 0.000292104 	
+[info] knee_tz_r 	 -0.000328542 	
+[info] pf_flex_r 	 0.120665 	
+[info] pf_rot_r 	 -0.00535642 	
+[info] pf_tilt_r 	 -0.0746683 	
+[info] pf_tx_r 	 0.0529077 	
+[info] pf_ty_r 	 0.00811295 	
+[info] pf_tz_r 	 0.00462900 	
+[info] Time: 1.25
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425243 	
+[info] knee_rot_r 	 0.00932052 	
+[info] knee_tx_r 	 0.00182618 	
+[info] knee_ty_r 	 0.000295589 	
+[info] knee_tz_r 	 -0.000329794 	
+[info] pf_flex_r 	 0.121 	
+[info] pf_rot_r 	 -0.00539435 	
+[info] pf_tilt_r 	 -0.0748436 	
+[info] pf_tx_r 	 0.0528233 	
+[info] pf_ty_r 	 0.00807881 	
+[info] pf_tz_r 	 0.00465734 	
+[info] Time: 1.26
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424174 	
+[info] knee_rot_r 	 0.00930353 	
+[info] knee_tx_r 	 0.00182449 	
+[info] knee_ty_r 	 0.000288196 	
+[info] knee_tz_r 	 -0.000326467 	
+[info] pf_flex_r 	 0.121347 	
+[info] pf_rot_r 	 -0.00543314 	
+[info] pf_tilt_r 	 -0.0750098 	
+[info] pf_tx_r 	 0.0529629 	
+[info] pf_ty_r 	 0.00813471 	
+[info] pf_tz_r 	 0.00461728 	
+[info] Time: 1.27
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424272 	
+[info] knee_rot_r 	 0.00930694 	
+[info] knee_tx_r 	 0.00182383 	
+[info] knee_ty_r 	 0.000283981 	
+[info] knee_tz_r 	 -0.000326119 	
+[info] pf_flex_r 	 0.121853 	
+[info] pf_rot_r 	 -0.00547314 	
+[info] pf_tilt_r 	 -0.0752329 	
+[info] pf_tx_r 	 0.0530322 	
+[info] pf_ty_r 	 0.00815951 	
+[info] pf_tz_r 	 0.00459556 	
+[info] Time: 1.28
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425771 	
+[info] knee_rot_r 	 0.00932589 	
+[info] knee_tx_r 	 0.00182616 	
+[info] knee_ty_r 	 0.000292769 	
+[info] knee_tz_r 	 -0.000329911 	
+[info] pf_flex_r 	 0.122297 	
+[info] pf_rot_r 	 -0.00551268 	
+[info] pf_tilt_r 	 -0.0754165 	
+[info] pf_tx_r 	 0.0528684 	
+[info] pf_ty_r 	 0.00809481 	
+[info] pf_tz_r 	 0.00464796 	
+[info] Time: 1.29
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425517 	
+[info] knee_rot_r 	 0.00931748 	
+[info] knee_tx_r 	 0.00182629 	
+[info] knee_ty_r 	 0.000295448 	
+[info] knee_tz_r 	 -0.000329127 	
+[info] pf_flex_r 	 0.122565 	
+[info] pf_rot_r 	 -0.00554954 	
+[info] pf_tilt_r 	 -0.0755031 	
+[info] pf_tx_r 	 0.0528356 	
+[info] pf_ty_r 	 0.00809088 	
+[info] pf_tz_r 	 0.00466445 	
+[info] Time: 1.3
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424574 	
+[info] knee_rot_r 	 0.00930151 	
+[info] knee_tx_r 	 0.00182400 	
+[info] knee_ty_r 	 0.000286816 	
+[info] knee_tz_r 	 -0.000326305 	
+[info] pf_flex_r 	 0.122937 	
+[info] pf_rot_r 	 -0.00557323 	
+[info] pf_tilt_r 	 -0.0756736 	
+[info] pf_tx_r 	 0.0530046 	
+[info] pf_ty_r 	 0.00815352 	
+[info] pf_tz_r 	 0.00460199 	
+[info] Time: 1.31
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424832 	
+[info] knee_rot_r 	 0.00930794 	
+[info] knee_tx_r 	 0.00182287 	
+[info] knee_ty_r 	 0.000285483 	
+[info] knee_tz_r 	 -0.000326570 	
+[info] pf_flex_r 	 0.123419 	
+[info] pf_rot_r 	 -0.00560508 	
+[info] pf_tilt_r 	 -0.0758826 	
+[info] pf_tx_r 	 0.0529924 	
+[info] pf_ty_r 	 0.00816435 	
+[info] pf_tz_r 	 0.00460117 	
+[info] Time: 1.32
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426215 	
+[info] knee_rot_r 	 0.00932188 	
+[info] knee_tx_r 	 0.00182520 	
+[info] knee_ty_r 	 0.000292434 	
+[info] knee_tz_r 	 -0.000330387 	
+[info] pf_flex_r 	 0.123796 	
+[info] pf_rot_r 	 -0.00563276 	
+[info] pf_tilt_r 	 -0.0760407 	
+[info] pf_tx_r 	 0.052844 	
+[info] pf_ty_r 	 0.00809626 	
+[info] pf_tz_r 	 0.00464672 	
+[info] Time: 1.33
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425559 	
+[info] knee_rot_r 	 0.00930851 	
+[info] knee_tx_r 	 0.00182316 	
+[info] knee_ty_r 	 0.000293083 	
+[info] knee_tz_r 	 -0.000328548 	
+[info] pf_flex_r 	 0.124061 	
+[info] pf_rot_r 	 -0.00565452 	
+[info] pf_tilt_r 	 -0.0761537 	
+[info] pf_tx_r 	 0.0528814 	
+[info] pf_ty_r 	 0.00812929 	
+[info] pf_tz_r 	 0.00463585 	
+[info] Time: 1.34
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00424834 	
+[info] knee_rot_r 	 0.00929777 	
+[info] knee_tx_r 	 0.00182203 	
+[info] knee_ty_r 	 0.000285512 	
+[info] knee_tz_r 	 -0.000326168 	
+[info] pf_flex_r 	 0.124454 	
+[info] pf_rot_r 	 -0.00567813 	
+[info] pf_tilt_r 	 -0.076326 	
+[info] pf_tx_r 	 0.0530320 	
+[info] pf_ty_r 	 0.00817502 	
+[info] pf_tz_r 	 0.00458542 	
+[info] Time: 1.35
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426021 	
+[info] knee_rot_r 	 0.00931390 	
+[info] knee_tx_r 	 0.00182331 	
+[info] knee_ty_r 	 0.000289213 	
+[info] knee_tz_r 	 -0.000328947 	
+[info] pf_flex_r 	 0.124923 	
+[info] pf_rot_r 	 -0.00570105 	
+[info] pf_tilt_r 	 -0.0765217 	
+[info] pf_tx_r 	 0.0529486 	
+[info] pf_ty_r 	 0.00814477 	
+[info] pf_tz_r 	 0.00461726 	
+[info] Time: 1.36
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426729 	
+[info] knee_rot_r 	 0.00931824 	
+[info] knee_tx_r 	 0.00182598 	
+[info] knee_ty_r 	 0.000296207 	
+[info] knee_tz_r 	 -0.000330686 	
+[info] pf_flex_r 	 0.125203 	
+[info] pf_rot_r 	 -0.00572819 	
+[info] pf_tilt_r 	 -0.076594 	
+[info] pf_tx_r 	 0.0527979 	
+[info] pf_ty_r 	 0.00808577 	
+[info] pf_tz_r 	 0.00467033 	
+[info] Time: 1.37
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425521 	
+[info] knee_rot_r 	 0.00929658 	
+[info] knee_tx_r 	 0.00182474 	
+[info] knee_ty_r 	 0.000289045 	
+[info] knee_tz_r 	 -0.000327093 	
+[info] pf_flex_r 	 0.125451 	
+[info] pf_rot_r 	 -0.00575275 	
+[info] pf_tilt_r 	 -0.0766339 	
+[info] pf_tx_r 	 0.0529533 	
+[info] pf_ty_r 	 0.00814115 	
+[info] pf_tz_r 	 0.00462675 	
+[info] Time: 1.38
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425094 	
+[info] knee_rot_r 	 0.00929362 	
+[info] knee_tx_r 	 0.00182283 	
+[info] knee_ty_r 	 0.000282426 	
+[info] knee_tz_r 	 -0.000325298 	
+[info] pf_flex_r 	 0.125906 	
+[info] pf_rot_r 	 -0.00577558 	
+[info] pf_tilt_r 	 -0.0767645 	
+[info] pf_tx_r 	 0.0530999 	
+[info] pf_ty_r 	 0.00819786 	
+[info] pf_tz_r 	 0.00458124 	
+[info] Time: 1.39
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426272 	
+[info] knee_rot_r 	 0.00931168 	
+[info] knee_tx_r 	 0.00182375 	
+[info] knee_ty_r 	 0.000289341 	
+[info] knee_tz_r 	 -0.000328148 	
+[info] pf_flex_r 	 0.126327 	
+[info] pf_rot_r 	 -0.00579085 	
+[info] pf_tilt_r 	 -0.0768996 	
+[info] pf_tx_r 	 0.0529215 	
+[info] pf_ty_r 	 0.00815218 	
+[info] pf_tz_r 	 0.00463543 	
+[info] Time: 1.4
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426993 	
+[info] knee_rot_r 	 0.00931138 	
+[info] knee_tx_r 	 0.00182463 	
+[info] knee_ty_r 	 0.000292858 	
+[info] knee_tz_r 	 -0.000330464 	
+[info] pf_flex_r 	 0.12656 	
+[info] pf_rot_r 	 -0.00579879 	
+[info] pf_tilt_r 	 -0.0769627 	
+[info] pf_tx_r 	 0.0528228 	
+[info] pf_ty_r 	 0.00811012 	
+[info] pf_tz_r 	 0.00465131 	
+[info] Time: 1.41
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425665 	
+[info] knee_rot_r 	 0.00929067 	
+[info] knee_tx_r 	 0.00182195 	
+[info] knee_ty_r 	 0.000284655 	
+[info] knee_tz_r 	 -0.000326799 	
+[info] pf_flex_r 	 0.126837 	
+[info] pf_rot_r 	 -0.00581323 	
+[info] pf_tilt_r 	 -0.0770572 	
+[info] pf_tx_r 	 0.052968 	
+[info] pf_ty_r 	 0.00816828 	
+[info] pf_tz_r 	 0.00460501 	
+[info] Time: 1.42
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425988 	
+[info] knee_rot_r 	 0.00929447 	
+[info] knee_tx_r 	 0.00182079 	
+[info] knee_ty_r 	 0.000282654 	
+[info] knee_tz_r 	 -0.000327486 	
+[info] pf_flex_r 	 0.127269 	
+[info] pf_rot_r 	 -0.00581680 	
+[info] pf_tilt_r 	 -0.0772344 	
+[info] pf_tx_r 	 0.0530173 	
+[info] pf_ty_r 	 0.00818554 	
+[info] pf_tz_r 	 0.00458899 	
+[info] Time: 1.43
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426654 	
+[info] knee_rot_r 	 0.00930243 	
+[info] knee_tx_r 	 0.00182120 	
+[info] knee_ty_r 	 0.000290912 	
+[info] knee_tz_r 	 -0.000329066 	
+[info] pf_flex_r 	 0.127595 	
+[info] pf_rot_r 	 -0.00582000 	
+[info] pf_tilt_r 	 -0.0773736 	
+[info] pf_tx_r 	 0.0528684 	
+[info] pf_ty_r 	 0.00815248 	
+[info] pf_tz_r 	 0.00463372 	
+[info] Time: 1.44
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426651 	
+[info] knee_rot_r 	 0.00929275 	
+[info] knee_tx_r 	 0.00182274 	
+[info] knee_ty_r 	 0.000289345 	
+[info] knee_tz_r 	 -0.000329046 	
+[info] pf_flex_r 	 0.127812 	
+[info] pf_rot_r 	 -0.00582883 	
+[info] pf_tilt_r 	 -0.0774351 	
+[info] pf_tx_r 	 0.0528761 	
+[info] pf_ty_r 	 0.00813770 	
+[info] pf_tz_r 	 0.00462788 	
+[info] Time: 1.45
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425893 	
+[info] knee_rot_r 	 0.00928062 	
+[info] knee_tx_r 	 0.00182045 	
+[info] knee_ty_r 	 0.000282901 	
+[info] knee_tz_r 	 -0.000326502 	
+[info] pf_flex_r 	 0.128148 	
+[info] pf_rot_r 	 -0.00583473 	
+[info] pf_tilt_r 	 -0.0775562 	
+[info] pf_tx_r 	 0.0530353 	
+[info] pf_ty_r 	 0.00820272 	
+[info] pf_tz_r 	 0.00458407 	
+[info] Time: 1.46
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426795 	
+[info] knee_rot_r 	 0.00929336 	
+[info] knee_tx_r 	 0.00182168 	
+[info] knee_ty_r 	 0.000287199 	
+[info] knee_tz_r 	 -0.000328459 	
+[info] pf_flex_r 	 0.128567 	
+[info] pf_rot_r 	 -0.00583912 	
+[info] pf_tilt_r 	 -0.0777134 	
+[info] pf_tx_r 	 0.0529654 	
+[info] pf_ty_r 	 0.00817223 	
+[info] pf_tz_r 	 0.00461060 	
+[info] Time: 1.47
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427788 	
+[info] knee_rot_r 	 0.00929895 	
+[info] knee_tx_r 	 0.00182384 	
+[info] knee_ty_r 	 0.000295326 	
+[info] knee_tz_r 	 -0.000331146 	
+[info] pf_flex_r 	 0.128804 	
+[info] pf_rot_r 	 -0.00584687 	
+[info] pf_tilt_r 	 -0.0777526 	
+[info] pf_tx_r 	 0.0528128 	
+[info] pf_ty_r 	 0.00811522 	
+[info] pf_tz_r 	 0.00465939 	
+[info] Time: 1.48
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426412 	
+[info] knee_rot_r 	 0.00927587 	
+[info] knee_tx_r 	 0.00182242 	
+[info] knee_ty_r 	 0.000288713 	
+[info] knee_tz_r 	 -0.000327163 	
+[info] pf_flex_r 	 0.128994 	
+[info] pf_rot_r 	 -0.00586115 	
+[info] pf_tilt_r 	 -0.077741 	
+[info] pf_tx_r 	 0.0529671 	
+[info] pf_ty_r 	 0.00817049 	
+[info] pf_tz_r 	 0.00461713 	
+[info] Time: 1.49
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00425850 	
+[info] knee_rot_r 	 0.00927177 	
+[info] knee_tx_r 	 0.00182174 	
+[info] knee_ty_r 	 0.000279459 	
+[info] knee_tz_r 	 -0.000324984 	
+[info] pf_flex_r 	 0.129403 	
+[info] pf_rot_r 	 -0.00587131 	
+[info] pf_tilt_r 	 -0.0778218 	
+[info] pf_tx_r 	 0.0531174 	
+[info] pf_ty_r 	 0.00821812 	
+[info] pf_tz_r 	 0.00458050 	
+[info] Time: 1.5
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427199 	
+[info] knee_rot_r 	 0.00929054 	
+[info] knee_tx_r 	 0.00182231 	
+[info] knee_ty_r 	 0.000286147 	
+[info] knee_tz_r 	 -0.000328435 	
+[info] pf_flex_r 	 0.129787 	
+[info] pf_rot_r 	 -0.00586363 	
+[info] pf_tilt_r 	 -0.0779332 	
+[info] pf_tx_r 	 0.0529255 	
+[info] pf_ty_r 	 0.00817775 	
+[info] pf_tz_r 	 0.00463370 	
+[info] Time: 1.51
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428004 	
+[info] knee_rot_r 	 0.00929198 	
+[info] knee_tx_r 	 0.00182504 	
+[info] knee_ty_r 	 0.000291007 	
+[info] knee_tz_r 	 -0.000331075 	
+[info] pf_flex_r 	 0.129976 	
+[info] pf_rot_r 	 -0.00587044 	
+[info] pf_tilt_r 	 -0.0779203 	
+[info] pf_tx_r 	 0.0528242 	
+[info] pf_ty_r 	 0.00810854 	
+[info] pf_tz_r 	 0.00464967 	
+[info] Time: 1.52
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426769 	
+[info] knee_rot_r 	 0.00927146 	
+[info] knee_tx_r 	 0.00181920 	
+[info] knee_ty_r 	 0.000288721 	
+[info] knee_tz_r 	 -0.000328008 	
+[info] pf_flex_r 	 0.130206 	
+[info] pf_rot_r 	 -0.00586165 	
+[info] pf_tilt_r 	 -0.0779909 	
+[info] pf_tx_r 	 0.0529789 	
+[info] pf_ty_r 	 0.00820234 	
+[info] pf_tz_r 	 0.00459904 	
+[info] Time: 1.53
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426167 	
+[info] knee_rot_r 	 0.00926720 	
+[info] knee_tx_r 	 0.00181871 	
+[info] knee_ty_r 	 0.000284161 	
+[info] knee_tz_r 	 -0.000326098 	
+[info] pf_flex_r 	 0.130565 	
+[info] pf_rot_r 	 -0.00585458 	
+[info] pf_tilt_r 	 -0.0781412 	
+[info] pf_tx_r 	 0.0530109 	
+[info] pf_ty_r 	 0.00821080 	
+[info] pf_tz_r 	 0.00458933 	
+[info] Time: 1.54
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428006 	
+[info] knee_rot_r 	 0.00928302 	
+[info] knee_tx_r 	 0.00182112 	
+[info] knee_ty_r 	 0.000289158 	
+[info] knee_tz_r 	 -0.000331313 	
+[info] pf_flex_r 	 0.130874 	
+[info] pf_rot_r 	 -0.00583877 	
+[info] pf_tilt_r 	 -0.0782565 	
+[info] pf_tx_r 	 0.0528728 	
+[info] pf_ty_r 	 0.00814831 	
+[info] pf_tz_r 	 0.00462569 	
+[info] Time: 1.55
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427137 	
+[info] knee_rot_r 	 0.00926820 	
+[info] knee_tx_r 	 0.00181968 	
+[info] knee_ty_r 	 0.000291344 	
+[info] knee_tz_r 	 -0.000328782 	
+[info] pf_flex_r 	 0.131035 	
+[info] pf_rot_r 	 -0.00584129 	
+[info] pf_tilt_r 	 -0.0782718 	
+[info] pf_tx_r 	 0.0528826 	
+[info] pf_ty_r 	 0.00817479 	
+[info] pf_tz_r 	 0.00462472 	
+[info] Time: 1.56
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426643 	
+[info] knee_rot_r 	 0.00925764 	
+[info] knee_tx_r 	 0.00181940 	
+[info] knee_ty_r 	 0.000284289 	
+[info] knee_tz_r 	 -0.000327067 	
+[info] pf_flex_r 	 0.131339 	
+[info] pf_rot_r 	 -0.00583500 	
+[info] pf_tilt_r 	 -0.078365 	
+[info] pf_tx_r 	 0.0530647 	
+[info] pf_ty_r 	 0.00821565 	
+[info] pf_tz_r 	 0.00457423 	
+[info] Time: 1.57
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427915 	
+[info] knee_rot_r 	 0.00927583 	
+[info] knee_tx_r 	 0.00182076 	
+[info] knee_ty_r 	 0.000291244 	
+[info] knee_tz_r 	 -0.000329979 	
+[info] pf_flex_r 	 0.131735 	
+[info] pf_rot_r 	 -0.00583027 	
+[info] pf_tilt_r 	 -0.0784764 	
+[info] pf_tx_r 	 0.0529827 	
+[info] pf_ty_r 	 0.00818516 	
+[info] pf_tz_r 	 0.00461183 	
+[info] Time: 1.58
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428680 	
+[info] knee_rot_r 	 0.00928067 	
+[info] knee_tx_r 	 0.00182408 	
+[info] knee_ty_r 	 0.000300401 	
+[info] knee_tz_r 	 -0.000331893 	
+[info] pf_flex_r 	 0.131918 	
+[info] pf_rot_r 	 -0.00583129 	
+[info] pf_tilt_r 	 -0.078455 	
+[info] pf_tx_r 	 0.0527939 	
+[info] pf_ty_r 	 0.00811475 	
+[info] pf_tz_r 	 0.00467800 	
+[info] Time: 1.59
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427484 	
+[info] knee_rot_r 	 0.00925695 	
+[info] knee_tx_r 	 0.00182355 	
+[info] knee_ty_r 	 0.000291607 	
+[info] knee_tz_r 	 -0.000328513 	
+[info] pf_flex_r 	 0.132052 	
+[info] pf_rot_r 	 -0.00583639 	
+[info] pf_tilt_r 	 -0.0783708 	
+[info] pf_tx_r 	 0.0529636 	
+[info] pf_ty_r 	 0.00816213 	
+[info] pf_tz_r 	 0.00462487 	
+[info] Time: 1.6
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426285 	
+[info] knee_rot_r 	 0.00924502 	
+[info] knee_tx_r 	 0.00182015 	
+[info] knee_ty_r 	 0.000280343 	
+[info] knee_tz_r 	 -0.000324776 	
+[info] pf_flex_r 	 0.132405 	
+[info] pf_rot_r 	 -0.00582789 	
+[info] pf_tilt_r 	 -0.0784501 	
+[info] pf_tx_r 	 0.0530882 	
+[info] pf_ty_r 	 0.00824117 	
+[info] pf_tz_r 	 0.00458503 	
+[info] Time: 1.61
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428411 	
+[info] knee_rot_r 	 0.00927059 	
+[info] knee_tx_r 	 0.00182202 	
+[info] knee_ty_r 	 0.000287594 	
+[info] knee_tz_r 	 -0.000330844 	
+[info] pf_flex_r 	 0.132785 	
+[info] pf_rot_r 	 -0.00580997 	
+[info] pf_tilt_r 	 -0.0785428 	
+[info] pf_tx_r 	 0.0529584 	
+[info] pf_ty_r 	 0.00816905 	
+[info] pf_tz_r 	 0.00461224 	
+[info] Time: 1.62
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428171 	
+[info] knee_rot_r 	 0.00926579 	
+[info] knee_tx_r 	 0.00181862 	
+[info] knee_ty_r 	 0.000298764 	
+[info] knee_tz_r 	 -0.000330577 	
+[info] pf_flex_r 	 0.132924 	
+[info] pf_rot_r 	 -0.00579833 	
+[info] pf_tilt_r 	 -0.0785472 	
+[info] pf_tx_r 	 0.0528316 	
+[info] pf_ty_r 	 0.00817613 	
+[info] pf_tz_r 	 0.00464575 	
+[info] Time: 1.63
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427336 	
+[info] knee_rot_r 	 0.00924751 	
+[info] knee_tx_r 	 0.00181986 	
+[info] knee_ty_r 	 0.000288590 	
+[info] knee_tz_r 	 -0.000328569 	
+[info] pf_flex_r 	 0.133102 	
+[info] pf_rot_r 	 -0.00578770 	
+[info] pf_tilt_r 	 -0.0785742 	
+[info] pf_tx_r 	 0.052983 	
+[info] pf_ty_r 	 0.00818190 	
+[info] pf_tz_r 	 0.00459425 	
+[info] Time: 1.64
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427614 	
+[info] knee_rot_r 	 0.00925079 	
+[info] knee_tx_r 	 0.00181737 	
+[info] knee_ty_r 	 0.000286373 	
+[info] knee_tz_r 	 -0.000329127 	
+[info] pf_flex_r 	 0.133452 	
+[info] pf_rot_r 	 -0.00576504 	
+[info] pf_tilt_r 	 -0.0787005 	
+[info] pf_tx_r 	 0.0530282 	
+[info] pf_ty_r 	 0.00822724 	
+[info] pf_tz_r 	 0.00458381 	
+[info] Time: 1.65
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428260 	
+[info] knee_rot_r 	 0.00925931 	
+[info] knee_tx_r 	 0.00181983 	
+[info] knee_ty_r 	 0.000293979 	
+[info] knee_tz_r 	 -0.000330635 	
+[info] pf_flex_r 	 0.133714 	
+[info] pf_rot_r 	 -0.00574778 	
+[info] pf_tilt_r 	 -0.0787941 	
+[info] pf_tx_r 	 0.0528688 	
+[info] pf_ty_r 	 0.00816859 	
+[info] pf_tz_r 	 0.00463497 	
+[info] Time: 1.66
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428330 	
+[info] knee_rot_r 	 0.00924893 	
+[info] knee_tx_r 	 0.00182098 	
+[info] knee_ty_r 	 0.000293270 	
+[info] knee_tz_r 	 -0.000330878 	
+[info] pf_flex_r 	 0.133822 	
+[info] pf_rot_r 	 -0.00574057 	
+[info] pf_tilt_r 	 -0.0787479 	
+[info] pf_tx_r 	 0.0528791 	
+[info] pf_ty_r 	 0.00816048 	
+[info] pf_tz_r 	 0.00463344 	
+[info] Time: 1.67
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426775 	
+[info] knee_rot_r 	 0.00922933 	
+[info] knee_tx_r 	 0.00181830 	
+[info] knee_ty_r 	 0.000283472 	
+[info] knee_tz_r 	 -0.000326018 	
+[info] pf_flex_r 	 0.134069 	
+[info] pf_rot_r 	 -0.00573525 	
+[info] pf_tilt_r 	 -0.0787673 	
+[info] pf_tx_r 	 0.0531047 	
+[info] pf_ty_r 	 0.00824955 	
+[info] pf_tz_r 	 0.00457648 	
+[info] Time: 1.68
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427913 	
+[info] knee_rot_r 	 0.00924810 	
+[info] knee_tx_r 	 0.00182131 	
+[info] knee_ty_r 	 0.000284294 	
+[info] knee_tz_r 	 -0.000328437 	
+[info] pf_flex_r 	 0.134469 	
+[info] pf_rot_r 	 -0.00572890 	
+[info] pf_tilt_r 	 -0.0788227 	
+[info] pf_tx_r 	 0.0530812 	
+[info] pf_ty_r 	 0.00821213 	
+[info] pf_tz_r 	 0.00459815 	
+[info] Time: 1.69
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00429503 	
+[info] knee_rot_r 	 0.00926317 	
+[info] knee_tx_r 	 0.00182434 	
+[info] knee_ty_r 	 0.000298153 	
+[info] knee_tz_r 	 -0.000332862 	
+[info] pf_flex_r 	 0.134645 	
+[info] pf_rot_r 	 -0.00571584 	
+[info] pf_tilt_r 	 -0.0787796 	
+[info] pf_tx_r 	 0.0528018 	
+[info] pf_ty_r 	 0.00812401 	
+[info] pf_tz_r 	 0.00468183 	
+[info] Time: 1.7
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428130 	
+[info] knee_rot_r 	 0.00923831 	
+[info] knee_tx_r 	 0.00182316 	
+[info] knee_ty_r 	 0.000293171 	
+[info] knee_tz_r 	 -0.000329357 	
+[info] pf_flex_r 	 0.134709 	
+[info] pf_rot_r 	 -0.00571801 	
+[info] pf_tilt_r 	 -0.0786477 	
+[info] pf_tx_r 	 0.0529038 	
+[info] pf_ty_r 	 0.00815985 	
+[info] pf_tz_r 	 0.00464144 	
+[info] Time: 1.71
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426636 	
+[info] knee_rot_r 	 0.00922055 	
+[info] knee_tx_r 	 0.00181997 	
+[info] knee_ty_r 	 0.000278980 	
+[info] knee_tz_r 	 -0.000325181 	
+[info] pf_flex_r 	 0.134984 	
+[info] pf_rot_r 	 -0.00570888 	
+[info] pf_tilt_r 	 -0.0786504 	
+[info] pf_tx_r 	 0.0531452 	
+[info] pf_ty_r 	 0.00824739 	
+[info] pf_tz_r 	 0.00457151 	
+[info] Time: 1.72
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427827 	
+[info] knee_rot_r 	 0.00924449 	
+[info] knee_tx_r 	 0.00182028 	
+[info] knee_ty_r 	 0.000284128 	
+[info] knee_tz_r 	 -0.000328247 	
+[info] pf_flex_r 	 0.135386 	
+[info] pf_rot_r 	 -0.00568999 	
+[info] pf_tilt_r 	 -0.0787183 	
+[info] pf_tx_r 	 0.0530262 	
+[info] pf_ty_r 	 0.00821600 	
+[info] pf_tz_r 	 0.00461486 	
+[info] Time: 1.73
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00429390 	
+[info] knee_rot_r 	 0.00925877 	
+[info] knee_tx_r 	 0.00182333 	
+[info] knee_ty_r 	 0.000295894 	
+[info] knee_tz_r 	 -0.000333054 	
+[info] pf_flex_r 	 0.135558 	
+[info] pf_rot_r 	 -0.00566746 	
+[info] pf_tilt_r 	 -0.0786918 	
+[info] pf_tx_r 	 0.0527978 	
+[info] pf_ty_r 	 0.00812355 	
+[info] pf_tz_r 	 0.00467404 	
+[info] Time: 1.74
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427524 	
+[info] knee_rot_r 	 0.00922905 	
+[info] knee_tx_r 	 0.00182067 	
+[info] knee_ty_r 	 0.000290271 	
+[info] knee_tz_r 	 -0.000328187 	
+[info] pf_flex_r 	 0.135601 	
+[info] pf_rot_r 	 -0.00566063 	
+[info] pf_tilt_r 	 -0.078576 	
+[info] pf_tx_r 	 0.0529459 	
+[info] pf_ty_r 	 0.00819080 	
+[info] pf_tz_r 	 0.00462735 	
+[info] Time: 1.75
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426945 	
+[info] knee_rot_r 	 0.00922231 	
+[info] knee_tx_r 	 0.00181795 	
+[info] knee_ty_r 	 0.000281601 	
+[info] knee_tz_r 	 -0.000326415 	
+[info] pf_flex_r 	 0.135923 	
+[info] pf_rot_r 	 -0.00562815 	
+[info] pf_tilt_r 	 -0.0786617 	
+[info] pf_tx_r 	 0.0531271 	
+[info] pf_ty_r 	 0.00825718 	
+[info] pf_tz_r 	 0.00456972 	
+[info] Time: 1.76
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428597 	
+[info] knee_rot_r 	 0.00924593 	
+[info] knee_tx_r 	 0.00181962 	
+[info] knee_ty_r 	 0.000291759 	
+[info] knee_tz_r 	 -0.000330706 	
+[info] pf_flex_r 	 0.136255 	
+[info] pf_rot_r 	 -0.00560095 	
+[info] pf_tilt_r 	 -0.0787461 	
+[info] pf_tx_r 	 0.052963 	
+[info] pf_ty_r 	 0.00819345 	
+[info] pf_tz_r 	 0.00461979 	
+[info] Time: 1.77
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00429406 	
+[info] knee_rot_r 	 0.00924897 	
+[info] knee_tx_r 	 0.00182252 	
+[info] knee_ty_r 	 0.000301405 	
+[info] knee_tz_r 	 -0.000333041 	
+[info] pf_flex_r 	 0.136344 	
+[info] pf_rot_r 	 -0.00558856 	
+[info] pf_tilt_r 	 -0.0786617 	
+[info] pf_tx_r 	 0.0527967 	
+[info] pf_ty_r 	 0.00812407 	
+[info] pf_tz_r 	 0.00467810 	
+[info] Time: 1.78
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427374 	
+[info] knee_rot_r 	 0.00921787 	
+[info] knee_tx_r 	 0.00182195 	
+[info] knee_ty_r 	 0.000288551 	
+[info] knee_tz_r 	 -0.000327074 	
+[info] pf_flex_r 	 0.136403 	
+[info] pf_rot_r 	 -0.00558383 	
+[info] pf_tilt_r 	 -0.0785201 	
+[info] pf_tx_r 	 0.0530140 	
+[info] pf_ty_r 	 0.00819310 	
+[info] pf_tz_r 	 0.00462353 	
+[info] Time: 1.79
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00426885 	
+[info] knee_rot_r 	 0.00921476 	
+[info] knee_tx_r 	 0.00181942 	
+[info] knee_ty_r 	 0.000277068 	
+[info] knee_tz_r 	 -0.000325038 	
+[info] pf_flex_r 	 0.136758 	
+[info] pf_rot_r 	 -0.00555553 	
+[info] pf_tilt_r 	 -0.0785625 	
+[info] pf_tx_r 	 0.0531892 	
+[info] pf_ty_r 	 0.00827274 	
+[info] pf_tz_r 	 0.00456649 	
+[info] Time: 1.8
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00429162 	
+[info] knee_rot_r 	 0.00924896 	
+[info] knee_tx_r 	 0.00182305 	
+[info] knee_ty_r 	 0.000290051 	
+[info] knee_tz_r 	 -0.000331001 	
+[info] pf_flex_r 	 0.137112 	
+[info] pf_rot_r 	 -0.00554294 	
+[info] pf_tilt_r 	 -0.0785698 	
+[info] pf_tx_r 	 0.0530222 	
+[info] pf_ty_r 	 0.00817969 	
+[info] pf_tz_r 	 0.00461606 	
+[info] Time: 1.81
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00429607 	
+[info] knee_rot_r 	 0.00924840 	
+[info] knee_tx_r 	 0.00182227 	
+[info] knee_ty_r 	 0.000303551 	
+[info] knee_tz_r 	 -0.000332767 	
+[info] pf_flex_r 	 0.137155 	
+[info] pf_rot_r 	 -0.00551915 	
+[info] pf_tilt_r 	 -0.0784692 	
+[info] pf_tx_r 	 0.0527905 	
+[info] pf_ty_r 	 0.00814105 	
+[info] pf_tz_r 	 0.00468940 	
+[info] Time: 1.82
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427616 	
+[info] knee_rot_r 	 0.00921648 	
+[info] knee_tx_r 	 0.00182031 	
+[info] knee_ty_r 	 0.000288201 	
+[info] knee_tz_r 	 -0.000327555 	
+[info] pf_flex_r 	 0.137233 	
+[info] pf_rot_r 	 -0.00549261 	
+[info] pf_tilt_r 	 -0.0784055 	
+[info] pf_tx_r 	 0.0530178 	
+[info] pf_ty_r 	 0.00820347 	
+[info] pf_tz_r 	 0.00460790 	
+[info] Time: 1.83
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00427686 	
+[info] knee_rot_r 	 0.00921859 	
+[info] knee_tx_r 	 0.00181625 	
+[info] knee_ty_r 	 0.000281643 	
+[info] knee_tz_r 	 -0.000327689 	
+[info] pf_flex_r 	 0.137574 	
+[info] pf_rot_r 	 -0.00545415 	
+[info] pf_tilt_r 	 -0.0784972 	
+[info] pf_tx_r 	 0.053137 	
+[info] pf_ty_r 	 0.00826955 	
+[info] pf_tz_r 	 0.00456542 	
+[info] Time: 1.84
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00429073 	
+[info] knee_rot_r 	 0.00923940 	
+[info] knee_tx_r 	 0.00181895 	
+[info] knee_ty_r 	 0.000294420 	
+[info] knee_tz_r 	 -0.000331383 	
+[info] pf_flex_r 	 0.137824 	
+[info] pf_rot_r 	 -0.00542077 	
+[info] pf_tilt_r 	 -0.0785696 	
+[info] pf_tx_r 	 0.05289 	
+[info] pf_ty_r 	 0.00817896 	
+[info] pf_tz_r 	 0.00464438 	
+[info] Time: 1.85
+[info] 		 VALUE 		DELTA
+[info] knee_add_r 	 -0.00428856 	
+[info] knee_rot_r 	 0.00922373 	
+[info] knee_tx_r 	 0.00181897 	
+[info] knee_ty_r 	 0.000294032 	
+[info] knee_tz_r 	 -0.000331079 	
+[info] pf_flex_r 	 0.137839 	
+[info] pf_rot_r 	 -0.00538648 	
+[info] pf_tilt_r 	 -0.0785039 	
+[info] pf_tx_r 	 0.0528914 	
+[info] pf_ty_r 	 0.00818242 	
+[info] pf_tz_r 	 0.00464205 	
+[info] Finished Settling Simulation in 1.85 s.
+[info] Starting Sweep Simulation.
+[info] 0.0
+[info] 0.01
+[info] 0.02
+[info] 0.03
+[info] 0.04
+[info] 0.05
+[info] 0.06
+[info] 0.07
+[info] 0.08
+[info] 0.09
+[info] 0.1
+[info] 0.11
+[info] 0.12
+[info] 0.13
+[info] 0.14
+[info] 0.15
+[info] 0.16
+[info] 0.17
+[info] 0.18
+[info] 0.19
+[info] 0.2
+[info] 0.21
+[info] 0.22
+[info] 0.23
+[info] 0.24
+[info] 0.25
+[info] 0.26
+[info] 0.27
+[info] 0.28
+[info] 0.29
+[info] 0.3
+[info] 0.31
+[info] 0.32
+[info] 0.33
+[info] 0.34
+[info] 0.35
+[info] 0.36
+[info] 0.37
+[info] 0.38
+[info] 0.39
+[info] 0.4
+[info] 0.41
+[info] 0.42
+[info] 0.43
+[info] 0.44
+[info] 0.45
+[info] 0.46
+[info] 0.47
+[info] 0.48
+[info] 0.49
+[info] 0.5
+[info] 0.51
+[info] 0.52
+[info] 0.53
+[info] 0.54
+[info] 0.55
+[info] 0.56
+[info] 0.57
+[info] 0.58
+[info] 0.59
+[info] 0.6
+[info] 0.61
+[info] 0.62
+[info] 0.63
+[info] 0.64
+[info] 0.65
+[info] 0.66
+[info] 0.67
+[info] 0.68
+[info] 0.69
+[info] 0.7
+[info] 0.71
+[info] 0.72
+[info] 0.73
+[info] 0.74
+[info] 0.75
+[info] 0.76
+[info] 0.77
+[info] 0.78
+[info] 0.79
+[info] 0.8
+[info] 0.81
+[info] 0.82
+[info] 0.83
+[info] 0.84
+[info] 0.85
+[info] 0.86
+[info] 0.87
+[info] 0.88
+[info] 0.89
+[info] 0.9
+[info] 0.91
+[info] 0.92
+[info] 0.93
+[info] 0.94
+[info] 0.95
+[info] 0.96
+[info] 0.97
+[info] 0.98
+[info] 0.99
+[info] 1.0
+[info] 1.01
+[info] 1.02
+[info] 1.03
+[info] 1.04
+[info] 1.05
+[info] 1.06
+[info] 1.07
+[info] 1.08
+[info] 1.09
+[info] 1.1
+[info] 1.11
+[info] 1.12
+[info] 1.13
+[info] 1.14
+[info] 1.15
+[info] 1.16
+[info] 1.17
+[info] 1.18
+[info] 1.19
+[info] 1.2
+[info] 1.21
+[info] 1.22
+[info] 1.23
+[info] 1.24
+[info] 1.25
+[info] 1.26
+[info] 1.27
+[info] 1.28
+[info] 1.29
+[info] 1.3
+[info] 1.31
+[info] 1.32
+[info] 1.33
+[info] 1.34
+[info] 1.35
+[info] 1.36
+[info] 1.37
+[info] 1.38
+[info] 1.39
+[info] 1.4
+[info] 1.41
+[info] 1.42
+[info] 1.43
+[info] 1.44
+[info] 1.45
+[info] 1.46
+[info] 1.47
+[info] 1.48
+[info] 1.49
+[info] 1.5
+[info] 1.51
+[info] 1.52
+[info] 1.53
+[info] 1.54
+[info] 1.55
+[info] 1.56
+[info] 1.57
+[info] 1.58
+[info] 1.59
+[info] 1.6
+[info] 1.61
+[info] 1.62
+[info] 1.63
+[info] 1.64
+[info] 1.65
+[info] 1.66
+[info] 1.67
+[info] 1.68
+[info] 1.69
+[info] 1.7
+[info] 1.71
+[info] 1.72
+[info] 1.73
+[info] 1.74
+[info] 1.75
+[info] 1.76
+[info] 1.77
+[info] 1.78
+[info] 1.79
+[info] 1.8
+[info] 1.81
+[info] 1.82
+[info] 1.83
+[info] 1.84
+[info] 1.85
+[info] 1.86
+[info] 1.87
+[info] 1.88
+[info] 1.89
+[info] 1.9
+[info] 1.91
+[info] 1.92
+[info] 1.93
+[info] 1.94
+[info] 1.95
+[info] 1.96
+[info] 1.97
+[info] 1.98
+[info] 1.99
+[info] 2.0
+[info] 2.01
+[info] 2.02
+[info] 2.03
+[info] 2.04
+[info] 2.05
+[info] 2.06
+[info] 2.07
+[info] 2.08
+[info] 2.09
+[info] 2.1
+[info] 2.11
+[info] 2.12
+[info] 2.13
+[info] 2.14
+[info] 2.15
+[info] 2.16
+[info] 2.17
+[info] 2.18
+[info] 2.19
+[info] 2.2
+[info] 2.21
+[info] 2.22
+[info] 2.23
+[info] 2.24
+[info] 2.25
+[info] 2.26
+[info] 2.27
+[info] 2.28
+[info] 2.29
+[info] 2.3
+[info] 2.31
+[info] 2.32
+[info] 2.33
+[info] 2.34
+[info] 2.35
+[info] 2.36
+[info] 2.37
+[info] 2.38
+[info] 2.39
+[info] 2.4
+[info] 2.41
+[info] 2.42
+[info] 2.43
+[info] 2.44
+[info] 2.45
+[info] 2.46
+[info] 2.47
+[info] 2.48
+[info] 2.49
+[info] 2.5
+[info] 2.51
+[info] 2.52
+[info] 2.53
+[info] 2.54
+[info] 2.55
+[info] 2.56
+[info] 2.57
+[info] 2.58
+[info] 2.59
+[info] 2.6
+[info] 2.61
+[info] 2.62
+[info] 2.63
+[info] 2.64
+[info] 2.65
+[info] 2.66
+[info] 2.67
+[info] 2.68
+[info] 2.69
+[info] 2.7
+[info] 2.71
+[info] 2.72
+[info] 2.73
+[info] 2.74
+[info] 2.75
+[info] 2.76
+[info] 2.77
+[info] 2.78
+[info] 2.79
+[info] 2.8
+[info] 2.81
+[info] 2.82
+[info] 2.83
+[info] 2.84
+[info] 2.85
+[info] 2.86
+[info] 2.87
+[info] 2.88
+[info] 2.89
+[info] 2.9
+[info] 2.91
+[info] 2.92
+[info] 2.93
+[info] 2.94
+[info] 2.95
+[info] 2.96
+[info] 2.97
+[info] 2.98
+[info] 2.99
+[info] 3.0
+[info] Printing secondary constraint simulation results: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\comak_inverse_kinematics
+[debug] UNASSEMBLED CONFIGURATION (normerr=0.0, maxerr=0.0, cost=0.0)
+[debug] Model numQs: 52 Assembler num freeQs: 52
+[debug] ASSEMBLED CONFIGURATION (acc=1.0e-09 tol=1.0e-10 normerr=0.0, maxerr=0.0, cost=0.0)
+[debug] # initializations=1
+[debug] # assembly steps: 1
+[debug]  evals: goal=3 grad=0 error=3 jac=0
+
+               MODEL: lenhart2015-scaled
+         coordinates: 52
+              forces: 134
+           actuators: 44
+             muscles: 44
+            analyses: 0
+              probes: 0
+              bodies: 25
+              joints: 25
+         constraints: 11
+             markers: 22
+         controllers: 0
+  contact geometries: 3
+misc modelcomponents: 0
+[info] Running Inverse Kinematics
+
+[debug] UNASSEMBLED CONFIGURATION (normerr=0.0, maxerr=0.0, cost=0.0)
+[debug] Model numQs: 52 Assembler num freeQs: 52
+[debug] ASSEMBLED CONFIGURATION (acc=1.0e-09 tol=1.0e-10 normerr=0.0, maxerr=0.0, cost=0.0)
+[debug] # initializations=1
+[debug] # assembly steps: 1
+[debug]  evals: goal=3 grad=0 error=3 jac=0
+[debug] UNASSEMBLED CONFIGURATION (normerr=0.0, maxerr=0.0, cost=0.229883)
+[debug] Model numQs: 52 Assembler num freeQs: 52
+[debug] ASSEMBLED CONFIGURATION (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.17073e-05, cost=2.48926e-05)
+[debug] # initializations=1
+[debug] # assembly steps: 1
+[debug]  evals: goal=98 grad=94 error=0 jac=0
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.17073e-05, cost=2.48926e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.848 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.25094e-05, cost=2.48924e-05)
+Frame 338 (t=4.848):	total squared error = 0.00386399, marker error: RMS=0.0146515, max=0.0393211 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.25094e-05, cost=3.10814e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.852 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.08778e-05, cost=2.38206e-05)
+Frame 339 (t=4.852):	total squared error = 0.00378355, marker error: RMS=0.0144982, max=0.0402193 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.08778e-05, cost=2.99414e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.856 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.11944e-05, cost=2.30155e-05)
+Frame 340 (t=4.856):	total squared error = 0.00372162, marker error: RMS=0.014379, max=0.0413705 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.11944e-05, cost=2.88804e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.86 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=8.92675e-06, cost=2.24033e-05)
+Frame 341 (t=4.86):	total squared error = 0.00366346, marker error: RMS=0.0142662, max=0.0427115 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=8.92675e-06, cost=3.04563e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.864 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.13040e-06, cost=2.029e-05)
+Frame 342 (t=4.864):	total squared error = 0.00340379, marker error: RMS=0.0137513, max=0.0371175 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.13040e-06, cost=2.8867e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.868 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.03608e-05, cost=2.16072e-05)
+Frame 343 (t=4.868):	total squared error = 0.00341157, marker error: RMS=0.013767, max=0.0392992 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.03608e-05, cost=3.21082e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.872 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=8.08376e-06, cost=2.4785e-05)
+Frame 344 (t=4.872):	total squared error = 0.0034953, marker error: RMS=0.013935, max=0.0412539 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=8.08376e-06, cost=3.47159e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.876 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.0392e-06, cost=2.80011e-05)
+Frame 345 (t=4.876):	total squared error = 0.00356134, marker error: RMS=0.014066, max=0.0427726 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.0392e-06, cost=3.80333e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.88 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.00724e-06, cost=1.78807e-05)
+Frame 346 (t=4.88):	total squared error = 0.00274676, marker error: RMS=0.0123531, max=0.0342069 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.00724e-06, cost=2.39819e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.884 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.64479e-06, cost=1.76293e-05)
+Frame 347 (t=4.884):	total squared error = 0.0026527, marker error: RMS=0.0121397, max=0.0322317 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.64479e-06, cost=2.52485e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.888 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.51234e-06, cost=1.65989e-05)
+Frame 348 (t=4.888):	total squared error = 0.00235435, marker error: RMS=0.0114367, max=0.0315517 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.51234e-06, cost=2.4626e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.892 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.90372e-06, cost=1.80930e-05)
+Frame 349 (t=4.892):	total squared error = 0.00228677, marker error: RMS=0.0112713, max=0.0299862 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.90372e-06, cost=2.79527e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.896 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.73327e-06, cost=1.61613e-05)
+Frame 350 (t=4.896):	total squared error = 0.00223433, marker error: RMS=0.0111413, max=0.0336433 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.73327e-06, cost=2.41797e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.9 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.20850e-06, cost=1.76589e-05)
+Frame 351 (t=4.9):	total squared error = 0.00222002, marker error: RMS=0.0111056, max=0.0323953 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.20850e-06, cost=2.85761e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.90400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.13712e-06, cost=2.15246e-05)
+Frame 352 (t=4.904):	total squared error = 0.0023052, marker error: RMS=0.0113167, max=0.0311199 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.13712e-06, cost=3.45453e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.90800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.93222e-06, cost=1.74801e-05)
+Frame 353 (t=4.908):	total squared error = 0.00218249, marker error: RMS=0.0110113, max=0.0343242 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.93222e-06, cost=2.70490e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.912 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.9911e-06, cost=1.95933e-05)
+Frame 354 (t=4.912):	total squared error = 0.00217893, marker error: RMS=0.0110023, max=0.033007 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.9911e-06, cost=3.11806e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.916 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.49751e-06, cost=2.34918e-05)
+Frame 355 (t=4.916):	total squared error = 0.00225702, marker error: RMS=0.0111978, max=0.0318626 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.49751e-06, cost=3.72203e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.92 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.94453e-06, cost=1.84367e-05)
+Frame 356 (t=4.92):	total squared error = 0.00216471, marker error: RMS=0.0109664, max=0.0347836 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.94453e-06, cost=2.86556e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.924 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.88845e-06, cost=2.04829e-05)
+Frame 357 (t=4.924):	total squared error = 0.00211708, marker error: RMS=0.0108451, max=0.033272 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.88845e-06, cost=3.37778e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.928 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.72298e-06, cost=2.52627e-05)
+Frame 358 (t=4.928):	total squared error = 0.00218189, marker error: RMS=0.0110098, max=0.0318459 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.72298e-06, cost=4.06422e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.932 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.17865e-06, cost=2.05957e-05)
+Frame 359 (t=4.932):	total squared error = 0.00206293, marker error: RMS=0.0107055, max=0.0326102 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.17865e-06, cost=3.18969e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.936 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.03073e-06, cost=1.42927e-05)
+Frame 360 (t=4.936):	total squared error = 0.00143043, marker error: RMS=0.00891451, max=0.0225176 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.03073e-06, cost=2.45479e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.94 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.89025e-06, cost=1.60003e-05)
+Frame 361 (t=4.94):	total squared error = 0.00146742, marker error: RMS=0.00902903, max=0.0238795 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.89025e-06, cost=2.93683e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.944 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.10742e-06, cost=2.04821e-05)
+Frame 362 (t=4.944):	total squared error = 0.00160446, marker error: RMS=0.00944122, max=0.0252213 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.10742e-06, cost=3.62123e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.948 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.07472e-06, cost=1.73348e-05)
+Frame 363 (t=4.948):	total squared error = 0.00145098, marker error: RMS=0.00897831, max=0.0250298 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.07472e-06, cost=3.05382e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.952 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.29512e-06, cost=2.10661e-05)
+Frame 364 (t=4.952):	total squared error = 0.0014656, marker error: RMS=0.00902343, max=0.0235595 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.29512e-06, cost=3.72358e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.956 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.41198e-06, cost=2.28663e-05)
+Frame 365 (t=4.956):	total squared error = 0.00145822, marker error: RMS=0.00900067, max=0.022838 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.41198e-06, cost=3.96913e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.96 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.55376e-06, cost=2.94936e-05)
+Frame 366 (t=4.96):	total squared error = 0.00155049, marker error: RMS=0.00928107, max=0.0212824 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.55376e-06, cost=5.12266e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.964 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.05157e-06, cost=2.20932e-05)
+Frame 367 (t=4.964):	total squared error = 0.00151226, marker error: RMS=0.00916593, max=0.0231537 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.05157e-06, cost=3.66845e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.968 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.51844e-06, cost=2.65223e-05)
+Frame 368 (t=4.968):	total squared error = 0.0015512, marker error: RMS=0.00928319, max=0.0217514 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.51844e-06, cost=4.70529e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.972 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.95056e-06, cost=3.00510e-05)
+Frame 369 (t=4.972):	total squared error = 0.00160308, marker error: RMS=0.00943716, max=0.0216547 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.95056e-06, cost=5.02636e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.976 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.88668e-06, cost=2.96435e-05)
+Frame 370 (t=4.976):	total squared error = 0.0018334, marker error: RMS=0.0100924, max=0.0225313 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.88668e-06, cost=4.64083e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.98 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.75244e-06, cost=3.51033e-05)
+Frame 371 (t=4.98):	total squared error = 0.00179259, marker error: RMS=0.00997939, max=0.0202435 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.75244e-06, cost=5.64603e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.984 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.14087e-06, cost=3.07478e-05)
+Frame 372 (t=4.984):	total squared error = 0.00177925, marker error: RMS=0.0099422, max=0.0216216 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.14087e-06, cost=4.57209e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.988 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.21112e-06, cost=3.37886e-05)
+Frame 373 (t=4.988):	total squared error = 0.00177261, marker error: RMS=0.00992362, max=0.0202628 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.21112e-06, cost=5.26027e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.992 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.45302e-06, cost=3.63924e-05)
+Frame 374 (t=4.992):	total squared error = 0.00184124, marker error: RMS=0.0101139, max=0.0200148 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.45302e-06, cost=5.49196e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 4.996 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.27357e-06, cost=4.26533e-05)
+Frame 375 (t=4.996):	total squared error = 0.00193833, marker error: RMS=0.0103771, max=0.0192081 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.27357e-06, cost=6.58369e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.0 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.74073e-06, cost=3.72782e-05)
+Frame 376 (t=5):	total squared error = 0.00206831, marker error: RMS=0.0107194, max=0.0213397 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.74073e-06, cost=5.43876e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.00400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.85661e-06, cost=3.84176e-05)
+Frame 377 (t=5.004):	total squared error = 0.0020037, marker error: RMS=0.0105507, max=0.0207793 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.85661e-06, cost=5.76887e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.00800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.19295e-06, cost=3.87545e-05)
+Frame 378 (t=5.008):	total squared error = 0.00215107, marker error: RMS=0.0109318, max=0.021345 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.19295e-06, cost=5.65563e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.012 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.53257e-06, cost=3.56233e-05)
+Frame 379 (t=5.012):	total squared error = 0.00214936, marker error: RMS=0.0109274, max=0.024715 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.53257e-06, cost=5.31546e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.016 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.14182e-06, cost=3.88953e-05)
+Frame 380 (t=5.016):	total squared error = 0.00217673, marker error: RMS=0.0109968, max=0.0237445 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.14182e-06, cost=6.16608e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.02 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.81080e-06, cost=4.20422e-05)
+Frame 381 (t=5.02):	total squared error = 0.00212858, marker error: RMS=0.0108745, max=0.021992 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.81080e-06, cost=6.50481e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.024 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.58782e-06, cost=4.53987e-05)
+Frame 382 (t=5.024):	total squared error = 0.00224823, marker error: RMS=0.0111759, max=0.0196341 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.58782e-06, cost=6.64007e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.028 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.34267e-06, cost=5.16026e-05)
+Frame 383 (t=5.028):	total squared error = 0.00232866, marker error: RMS=0.0113741, max=0.0189483 (l.bar1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.34267e-06, cost=7.56173e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.032 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.09447e-06, cost=6.06453e-05)
+Frame 384 (t=5.032):	total squared error = 0.0025183, marker error: RMS=0.0118282, max=0.0198631 (l.bar1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.09447e-06, cost=8.94149e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.036 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.27371e-06, cost=4.99205e-05)
+Frame 385 (t=5.036):	total squared error = 0.00275716, marker error: RMS=0.0123764, max=0.0275692 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.27371e-06, cost=7.40341e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.04 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.50983e-06, cost=5.60446e-05)
+Frame 386 (t=5.04):	total squared error = 0.00285503, marker error: RMS=0.0125942, max=0.0265315 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.50983e-06, cost=8.36046e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.044 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.40842e-06, cost=5.93368e-05)
+Frame 387 (t=5.044):	total squared error = 0.00267777, marker error: RMS=0.0121969, max=0.0219426 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.40842e-06, cost=8.09219e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.048 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.13296e-06, cost=6.38363e-05)
+Frame 388 (t=5.048):	total squared error = 0.00274034, marker error: RMS=0.0123386, max=0.0209023 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.13296e-06, cost=8.95363e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.052 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.38645e-06, cost=7.13783e-05)
+Frame 389 (t=5.052):	total squared error = 0.00289948, marker error: RMS=0.0126918, max=0.0200192 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.38645e-06, cost=0.000100623)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.056 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.01464e-06, cost=6.9879e-05)
+Frame 390 (t=5.056):	total squared error = 0.0030325, marker error: RMS=0.0129797, max=0.0213011 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.01464e-06, cost=9.6946e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.06 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.77087e-06, cost=7.62277e-05)
+Frame 391 (t=5.06):	total squared error = 0.00315194, marker error: RMS=0.0132328, max=0.0203085 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.77087e-06, cost=0.000103280)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.064 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.36739e-06, cost=7.43379e-05)
+Frame 392 (t=5.064):	total squared error = 0.00324847, marker error: RMS=0.0134339, max=0.0237676 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.36739e-06, cost=9.67644e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.068 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.37767e-06, cost=7.66502e-05)
+Frame 393 (t=5.068):	total squared error = 0.00323497, marker error: RMS=0.013406, max=0.0224876 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.37767e-06, cost=0.000100841)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.072 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.05822e-06, cost=8.05625e-05)
+Frame 394 (t=5.072):	total squared error = 0.00329904, marker error: RMS=0.0135381, max=0.021396 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.05822e-06, cost=0.000106401)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.076 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.97053e-06, cost=8.54728e-05)
+Frame 395 (t=5.076):	total squared error = 0.00340722, marker error: RMS=0.0137583, max=0.0216892 (l.bar1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.97053e-06, cost=0.000113472)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.08 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.63968e-06, cost=6.78738e-05)
+Frame 396 (t=5.08):	total squared error = 0.00344896, marker error: RMS=0.0138423, max=0.028425 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.63968e-06, cost=9.20117e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.084 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.78433e-06, cost=6.90368e-05)
+Frame 397 (t=5.084):	total squared error = 0.00339844, marker error: RMS=0.0137405, max=0.0276636 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.78433e-06, cost=9.28985e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.088 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.49666e-06, cost=7.03538e-05)
+Frame 398 (t=5.088):	total squared error = 0.00332847, marker error: RMS=0.0135983, max=0.0267292 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.49666e-06, cost=9.30446e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.092 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.59781e-06, cost=6.67018e-05)
+Frame 399 (t=5.092):	total squared error = 0.00290285, marker error: RMS=0.0126992, max=0.0225297 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.59781e-06, cost=8.76368e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.096 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.55675e-06, cost=6.55289e-05)
+Frame 400 (t=5.096):	total squared error = 0.00283644, marker error: RMS=0.0125531, max=0.0217872 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.55675e-06, cost=8.89813e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.1 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.86158e-06, cost=6.53231e-05)
+Frame 401 (t=5.1):	total squared error = 0.00281118, marker error: RMS=0.0124971, max=0.0210948 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.86158e-06, cost=8.98947e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.10400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.14417e-06, cost=6.57336e-05)
+Frame 402 (t=5.104):	total squared error = 0.00281019, marker error: RMS=0.0124949, max=0.0206634 (l.bar2)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.14417e-06, cost=9.33132e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.10800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.23365e-06, cost=6.29533e-05)
+Frame 403 (t=5.108):	total squared error = 0.00278073, marker error: RMS=0.0124292, max=0.0234277 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.23365e-06, cost=8.7318e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.112 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.86608e-06, cost=6.07264e-05)
+Frame 404 (t=5.112):	total squared error = 0.00267654, marker error: RMS=0.0121941, max=0.0221104 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.86608e-06, cost=8.1765e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.116 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.43041e-06, cost=5.90718e-05)
+Frame 405 (t=5.116):	total squared error = 0.00264085, marker error: RMS=0.0121125, max=0.0212431 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.43041e-06, cost=8.29886e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.12 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.78022e-06, cost=5.82961e-05)
+Frame 406 (t=5.12):	total squared error = 0.0026306, marker error: RMS=0.012089, max=0.0208058 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.78022e-06, cost=8.36705e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.124 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.03244e-06, cost=5.57066e-05)
+Frame 407 (t=5.124):	total squared error = 0.00262193, marker error: RMS=0.0120691, max=0.0220113 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.03244e-06, cost=8.16084e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.128 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.1589e-06, cost=5.49144e-05)
+Frame 408 (t=5.128):	total squared error = 0.00263095, marker error: RMS=0.0120898, max=0.0217133 (l.knee1)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.1589e-06, cost=8.1171e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.132 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.45493e-06, cost=5.35752e-05)
+Frame 409 (t=5.132):	total squared error = 0.00262402, marker error: RMS=0.0120739, max=0.0223784 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.45493e-06, cost=8.07453e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.136 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.84252e-06, cost=5.34472e-05)
+Frame 410 (t=5.136):	total squared error = 0.00268087, marker error: RMS=0.012204, max=0.0237065 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.84252e-06, cost=8.2793e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.14 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.55539e-06, cost=5.40611e-05)
+Frame 411 (t=5.14):	total squared error = 0.00278898, marker error: RMS=0.0124476, max=0.0253502 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.55539e-06, cost=8.52295e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.144 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.91077e-06, cost=5.15090e-05)
+Frame 412 (t=5.144):	total squared error = 0.00251365, marker error: RMS=0.0118173, max=0.0211106 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.91077e-06, cost=7.92285e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.148 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.67708e-06, cost=5.09552e-05)
+Frame 413 (t=5.148):	total squared error = 0.00255455, marker error: RMS=0.011913, max=0.0226865 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.67708e-06, cost=7.87561e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.152 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.56861e-06, cost=5.04811e-05)
+Frame 414 (t=5.152):	total squared error = 0.00262402, marker error: RMS=0.0120739, max=0.0244737 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.56861e-06, cost=8.13952e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.156 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.41304e-06, cost=5.13145e-05)
+Frame 415 (t=5.156):	total squared error = 0.00274509, marker error: RMS=0.0123493, max=0.0263574 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.41304e-06, cost=8.29552e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.16 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.25969e-06, cost=4.65797e-05)
+Frame 416 (t=5.16):	total squared error = 0.00251402, marker error: RMS=0.0118181, max=0.0221172 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.25969e-06, cost=7.62928e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.164 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.17095e-06, cost=4.62981e-05)
+Frame 417 (t=5.164):	total squared error = 0.00258239, marker error: RMS=0.0119777, max=0.0239815 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.17095e-06, cost=7.85261e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.168 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.6623e-06, cost=4.75052e-05)
+Frame 418 (t=5.168):	total squared error = 0.00268203, marker error: RMS=0.0122066, max=0.0261055 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.6623e-06, cost=8.23337e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.172 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=6.04548e-06, cost=4.40756e-05)
+Frame 419 (t=5.172):	total squared error = 0.00250348, marker error: RMS=0.0117933, max=0.023362 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=6.04548e-06, cost=7.50156e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.176 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.15159e-06, cost=4.40121e-05)
+Frame 420 (t=5.176):	total squared error = 0.00259089, marker error: RMS=0.0119974, max=0.0253412 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.15159e-06, cost=7.88571e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.18 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.97036e-06, cost=4.06671e-05)
+Frame 421 (t=5.18):	total squared error = 0.00251527, marker error: RMS=0.0118211, max=0.0246658 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.97036e-06, cost=7.59721e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.184 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.93886e-06, cost=4.00452e-05)
+Frame 422 (t=5.184):	total squared error = 0.00252895, marker error: RMS=0.0118532, max=0.0258036 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.93886e-06, cost=7.46552e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.188 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.05618e-06, cost=3.80304e-05)
+Frame 423 (t=5.188):	total squared error = 0.00239507, marker error: RMS=0.0115351, max=0.0241847 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.05618e-06, cost=7.05749e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.192 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.70223e-06, cost=3.57835e-05)
+Frame 424 (t=5.192):	total squared error = 0.00240436, marker error: RMS=0.0115575, max=0.024674 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.70223e-06, cost=6.85693e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.196 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.65834e-06, cost=3.43719e-05)
+Frame 425 (t=5.196):	total squared error = 0.0022914, marker error: RMS=0.0112827, max=0.0252959 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.65834e-06, cost=6.7552e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.2 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.41484e-06, cost=3.24909e-05)
+Frame 426 (t=5.2):	total squared error = 0.00224085, marker error: RMS=0.0111576, max=0.0244183 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.41484e-06, cost=6.48593e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.20400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.76736e-06, cost=3.2736e-05)
+Frame 427 (t=5.204):	total squared error = 0.00233268, marker error: RMS=0.0113839, max=0.0259811 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.76736e-06, cost=6.86308e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.20800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.27852e-06, cost=3.07743e-05)
+Frame 428 (t=5.208):	total squared error = 0.00220552, marker error: RMS=0.0110693, max=0.0242123 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.27852e-06, cost=6.45247e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.212 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.37228e-06, cost=2.87865e-05)
+Frame 429 (t=5.212):	total squared error = 0.00221382, marker error: RMS=0.0110901, max=0.0249057 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.37228e-06, cost=6.21348e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.216 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.39572e-06, cost=2.95433e-05)
+Frame 430 (t=5.216):	total squared error = 0.00228096, marker error: RMS=0.011257, max=0.0263384 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.39572e-06, cost=6.62407e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.22 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.32017e-06, cost=2.62871e-05)
+Frame 431 (t=5.22):	total squared error = 0.00207558, marker error: RMS=0.0107383, max=0.0245619 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.32017e-06, cost=5.74050e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.224 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.64472e-06, cost=2.68538e-05)
+Frame 432 (t=5.224):	total squared error = 0.00216229, marker error: RMS=0.0109603, max=0.025905 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.64472e-06, cost=6.30130e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.228 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.8987e-06, cost=2.47279e-05)
+Frame 433 (t=5.228):	total squared error = 0.00205974, marker error: RMS=0.0106972, max=0.0251091 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.8987e-06, cost=5.76272e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.232 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.00913e-06, cost=2.25831e-05)
+Frame 434 (t=5.232):	total squared error = 0.0020263, marker error: RMS=0.01061, max=0.0253424 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.00913e-06, cost=5.44553e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.236 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.87331e-06, cost=2.4153e-05)
+Frame 435 (t=5.236):	total squared error = 0.00213568, marker error: RMS=0.0108926, max=0.0266875 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.87331e-06, cost=5.93371e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.24 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.95771e-06, cost=2.06988e-05)
+Frame 436 (t=5.24):	total squared error = 0.0019207, marker error: RMS=0.0103299, max=0.0258761 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.95771e-06, cost=5.14868e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.244 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.78010e-07, cost=2.03643e-05)
+Frame 437 (t=5.244):	total squared error = 0.0018584, marker error: RMS=0.0101609, max=0.0259816 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.78010e-07, cost=5.1911e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.248 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.77278e-06, cost=2.2996e-05)
+Frame 438 (t=5.248):	total squared error = 0.00205181, marker error: RMS=0.0106766, max=0.0278324 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.77278e-06, cost=5.80886e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.252 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.128e-06, cost=2.08698e-05)
+Frame 439 (t=5.252):	total squared error = 0.00199655, marker error: RMS=0.0105318, max=0.025434 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.128e-06, cost=5.15536e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.256 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.62131e-06, cost=2.39839e-05)
+Frame 440 (t=5.256):	total squared error = 0.00216012, marker error: RMS=0.0109548, max=0.0257826 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.62131e-06, cost=5.86866e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.26 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.66532e-06, cost=2.189e-05)
+Frame 441 (t=5.26):	total squared error = 0.00213461, marker error: RMS=0.0108899, max=0.0271069 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.66532e-06, cost=5.06855e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.264 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.77641e-06, cost=2.47213e-05)
+Frame 442 (t=5.264):	total squared error = 0.00224889, marker error: RMS=0.0111776, max=0.026372 (l.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.77641e-06, cost=5.62898e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.268 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.12922e-06, cost=2.03829e-05)
+Frame 443 (t=5.268):	total squared error = 0.00190185, marker error: RMS=0.010279, max=0.0290531 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.12922e-06, cost=4.74924e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.272 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.61175e-06, cost=2.20261e-05)
+Frame 444 (t=5.272):	total squared error = 0.00191896, marker error: RMS=0.0103252, max=0.0287762 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.61175e-06, cost=4.98919e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.276 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.44105e-06, cost=2.34037e-05)
+Frame 445 (t=5.276):	total squared error = 0.00196903, marker error: RMS=0.010459, max=0.0276617 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.44105e-06, cost=4.82866e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.28 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.98069e-06, cost=2.60667e-05)
+Frame 446 (t=5.28):	total squared error = 0.00210378, marker error: RMS=0.010811, max=0.0281973 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.98069e-06, cost=5.24526e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.284 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.00523e-06, cost=2.75006e-05)
+Frame 447 (t=5.284):	total squared error = 0.00210586, marker error: RMS=0.0108163, max=0.0267787 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.00523e-06, cost=5.16941e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.288 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.28868e-06, cost=3.10032e-05)
+Frame 448 (t=5.288):	total squared error = 0.00227269, marker error: RMS=0.0112366, max=0.0280804 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.28868e-06, cost=5.57443e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.292 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.63138e-06, cost=3.64054e-05)
+Frame 449 (t=5.292):	total squared error = 0.00249743, marker error: RMS=0.011779, max=0.0285848 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.63138e-06, cost=6.1479e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.296 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.68274e-06, cost=3.1943e-05)
+Frame 450 (t=5.296):	total squared error = 0.00232698, marker error: RMS=0.01137, max=0.0263596 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.68274e-06, cost=5.1482e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.3 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.24199e-06, cost=3.02921e-05)
+Frame 451 (t=5.3):	total squared error = 0.00231811, marker error: RMS=0.0113483, max=0.0321254 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.24199e-06, cost=5.04009e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.30400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.82536e-06, cost=3.08296e-05)
+Frame 452 (t=5.304):	total squared error = 0.00220671, marker error: RMS=0.0110723, max=0.0295364 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.82536e-06, cost=4.9115e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.30800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.18782e-06, cost=2.91245e-05)
+Frame 453 (t=5.308):	total squared error = 0.00221826, marker error: RMS=0.0111012, max=0.0290345 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.18782e-06, cost=4.48066e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.312 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.32536e-06, cost=3.05282e-05)
+Frame 454 (t=5.312):	total squared error = 0.00227268, marker error: RMS=0.0112365, max=0.0292132 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.32536e-06, cost=4.62263e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.316 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.5631e-06, cost=3.07833e-05)
+Frame 455 (t=5.316):	total squared error = 0.00219648, marker error: RMS=0.0110466, max=0.0288157 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.5631e-06, cost=4.56556e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.32 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.27571e-06, cost=3.31614e-05)
+Frame 456 (t=5.32):	total squared error = 0.00227079, marker error: RMS=0.0112319, max=0.0291454 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.27571e-06, cost=4.73691e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.324 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.01889e-05, cost=2.98318e-05)
+Frame 457 (t=5.324):	total squared error = 0.00221613, marker error: RMS=0.0110959, max=0.0296081 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.01889e-05, cost=4.19692e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.328 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.36785e-06, cost=3.0635e-05)
+Frame 458 (t=5.328):	total squared error = 0.00223376, marker error: RMS=0.0111399, max=0.0296434 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.36785e-06, cost=4.21172e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.332 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.02364e-06, cost=3.15009e-05)
+Frame 459 (t=5.332):	total squared error = 0.00223011, marker error: RMS=0.0111308, max=0.0292665 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.02364e-06, cost=4.26761e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.336 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.60148e-06, cost=3.28598e-05)
+Frame 460 (t=5.336):	total squared error = 0.0022687, marker error: RMS=0.0112267, max=0.0288194 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.60148e-06, cost=4.31019e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.34 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.56828e-06, cost=3.19977e-05)
+Frame 461 (t=5.34):	total squared error = 0.00218597, marker error: RMS=0.0110201, max=0.0293193 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.56828e-06, cost=4.10275e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.344 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.37743e-06, cost=3.27055e-05)
+Frame 462 (t=5.344):	total squared error = 0.00219409, marker error: RMS=0.0110405, max=0.0288334 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.37743e-06, cost=4.15226e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.348 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.02118e-06, cost=3.38051e-05)
+Frame 463 (t=5.348):	total squared error = 0.00225701, marker error: RMS=0.0111977, max=0.0288323 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.02118e-06, cost=4.25159e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.352 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.80756e-06, cost=3.49493e-05)
+Frame 464 (t=5.352):	total squared error = 0.00225884, marker error: RMS=0.0112023, max=0.02825 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.80756e-06, cost=4.26219e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.356 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.90760e-06, cost=3.53311e-05)
+Frame 465 (t=5.356):	total squared error = 0.00233062, marker error: RMS=0.0113789, max=0.0283005 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.90760e-06, cost=4.21281e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.36 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.00306e-06, cost=3.51619e-05)
+Frame 466 (t=5.36):	total squared error = 0.002346, marker error: RMS=0.0114164, max=0.0278802 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.00306e-06, cost=4.26687e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.364 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.97613e-06, cost=2.93050e-05)
+Frame 467 (t=5.364):	total squared error = 0.00225441, marker error: RMS=0.0111913, max=0.0316826 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.97613e-06, cost=3.67744e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.368 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.14376e-06, cost=3.01992e-05)
+Frame 468 (t=5.368):	total squared error = 0.00218901, marker error: RMS=0.0110278, max=0.0307747 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.14376e-06, cost=3.67008e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.372 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.55504e-06, cost=3.02653e-05)
+Frame 469 (t=5.372):	total squared error = 0.00209994, marker error: RMS=0.0108011, max=0.0296712 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.55504e-06, cost=3.70324e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.376 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.18408e-06, cost=3.04331e-05)
+Frame 470 (t=5.376):	total squared error = 0.002081, marker error: RMS=0.0107523, max=0.0289505 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.18408e-06, cost=3.65223e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.38 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.0656e-06, cost=3.01419e-05)
+Frame 471 (t=5.38):	total squared error = 0.00205603, marker error: RMS=0.0106876, max=0.0281558 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.0656e-06, cost=3.61852e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.384 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.65295e-06, cost=2.70834e-05)
+Frame 472 (t=5.384):	total squared error = 0.00199832, marker error: RMS=0.0105365, max=0.029055 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.65295e-06, cost=3.33864e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.388 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.71226e-06, cost=2.68715e-05)
+Frame 473 (t=5.388):	total squared error = 0.00199119, marker error: RMS=0.0105177, max=0.0282525 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.71226e-06, cost=3.47594e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.392 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.44358e-06, cost=2.77866e-05)
+Frame 474 (t=5.392):	total squared error = 0.00200612, marker error: RMS=0.010557, max=0.0271201 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.44358e-06, cost=3.71362e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.396 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.3493e-06, cost=2.96737e-05)
+Frame 475 (t=5.396):	total squared error = 0.00213249, marker error: RMS=0.0108845, max=0.0267536 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.3493e-06, cost=3.88597e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.4 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.80612e-06, cost=2.49555e-05)
+Frame 476 (t=5.4):	total squared error = 0.00197735, marker error: RMS=0.0104811, max=0.0305659 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.80612e-06, cost=3.22573e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.40400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.42908e-06, cost=2.47491e-05)
+Frame 477 (t=5.404):	total squared error = 0.00187595, marker error: RMS=0.0102088, max=0.0290315 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.42908e-06, cost=3.2953e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.40800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.1952e-06, cost=2.54524e-05)
+Frame 478 (t=5.408):	total squared error = 0.00185377, marker error: RMS=0.0101482, max=0.0281715 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.1952e-06, cost=3.40354e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.412 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.34319e-06, cost=2.6898e-05)
+Frame 479 (t=5.412):	total squared error = 0.00186898, marker error: RMS=0.0101898, max=0.0274775 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.34319e-06, cost=3.58171e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.416 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.25914e-06, cost=2.26647e-05)
+Frame 480 (t=5.416):	total squared error = 0.00185449, marker error: RMS=0.0101502, max=0.0306246 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.25914e-06, cost=2.95621e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.42 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.85106e-06, cost=2.01365e-05)
+Frame 481 (t=5.42):	total squared error = 0.00156689, marker error: RMS=0.00933004, max=0.0273677 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.85106e-06, cost=2.75924e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.424 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.08135e-06, cost=2.07629e-05)
+Frame 482 (t=5.424):	total squared error = 0.00152028, marker error: RMS=0.00919022, max=0.026292 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.08135e-06, cost=2.9812e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.428 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.59814e-06, cost=1.94778e-05)
+Frame 483 (t=5.428):	total squared error = 0.00144816, marker error: RMS=0.00896958, max=0.027161 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.59814e-06, cost=2.89065e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.432 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.14903e-05, cost=2.13143e-05)
+Frame 484 (t=5.432):	total squared error = 0.00144697, marker error: RMS=0.00896588, max=0.0263656 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.14903e-05, cost=3.31427e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.436 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.16106e-06, cost=2.49253e-05)
+Frame 485 (t=5.436):	total squared error = 0.00156905, marker error: RMS=0.00933647, max=0.0258377 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.16106e-06, cost=3.84508e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.44 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.22060e-06, cost=2.07131e-05)
+Frame 486 (t=5.44):	total squared error = 0.0015788, marker error: RMS=0.00936543, max=0.0288656 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.22060e-06, cost=3.1366e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.444 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.7524e-06, cost=2.27083e-05)
+Frame 487 (t=5.444):	total squared error = 0.00153014, marker error: RMS=0.00921996, max=0.02758 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.7524e-06, cost=3.5553e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.448 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.88946e-06, cost=2.13951e-05)
+Frame 488 (t=5.448):	total squared error = 0.00162253, marker error: RMS=0.00949425, max=0.0283117 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.88946e-06, cost=3.29543e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.452 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.97613e-06, cost=2.04107e-05)
+Frame 489 (t=5.452):	total squared error = 0.00141858, marker error: RMS=0.00887751, max=0.0267566 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.97613e-06, cost=3.34016e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.456 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.85471e-06, cost=2.42288e-05)
+Frame 490 (t=5.456):	total squared error = 0.00143357, marker error: RMS=0.00892429, max=0.0251286 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.85471e-06, cost=3.96277e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.46 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.86441e-06, cost=2.31643e-05)
+Frame 491 (t=5.46):	total squared error = 0.00162443, marker error: RMS=0.00949981, max=0.0271954 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.86441e-06, cost=3.64089e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.464 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.56201e-06, cost=2.16711e-05)
+Frame 492 (t=5.464):	total squared error = 0.00150643, marker error: RMS=0.00914824, max=0.0267677 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.56201e-06, cost=3.53846e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.468 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.10403e-06, cost=2.253e-05)
+Frame 493 (t=5.468):	total squared error = 0.00150263, marker error: RMS=0.0091367, max=0.0262256 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.10403e-06, cost=3.78010e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.472 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.52955e-06, cost=2.82224e-05)
+Frame 494 (t=5.472):	total squared error = 0.00156723, marker error: RMS=0.00933103, max=0.0250009 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.52955e-06, cost=4.70562e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.476 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.55356e-06, cost=2.30188e-05)
+Frame 495 (t=5.476):	total squared error = 0.00185948, marker error: RMS=0.0101639, max=0.0280565 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.55356e-06, cost=3.51184e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.48 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.14709e-06, cost=2.61278e-05)
+Frame 496 (t=5.48):	total squared error = 0.00174984, marker error: RMS=0.00985968, max=0.0266704 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.14709e-06, cost=4.25393e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.484 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.63414e-06, cost=1.94718e-05)
+Frame 497 (t=5.484):	total squared error = 0.00121806, marker error: RMS=0.00822618, max=0.0237159 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.63414e-06, cost=3.15472e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.488 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.14284e-06, cost=2.17727e-05)
+Frame 498 (t=5.488):	total squared error = 0.00124251, marker error: RMS=0.00830832, max=0.0226328 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.14284e-06, cost=3.81027e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.492 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.83282e-06, cost=1.99697e-05)
+Frame 499 (t=5.492):	total squared error = 0.00130965, marker error: RMS=0.00852985, max=0.0237983 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.83282e-06, cost=3.1177e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.496 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.94896e-06, cost=2.1886e-05)
+Frame 500 (t=5.496):	total squared error = 0.00131052, marker error: RMS=0.0085327, max=0.0227143 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.94896e-06, cost=3.7499e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.5 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=6.00131e-06, cost=2.35082e-05)
+Frame 501 (t=5.5):	total squared error = 0.00147868, marker error: RMS=0.0090636, max=0.0238457 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=6.00131e-06, cost=3.91028e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.50400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=8.96696e-06, cost=2.89921e-05)
+Frame 502 (t=5.504):	total squared error = 0.00158112, marker error: RMS=0.00937231, max=0.0225533 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=8.96696e-06, cost=4.82107e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.50800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.30872e-05, cost=2.27383e-05)
+Frame 503 (t=5.508):	total squared error = 0.00165176, marker error: RMS=0.00957937, max=0.0226399 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.30872e-05, cost=3.58265e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.512 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=6.61378e-06, cost=2.50652e-05)
+Frame 504 (t=5.512):	total squared error = 0.00159452, marker error: RMS=0.00941194, max=0.0217225 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=6.61378e-06, cost=4.16598e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.516 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.89318e-06, cost=3.10961e-05)
+Frame 505 (t=5.516):	total squared error = 0.00171129, marker error: RMS=0.00975046, max=0.0207292 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.89318e-06, cost=5.02832e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.52 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=6.81694e-06, cost=2.33533e-05)
+Frame 506 (t=5.52):	total squared error = 0.00161173, marker error: RMS=0.00946258, max=0.0233507 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=6.81694e-06, cost=3.64673e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.524 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=7.98281e-06, cost=2.55151e-05)
+Frame 507 (t=5.524):	total squared error = 0.00161612, marker error: RMS=0.00947547, max=0.0220073 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=7.98281e-06, cost=4.17286e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.528 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.74003e-06, cost=2.65427e-05)
+Frame 508 (t=5.528):	total squared error = 0.00166969, marker error: RMS=0.00963123, max=0.0230137 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.74003e-06, cost=4.24657e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.532 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.23486e-06, cost=2.36635e-05)
+Frame 509 (t=5.532):	total squared error = 0.00149832, marker error: RMS=0.00912361, max=0.023755 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.23486e-06, cost=3.8415e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.536 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.04533e-05, cost=2.60969e-05)
+Frame 510 (t=5.536):	total squared error = 0.00160677, marker error: RMS=0.00944803, max=0.0231502 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.04533e-05, cost=4.29386e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.54 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.46503e-05, cost=3.04895e-05)
+Frame 511 (t=5.54):	total squared error = 0.00178136, marker error: RMS=0.0099481, max=0.0227099 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.46503e-05, cost=4.91993e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.544 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.20552e-05, cost=2.84689e-05)
+Frame 512 (t=5.544):	total squared error = 0.00164167, marker error: RMS=0.00955008, max=0.0220073 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.20552e-05, cost=4.5218e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.548 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.41472e-05, cost=3.17986e-05)
+Frame 513 (t=5.548):	total squared error = 0.00173678, marker error: RMS=0.00982283, max=0.0212282 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.41472e-05, cost=5.08724e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.552 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.15815e-05, cost=2.91155e-05)
+Frame 514 (t=5.552):	total squared error = 0.00174827, marker error: RMS=0.00985526, max=0.0188478 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.15815e-05, cost=4.56287e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.556 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.30609e-05, cost=3.1559e-05)
+Frame 515 (t=5.556):	total squared error = 0.00179, marker error: RMS=0.0099722, max=0.0179107 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.30609e-05, cost=5.02588e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.56 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.17978e-05, cost=2.7862e-05)
+Frame 516 (t=5.56):	total squared error = 0.00156333, marker error: RMS=0.00931943, max=0.0213219 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.17978e-05, cost=4.29027e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.564 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.3171e-05, cost=2.85445e-05)
+Frame 517 (t=5.564):	total squared error = 0.00156042, marker error: RMS=0.00931076, max=0.0205422 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.3171e-05, cost=4.58716e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.568 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.49108e-05, cost=3.08618e-05)
+Frame 518 (t=5.568):	total squared error = 0.00162017, marker error: RMS=0.00948735, max=0.0200513 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.49108e-05, cost=5.07688e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.572 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.38103e-05, cost=3.08306e-05)
+Frame 519 (t=5.572):	total squared error = 0.001605, marker error: RMS=0.0094428, max=0.0201393 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.38103e-05, cost=4.93921e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.576 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.36962e-05, cost=3.10975e-05)
+Frame 520 (t=5.576):	total squared error = 0.00161466, marker error: RMS=0.00947118, max=0.0187537 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.36962e-05, cost=4.81794e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.58 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.4273e-05, cost=3.09337e-05)
+Frame 521 (t=5.58):	total squared error = 0.00156961, marker error: RMS=0.00933812, max=0.020085 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.4273e-05, cost=4.83508e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.584 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.60390e-05, cost=3.24915e-05)
+Frame 522 (t=5.584):	total squared error = 0.00161862, marker error: RMS=0.00948279, max=0.0197902 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.60390e-05, cost=5.15164e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.588 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.71924e-05, cost=3.51567e-05)
+Frame 523 (t=5.588):	total squared error = 0.00169355, marker error: RMS=0.00969981, max=0.0195299 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.71924e-05, cost=5.64536e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.592 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.34813e-05, cost=3.04703e-05)
+Frame 524 (t=5.592):	total squared error = 0.00156365, marker error: RMS=0.00932039, max=0.021658 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.34813e-05, cost=4.94138e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.596 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.53596e-05, cost=3.18345e-05)
+Frame 525 (t=5.596):	total squared error = 0.00159033, marker error: RMS=0.00939956, max=0.0217631 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.53596e-05, cost=4.82297e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.6 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.62102e-05, cost=3.20749e-05)
+Frame 526 (t=5.6):	total squared error = 0.00160274, marker error: RMS=0.00943615, max=0.0215357 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.62102e-05, cost=5.36192e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.60400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.42167e-05, cost=3.24547e-05)
+Frame 527 (t=5.604):	total squared error = 0.00160518, marker error: RMS=0.00944335, max=0.0189043 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.42167e-05, cost=4.82559e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.60800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.59852e-05, cost=3.18705e-05)
+Frame 528 (t=5.608):	total squared error = 0.0016127, marker error: RMS=0.00946545, max=0.0188535 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.59852e-05, cost=5.09728e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.612 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.50050e-05, cost=3.08646e-05)
+Frame 529 (t=5.612):	total squared error = 0.0015978, marker error: RMS=0.0094216, max=0.0199079 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.50050e-05, cost=5.03496e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.616 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.58344e-05, cost=3.19401e-05)
+Frame 530 (t=5.616):	total squared error = 0.00161383, marker error: RMS=0.00946875, max=0.0196743 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.58344e-05, cost=5.27533e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.62 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.36751e-05, cost=2.91965e-05)
+Frame 531 (t=5.62):	total squared error = 0.00157134, marker error: RMS=0.00934328, max=0.0201859 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.36751e-05, cost=4.73071e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.624 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.45723e-05, cost=2.92543e-05)
+Frame 532 (t=5.624):	total squared error = 0.00158854, marker error: RMS=0.00939425, max=0.0201313 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.45723e-05, cost=4.80593e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.628 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.53043e-05, cost=2.95861e-05)
+Frame 533 (t=5.628):	total squared error = 0.00159451, marker error: RMS=0.0094119, max=0.0200187 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.53043e-05, cost=5.23133e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.632 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.53585e-05, cost=3.11832e-05)
+Frame 534 (t=5.632):	total squared error = 0.00160892, marker error: RMS=0.00945433, max=0.0196737 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.53585e-05, cost=5.6229e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.636 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.46392e-05, cost=3.06745e-05)
+Frame 535 (t=5.636):	total squared error = 0.00166545, marker error: RMS=0.00961899, max=0.0181386 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.46392e-05, cost=5.11116e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.64 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.45094e-05, cost=3.10906e-05)
+Frame 536 (t=5.64):	total squared error = 0.00164926, marker error: RMS=0.00957211, max=0.0182036 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.45094e-05, cost=5.22888e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.644 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.33866e-05, cost=2.83564e-05)
+Frame 537 (t=5.644):	total squared error = 0.00157777, marker error: RMS=0.00936236, max=0.0193017 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.33866e-05, cost=4.84165e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.648 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.36474e-05, cost=2.76378e-05)
+Frame 538 (t=5.648):	total squared error = 0.00151916, marker error: RMS=0.00918683, max=0.0196103 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.36474e-05, cost=4.91253e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.652 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.36234e-05, cost=2.79249e-05)
+Frame 539 (t=5.652):	total squared error = 0.00151112, marker error: RMS=0.00916249, max=0.0194296 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.36234e-05, cost=5.06858e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.656 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.26625e-05, cost=2.86068e-05)
+Frame 540 (t=5.656):	total squared error = 0.00154519, marker error: RMS=0.00926518, max=0.0185574 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.26625e-05, cost=5.17852e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.66 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.31397e-05, cost=2.80182e-05)
+Frame 541 (t=5.66):	total squared error = 0.00152232, marker error: RMS=0.00919637, max=0.0186821 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.31397e-05, cost=5.08538e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.664 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.09122e-05, cost=2.89057e-05)
+Frame 542 (t=5.664):	total squared error = 0.00151729, marker error: RMS=0.00918117, max=0.0186826 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.09122e-05, cost=5.2667e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.668 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.19834e-05, cost=2.99812e-05)
+Frame 543 (t=5.668):	total squared error = 0.00154955, marker error: RMS=0.00927826, max=0.0183597 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.19834e-05, cost=5.51466e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.672 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.10219e-05, cost=3.08596e-05)
+Frame 544 (t=5.672):	total squared error = 0.00165958, marker error: RMS=0.00960204, max=0.0180297 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.10219e-05, cost=5.62743e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.676 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.40109e-06, cost=3.18686e-05)
+Frame 545 (t=5.676):	total squared error = 0.00170838, marker error: RMS=0.00974217, max=0.0188742 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.40109e-06, cost=5.77205e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.68 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.17215e-05, cost=2.56191e-05)
+Frame 546 (t=5.68):	total squared error = 0.00155945, marker error: RMS=0.00930784, max=0.0228061 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.17215e-05, cost=4.96392e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.684 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.00674e-05, cost=2.57832e-05)
+Frame 547 (t=5.684):	total squared error = 0.00159761, marker error: RMS=0.00942106, max=0.0237479 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.00674e-05, cost=5.14414e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.688 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.05578e-05, cost=2.5497e-05)
+Frame 548 (t=5.688):	total squared error = 0.00160506, marker error: RMS=0.00944299, max=0.0216959 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.05578e-05, cost=4.95743e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.692 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=6.62435e-06, cost=2.58884e-05)
+Frame 549 (t=5.692):	total squared error = 0.0016249, marker error: RMS=0.00950117, max=0.022199 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=6.62435e-06, cost=5.15348e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.696 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=7.94502e-06, cost=2.74529e-05)
+Frame 550 (t=5.696):	total squared error = 0.00165903, marker error: RMS=0.00960042, max=0.0220407 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=7.94502e-06, cost=5.62155e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.7 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.83528e-06, cost=2.53386e-05)
+Frame 551 (t=5.7):	total squared error = 0.0016889, marker error: RMS=0.00968648, max=0.02379 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.83528e-06, cost=5.16708e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.70400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.71556e-06, cost=2.65786e-05)
+Frame 552 (t=5.704):	total squared error = 0.00174597, marker error: RMS=0.00984878, max=0.0238866 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.71556e-06, cost=5.40856e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.70800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.78634e-06, cost=2.44483e-05)
+Frame 553 (t=5.708):	total squared error = 0.00175914, marker error: RMS=0.00988586, max=0.0254431 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.78634e-06, cost=5.00456e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.712 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=8.77667e-06, cost=2.51426e-05)
+Frame 554 (t=5.712):	total squared error = 0.00175578, marker error: RMS=0.00987639, max=0.0254054 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=8.77667e-06, cost=5.19787e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.716 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.76792e-06, cost=2.5973e-05)
+Frame 555 (t=5.716):	total squared error = 0.0017565, marker error: RMS=0.00987844, max=0.0236065 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.76792e-06, cost=5.3838e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.72 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=7.62598e-06, cost=2.4119e-05)
+Frame 556 (t=5.72):	total squared error = 0.00172455, marker error: RMS=0.00978819, max=0.0243642 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=7.62598e-06, cost=5.09393e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.724 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=7.39697e-06, cost=2.50589e-05)
+Frame 557 (t=5.724):	total squared error = 0.00174948, marker error: RMS=0.00985867, max=0.0248578 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=7.39697e-06, cost=5.35866e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.728 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=6.65947e-06, cost=2.77405e-05)
+Frame 558 (t=5.728):	total squared error = 0.00181711, marker error: RMS=0.0100474, max=0.0248542 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=6.65947e-06, cost=5.81366e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.732 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=6.16855e-06, cost=2.36443e-05)
+Frame 559 (t=5.732):	total squared error = 0.00178659, marker error: RMS=0.00996269, max=0.0261842 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=6.16855e-06, cost=5.10072e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.736 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.72398e-06, cost=2.52541e-05)
+Frame 560 (t=5.736):	total squared error = 0.00182106, marker error: RMS=0.0100583, max=0.0264441 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.72398e-06, cost=5.48923e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.74 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.6223e-06, cost=2.89207e-05)
+Frame 561 (t=5.74):	total squared error = 0.00194628, marker error: RMS=0.0103984, max=0.0265133 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.6223e-06, cost=5.8292e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.744 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.54556e-06, cost=2.35318e-05)
+Frame 562 (t=5.744):	total squared error = 0.00184605, marker error: RMS=0.0101271, max=0.0267012 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.54556e-06, cost=5.10448e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.748 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.93461e-06, cost=2.43669e-05)
+Frame 563 (t=5.748):	total squared error = 0.00188762, marker error: RMS=0.0102405, max=0.0270133 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.93461e-06, cost=5.45994e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.752 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.97613e-06, cost=2.18023e-05)
+Frame 564 (t=5.752):	total squared error = 0.00181104, marker error: RMS=0.0100306, max=0.0267701 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.97613e-06, cost=4.99311e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.756 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.80299e-06, cost=2.33367e-05)
+Frame 565 (t=5.756):	total squared error = 0.00185368, marker error: RMS=0.010148, max=0.0272032 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.80299e-06, cost=5.31639e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.76 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.62068e-06, cost=2.30731e-05)
+Frame 566 (t=5.76):	total squared error = 0.00181504, marker error: RMS=0.0100417, max=0.0248153 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.62068e-06, cost=5.06307e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.764 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=2.46652e-06, cost=2.24546e-05)
+Frame 567 (t=5.764):	total squared error = 0.00172914, marker error: RMS=0.00980118, max=0.0248588 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=2.46652e-06, cost=4.99739e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.768 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=4.83999e-06, cost=2.51104e-05)
+Frame 568 (t=5.768):	total squared error = 0.00183031, marker error: RMS=0.0100838, max=0.0253172 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=4.83999e-06, cost=5.56588e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.772 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.19247e-06, cost=2.51089e-05)
+Frame 569 (t=5.772):	total squared error = 0.00180924, marker error: RMS=0.0100256, max=0.0233847 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.19247e-06, cost=5.36702e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.776 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.57607e-06, cost=2.87934e-05)
+Frame 570 (t=5.776):	total squared error = 0.00192648, marker error: RMS=0.0103454, max=0.024106 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.57607e-06, cost=6.02443e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.78 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.08955e-06, cost=2.48686e-05)
+Frame 571 (t=5.78):	total squared error = 0.00185288, marker error: RMS=0.0101458, max=0.0264783 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.08955e-06, cost=5.2495e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.784 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=7.10776e-06, cost=2.65679e-05)
+Frame 572 (t=5.784):	total squared error = 0.00188315, marker error: RMS=0.0102284, max=0.0266075 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=7.10776e-06, cost=5.59443e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.788 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.18513e-05, cost=3.14527e-05)
+Frame 573 (t=5.788):	total squared error = 0.00206715, marker error: RMS=0.0107164, max=0.0267226 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.18513e-05, cost=6.30990e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.792 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.51928e-06, cost=2.4528e-05)
+Frame 574 (t=5.792):	total squared error = 0.00175731, marker error: RMS=0.00988069, max=0.0252423 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.51928e-06, cost=5.02301e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.796 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=7.86016e-06, cost=2.60752e-05)
+Frame 575 (t=5.796):	total squared error = 0.00184243, marker error: RMS=0.0101172, max=0.0247524 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=7.86016e-06, cost=5.36099e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.8 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.16876e-05, cost=3.01371e-05)
+Frame 576 (t=5.8):	total squared error = 0.00200658, marker error: RMS=0.0105583, max=0.0247828 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.16876e-05, cost=5.9422e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.80400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=5.4419e-06, cost=2.45158e-05)
+Frame 577 (t=5.804):	total squared error = 0.00169793, marker error: RMS=0.00971232, max=0.0226197 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=5.4419e-06, cost=4.79703e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.80800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.65541e-06, cost=2.53905e-05)
+Frame 578 (t=5.808):	total squared error = 0.00172542, marker error: RMS=0.00979064, max=0.0220999 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.65541e-06, cost=5.1691e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.812 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.3493e-05, cost=2.92814e-05)
+Frame 579 (t=5.812):	total squared error = 0.00186878, marker error: RMS=0.0101893, max=0.0223727 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.3493e-05, cost=5.64132e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.816 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=3.52159e-06, cost=2.48946e-05)
+Frame 580 (t=5.816):	total squared error = 0.00165617, marker error: RMS=0.00959217, max=0.0211322 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=3.52159e-06, cost=4.50442e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.82 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.05227e-05, cost=2.50260e-05)
+Frame 581 (t=5.82):	total squared error = 0.00171305, marker error: RMS=0.0097555, max=0.0208974 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.05227e-05, cost=4.75657e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.824 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.31008e-05, cost=2.72072e-05)
+Frame 582 (t=5.824):	total squared error = 0.00182033, marker error: RMS=0.0100563, max=0.0209062 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.31008e-05, cost=5.08864e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.828 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=9.48558e-06, cost=2.38271e-05)
+Frame 583 (t=5.828):	total squared error = 0.00161263, marker error: RMS=0.00946523, max=0.0198219 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=9.48558e-06, cost=4.36092e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.832 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.17101e-05, cost=2.4425e-05)
+Frame 584 (t=5.832):	total squared error = 0.00165761, marker error: RMS=0.00959632, max=0.0198212 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.17101e-05, cost=4.55613e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.836 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.42159e-05, cost=2.66814e-05)
+Frame 585 (t=5.836):	total squared error = 0.00176234, marker error: RMS=0.00989484, max=0.0200153 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.42159e-05, cost=4.82784e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.84 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.41255e-05, cost=2.69107e-05)
+Frame 586 (t=5.84):	total squared error = 0.00174135, marker error: RMS=0.00983574, max=0.0202196 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.41255e-05, cost=4.72742e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.844 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.34465e-05, cost=2.60491e-05)
+Frame 587 (t=5.844):	total squared error = 0.00168905, marker error: RMS=0.00968691, max=0.0203242 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.34465e-05, cost=4.51872e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.848 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.43852e-05, cost=2.62778e-05)
+Frame 588 (t=5.848):	total squared error = 0.00167895, marker error: RMS=0.00965789, max=0.0193824 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.43852e-05, cost=4.42939e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.852 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.47424e-05, cost=2.85017e-05)
+Frame 589 (t=5.852):	total squared error = 0.00177418, marker error: RMS=0.00992803, max=0.0191586 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.47424e-05, cost=4.64503e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.856 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.66915e-05, cost=3.14941e-05)
+Frame 590 (t=5.856):	total squared error = 0.00188065, marker error: RMS=0.0102216, max=0.0193352 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.66915e-05, cost=4.92835e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.86 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.74107e-05, cost=3.49916e-05)
+Frame 591 (t=5.86):	total squared error = 0.00200008, marker error: RMS=0.0105411, max=0.0195743 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.74107e-05, cost=5.22415e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.864 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.33435e-05, cost=2.62266e-05)
+Frame 592 (t=5.864):	total squared error = 0.00162884, marker error: RMS=0.00951268, max=0.0203367 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.33435e-05, cost=3.95461e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.868 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.41944e-05, cost=2.67659e-05)
+Frame 593 (t=5.868):	total squared error = 0.00164707, marker error: RMS=0.00956577, max=0.0202619 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.41944e-05, cost=3.94661e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.872 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.44398e-05, cost=2.74806e-05)
+Frame 594 (t=5.872):	total squared error = 0.00167082, marker error: RMS=0.0096345, max=0.0203313 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.44398e-05, cost=3.96705e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.876 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.47498e-05, cost=2.83114e-05)
+Frame 595 (t=5.876):	total squared error = 0.00170756, marker error: RMS=0.00973983, max=0.0204505 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.47498e-05, cost=4.06437e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.88 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.45493e-05, cost=2.99081e-05)
+Frame 596 (t=5.88):	total squared error = 0.00176674, marker error: RMS=0.00990718, max=0.0206955 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.45493e-05, cost=4.18406e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.884 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.46626e-05, cost=3.15535e-05)
+Frame 597 (t=5.884):	total squared error = 0.00181253, marker error: RMS=0.0100347, max=0.0210479 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.46626e-05, cost=4.23443e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.888 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.54766e-05, cost=2.97050e-05)
+Frame 598 (t=5.888):	total squared error = 0.00172868, marker error: RMS=0.00979989, max=0.0188255 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.54766e-05, cost=3.9313e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.892 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.59075e-05, cost=3.04428e-05)
+Frame 599 (t=5.892):	total squared error = 0.00176136, marker error: RMS=0.00989207, max=0.0191776 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.59075e-05, cost=3.95972e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.896 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.42772e-05, cost=2.87456e-05)
+Frame 600 (t=5.896):	total squared error = 0.00169196, marker error: RMS=0.00969524, max=0.0191279 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.42772e-05, cost=3.76432e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.9 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.46677e-05, cost=2.95816e-05)
+Frame 601 (t=5.9):	total squared error = 0.00171423, marker error: RMS=0.00975883, max=0.0199113 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.46677e-05, cost=3.74305e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.90400 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.4599e-05, cost=3.01422e-05)
+Frame 602 (t=5.904):	total squared error = 0.00173564, marker error: RMS=0.0098196, max=0.0205294 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.4599e-05, cost=3.70905e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.90800 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.51194e-05, cost=2.85357e-05)
+Frame 603 (t=5.908):	total squared error = 0.00167624, marker error: RMS=0.00965009, max=0.0178074 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.51194e-05, cost=3.51121e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.912 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.44302e-05, cost=2.85207e-05)
+Frame 604 (t=5.912):	total squared error = 0.00167739, marker error: RMS=0.00965341, max=0.0188205 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.44302e-05, cost=3.50873e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.916 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.50073e-05, cost=2.88183e-05)
+Frame 605 (t=5.916):	total squared error = 0.00170922, marker error: RMS=0.00974457, max=0.019894 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.50073e-05, cost=3.52089e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.92 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.66542e-05, cost=2.90959e-05)
+Frame 606 (t=5.92):	total squared error = 0.00174509, marker error: RMS=0.00984628, max=0.0209624 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.66542e-05, cost=3.52199e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.924 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.4388e-05, cost=2.93403e-05)
+Frame 607 (t=5.924):	total squared error = 0.0017959, marker error: RMS=0.00998859, max=0.0221318 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.4388e-05, cost=3.57712e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.928 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.41585e-05, cost=2.99026e-05)
+Frame 608 (t=5.928):	total squared error = 0.00187048, marker error: RMS=0.0101939, max=0.0234234 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.41585e-05, cost=3.66168e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.932 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.30398e-05, cost=3.07073e-05)
+Frame 609 (t=5.932):	total squared error = 0.00196756, marker error: RMS=0.0104551, max=0.0247179 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.30398e-05, cost=3.75151e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.936 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.34651e-05, cost=2.67016e-05)
+Frame 610 (t=5.936):	total squared error = 0.00161986, marker error: RMS=0.00948641, max=0.017075 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.34651e-05, cost=3.20352e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.94 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.28888e-05, cost=2.62201e-05)
+Frame 611 (t=5.94):	total squared error = 0.00161349, marker error: RMS=0.00946775, max=0.0184437 (r.should)
+[debug] UNASSEMBLED(track) CONFIGURATION (normerr=0.0, maxerr=1.28888e-05, cost=3.26023e-05)
+[debug] Model numQs: 52  Assembler num freeQs: 52
+[debug] Tracking: t= 5.944 (acc=1.0e-05 tol=1.0e-06 normerr=0.0, maxerr=1.19030e-05, cost=2.66633e-05)
+Frame 612 (t=5.944):	total squared error = 0.00165874, marker error: RMS=0.0095996, max=0.0199883 (r.should)
+[info] InverseKinematicsTool completed 275 frames in 3 second(s)
+[info] COMAKInverseKinematics complete.
+[info] Printed results to: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\comak_inverse_kinematics
+IK completado y memoria limpiada.

@@ -1,0 +1,56 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\AppData\Local\Temp\Editor_kkjxv] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[> In path (line 109)
+In addpath (line 86)
+In startup (line 2)] 
+model_filename: model_HOLOA_040_left.osim
+model_file (abs): D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\model\model_HOLOA_040_left.osim
+isfile(model_file): 1
+hs_data.eRHS(1:2): 4.088, 5.064
+hs_data.eLHS(1:2): 4.564, 5.56
+time_start: 4.564
+time_stop: 5.56
+
+ side='l' validation PASSED
+
+
+========================================
+RUN_IK_ONLY - validacion real de side='l'
+========================================
+subject_dir: D:/mayra/Descargas/UPF_COMAK/COMAK/data/HOLOA_040
+side: l
+model_file: D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\model\model_HOLOA_040_left.osim
+motion_file: D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\walking\W1_HOLOA_ID_40.trc
+time_start: 4.564
+time_stop: 5.56
+comak_inverse_kinematics_result_dir: D:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\comak_inverse_kinematics
+========================================
+
+[info] Set log level to Debug.
+=== EJECUTANDO IK: 02-Sep-2026 20:10:44 ===
+Paciente: HOLOA_040  |  Side: L
+Running COMAKInverseKinematicsTool...
+[debug] Object.registerType: Millard2012EquilibriumMuscle.
+[debug] Object.registerType: replacing registered object of type Millard2012EquilibriumMuscle with a new default object of the same type.
+[info] Loaded model lenhart2015_left from file D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\model\model_HOLOA_040_left.osim
+[info] Secondary Coordinates:
+[info] ----------------------
+[info] knee_add_l
+[info] knee_rot_l
+[info] knee_tx_l
+[info] knee_ty_l
+[info] knee_tz_l
+[info] pf_flex_l
+[info] pf_rot_l
+[info] pf_tilt_l
+[info] pf_tx_l
+[info] pf_ty_l
+[info] pf_tz_l
+[info] Secondary Coupled Coordinate: 
+[info] Settle Threshold: 0.000100000
+[info] Sweep Time: 3.0
+[info] Sweep secondary_coupled_coordinate start value: 0.0
+[info] Sweep secondary_coupled_coordinate stop value: 100.0
+[info] Performing IK Secondary Constraint Simulation...
+[info] Starting Settling Simulation.

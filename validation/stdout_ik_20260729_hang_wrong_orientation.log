@@ -1,0 +1,392 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\AppData\Local\Temp\Editor_kkjxv] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[> In path (line 109)
+In addpath (line 86)
+In startup (line 2)] 
+model_filename: model_HOLOA_040_left.osim
+model_file (abs): D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\model\model_HOLOA_040_left.osim
+isfile(model_file): 1
+hs_data.eRHS(1:2): 4.088, 5.064
+hs_data.eLHS(1:2): 4.564, 5.56
+time_start: 4.564
+time_stop: 5.56
+
+ side='l' validation PASSED
+
+
+========================================
+RUN_IK_ONLY - validacion real de side='l'
+========================================
+subject_dir: D:/mayra/Descargas/UPF_COMAK/COMAK/data/HOLOA_040
+side: l
+model_file: D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\model\model_HOLOA_040_left.osim
+motion_file: D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\walking\W1_HOLOA_ID_40.trc
+time_start: 4.564
+time_stop: 5.56
+comak_inverse_kinematics_result_dir: D:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\comak_inverse_kinematics
+========================================
+
+[info] Set log level to Debug.
+=== EJECUTANDO IK: 29-Jul-2026 16:02:08 ===
+Paciente: HOLOA_040  |  Side: L
+Running COMAKInverseKinematicsTool...
+[info] Loaded model lenhart2015_left-scaled from file D:\mayra\Descargas\UPF_COMAK\COMAK\data\HOLOA_040\model\model_HOLOA_040_left.osim
+[info] Secondary Coordinates:
+[info] ----------------------
+[info] knee_add_l
+[info] knee_rot_l
+[info] knee_tx_l
+[info] knee_ty_l
+[info] knee_tz_l
+[info] pf_flex_l
+[info] pf_rot_l
+[info] pf_tilt_l
+[info] pf_tx_l
+[info] pf_ty_l
+[info] pf_tz_l
+[info] Secondary Coupled Coordinate: 
+[info] Settle Threshold: 0.000100000
+[info] Sweep Time: 3.0
+[info] Sweep secondary_coupled_coordinate start value: 0.0
+[info] Sweep secondary_coupled_coordinate stop value: 100.0
+[info] Performing IK Secondary Constraint Simulation...
+[info] Starting Settling Simulation.
+[info] Time: 0.01
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -0.00500207 	
+[info] knee_rot_l 	 0.012976 	
+[info] knee_tx_l 	 -0.00116992 	
+[info] knee_ty_l 	 0.000658111 	
+[info] knee_tz_l 	 0.00212289 	
+[info] pf_flex_l 	 -0.00205625 	
+[info] pf_rot_l 	 -0.000637222 	
+[info] pf_tilt_l 	 0.000821580 	
+[info] pf_tx_l 	 0.0515797 	
+[info] pf_ty_l 	 0.00673751 	
+[info] pf_tz_l 	 -0.00467818 	
+[info] Time: 0.02
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -0.0348587 	
+[info] knee_rot_l 	 0.0235495 	
+[info] knee_tx_l 	 -0.00224169 	
+[info] knee_ty_l 	 0.00159934 	
+[info] knee_tz_l 	 -0.000222215 	
+[info] pf_flex_l 	 -0.00241913 	
+[info] pf_rot_l 	 -0.00133320 	
+[info] pf_tilt_l 	 0.00141235 	
+[info] pf_tx_l 	 0.0464396 	
+[info] pf_ty_l 	 0.00764076 	
+[info] pf_tz_l 	 -0.00648415 	
+[info] Time: 0.03
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -0.0604380 	
+[info] knee_rot_l 	 0.0254872 	
+[info] knee_tx_l 	 -0.00172113 	
+[info] knee_ty_l 	 0.00141430 	
+[info] knee_tz_l 	 0.000230202 	
+[info] pf_flex_l 	 -0.00467850 	
+[info] pf_rot_l 	 -0.00462542 	
+[info] pf_tilt_l 	 0.00270563 	
+[info] pf_tx_l 	 0.0403835 	
+[info] pf_ty_l 	 0.00827685 	
+[info] pf_tz_l 	 -0.00831869 	
+[info] Time: 0.04
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -0.0880747 	
+[info] knee_rot_l 	 0.0179587 	
+[info] knee_tx_l 	 -0.000144929 	
+[info] knee_ty_l 	 0.000525323 	
+[info] knee_tz_l 	 -9.67047e-05 	
+[info] pf_flex_l 	 -0.00491063 	
+[info] pf_rot_l 	 -0.00564140 	
+[info] pf_tilt_l 	 0.00295602 	
+[info] pf_tx_l 	 0.0347584 	
+[info] pf_ty_l 	 0.00981173 	
+[info] pf_tz_l 	 -0.00994256 	
+[info] Time: 0.05
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -0.112695 	
+[info] knee_rot_l 	 0.00355664 	
+[info] knee_tx_l 	 0.000416889 	
+[info] knee_ty_l 	 -0.000750292 	
+[info] knee_tz_l 	 3.60494e-05 	
+[info] pf_flex_l 	 -0.00583612 	
+[info] pf_rot_l 	 -0.167509 	
+[info] pf_tilt_l 	 0.0416519 	
+[info] pf_tx_l 	 -0.0248487 	
+[info] pf_ty_l 	 0.00227246 	
+[info] pf_tz_l 	 0.0323491 	
+[info] Time: 0.06
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 0.159939 	
+[info] knee_rot_l 	 -1.41606 	
+[info] knee_tx_l 	 -0.182816 	
+[info] knee_ty_l 	 0.0471092 	
+[info] knee_tz_l 	 0.105967 	
+[info] pf_flex_l 	 0.577809 	
+[info] pf_rot_l 	 -0.749451 	
+[info] pf_tilt_l 	 0.133852 	
+[info] pf_tx_l 	 -0.443062 	
+[info] pf_ty_l 	 -0.0275122 	
+[info] pf_tz_l 	 0.353479 	
+[info] Time: 0.07
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -2.04246 	
+[info] knee_rot_l 	 -7.21987 	
+[info] knee_tx_l 	 3.26071 	
+[info] knee_ty_l 	 -0.262621 	
+[info] knee_tz_l 	 -1.47727 	
+[info] pf_flex_l 	 -57.7659 	
+[info] pf_rot_l 	 -50.8825 	
+[info] pf_tilt_l 	 1.99919 	
+[info] pf_tx_l 	 13.9524 	
+[info] pf_ty_l 	 -1.33277 	
+[info] pf_tz_l 	 -6.24058 	
+[info] Time: 0.08
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -0.811482 	
+[info] knee_rot_l 	 -10.4258 	
+[info] knee_tx_l 	 -2.76595 	
+[info] knee_ty_l 	 0.307781 	
+[info] knee_tz_l 	 1.08174 	
+[info] pf_flex_l 	 -58.6004 	
+[info] pf_rot_l 	 -53.6116 	
+[info] pf_tilt_l 	 2.89835 	
+[info] pf_tx_l 	 -12.617 	
+[info] pf_ty_l 	 1.01659 	
+[info] pf_tz_l 	 5.48399 	
+[info] Time: 0.09
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -6.31034 	
+[info] knee_rot_l 	 -11.2302 	
+[info] knee_tx_l 	 0.4243 	
+[info] knee_ty_l 	 0.31714 	
+[info] knee_tz_l 	 -0.451454 	
+[info] pf_flex_l 	 -64.0757 	
+[info] pf_rot_l 	 -50.345 	
+[info] pf_tilt_l 	 2.91591 	
+[info] pf_tx_l 	 6.39833 	
+[info] pf_ty_l 	 -0.0812423 	
+[info] pf_tz_l 	 -2.34141 	
+[info] Time: 0.1
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -7.94327 	
+[info] knee_rot_l 	 -11.7357 	
+[info] knee_tx_l 	 1.64707 	
+[info] knee_ty_l 	 -0.258071 	
+[info] knee_tz_l 	 -0.409242 	
+[info] pf_flex_l 	 -67.7513 	
+[info] pf_rot_l 	 -52.0636 	
+[info] pf_tilt_l 	 5.07315 	
+[info] pf_tx_l 	 0.192981 	
+[info] pf_ty_l 	 -0.706826 	
+[info] pf_tz_l 	 -0.207019 	
+[info] Time: 0.11
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -3.69806 	
+[info] knee_rot_l 	 -16.4353 	
+[info] knee_tx_l 	 -2.19607 	
+[info] knee_ty_l 	 0.364025 	
+[info] knee_tz_l 	 0.910949 	
+[info] pf_flex_l 	 -73.6712 	
+[info] pf_rot_l 	 -50.1499 	
+[info] pf_tilt_l 	 7.87615 	
+[info] pf_tx_l 	 -4.06241 	
+[info] pf_ty_l 	 1.01483 	
+[info] pf_tz_l 	 1.84451 	
+[info] Time: 0.12
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -6.33813 	
+[info] knee_rot_l 	 -19.2157 	
+[info] knee_tx_l 	 1.26533 	
+[info] knee_ty_l 	 -0.0823794 	
+[info] knee_tz_l 	 -0.660235 	
+[info] pf_flex_l 	 -73.7721 	
+[info] pf_rot_l 	 -41.0789 	
+[info] pf_tilt_l 	 6.92187 	
+[info] pf_tx_l 	 4.56759 	
+[info] pf_ty_l 	 -0.0722619 	
+[info] pf_tz_l 	 -1.43495 	
+[info] Time: 0.13
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 -0.806397 	
+[info] knee_rot_l 	 -16.8030 	
+[info] knee_tx_l 	 0.139403 	
+[info] knee_ty_l 	 0.363381 	
+[info] knee_tz_l 	 0.159576 	
+[info] pf_flex_l 	 -73.8689 	
+[info] pf_rot_l 	 -31.9579 	
+[info] pf_tilt_l 	 7.16945 	
+[info] pf_tx_l 	 -2.75699 	
+[info] pf_ty_l 	 0.558852 	
+[info] pf_tz_l 	 -0.0610007 	
+[info] Time: 0.14
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 0.657864 	
+[info] knee_rot_l 	 -18.1093 	
+[info] knee_tx_l 	 -1.07166 	
+[info] knee_ty_l 	 0.00973108 	
+[info] knee_tz_l 	 0.224561 	
+[info] pf_flex_l 	 -75.2084 	
+[info] pf_rot_l 	 -24.1801 	
+[info] pf_tilt_l 	 7.22861 	
+[info] pf_tx_l 	 0.333735 	
+[info] pf_ty_l 	 0.169869 	
+[info] pf_tz_l 	 0.735566 	
+[info] Time: 0.15
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 1.96024 	
+[info] knee_rot_l 	 -20.1299 	
+[info] knee_tx_l 	 1.15213 	
+[info] knee_ty_l 	 0.189171 	
+[info] knee_tz_l 	 -0.0150721 	
+[info] pf_flex_l 	 -77.1458 	
+[info] pf_rot_l 	 -31.1571 	
+[info] pf_tilt_l 	 10.6884 	
+[info] pf_tx_l 	 1.31284 	
+[info] pf_ty_l 	 0.290320 	
+[info] pf_tz_l 	 -0.241431 	
+[info] Time: 0.16
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 5.04528 	
+[info] knee_rot_l 	 -15.8765 	
+[info] knee_tx_l 	 -0.622978 	
+[info] knee_ty_l 	 0.0849808 	
+[info] knee_tz_l 	 0.14126 	
+[info] pf_flex_l 	 -73.6317 	
+[info] pf_rot_l 	 -31.7506 	
+[info] pf_tilt_l 	 7.92112 	
+[info] pf_tx_l 	 -1.66958 	
+[info] pf_ty_l 	 0.311018 	
+[info] pf_tz_l 	 0.226834 	
+[info] Time: 0.17
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 5.31222 	
+[info] knee_rot_l 	 -19.2091 	
+[info] knee_tx_l 	 -0.0212622 	
+[info] knee_ty_l 	 0.152050 	
+[info] knee_tz_l 	 -0.0794159 	
+[info] pf_flex_l 	 -79.237 	
+[info] pf_rot_l 	 -28.6571 	
+[info] pf_tilt_l 	 5.79164 	
+[info] pf_tx_l 	 1.03926 	
+[info] pf_ty_l 	 0.130664 	
+[info] pf_tz_l 	 0.0883845 	
+[info] Time: 0.18
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 5.40885 	
+[info] knee_rot_l 	 -14.4793 	
+[info] knee_tx_l 	 0.403451 	
+[info] knee_ty_l 	 0.0412027 	
+[info] knee_tz_l 	 -0.0276688 	
+[info] pf_flex_l 	 -77.5148 	
+[info] pf_rot_l 	 -25.814 	
+[info] pf_tilt_l 	 5.74107 	
+[info] pf_tx_l 	 0.0140761 	
+[info] pf_ty_l 	 0.200956 	
+[info] pf_tz_l 	 -0.0578306 	
+[info] Time: 0.19
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 6.05912 	
+[info] knee_rot_l 	 -13.8302 	
+[info] knee_tx_l 	 -0.564101 	
+[info] knee_ty_l 	 -0.575571 	
+[info] knee_tz_l 	 0.110990 	
+[info] pf_flex_l 	 -76.7467 	
+[info] pf_rot_l 	 -27.4602 	
+[info] pf_tilt_l 	 4.88044 	
+[info] pf_tx_l 	 -0.750340 	
+[info] pf_ty_l 	 -0.527303 	
+[info] pf_tz_l 	 0.206909 	
+[info] Time: 0.2
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 5.93985 	
+[info] knee_rot_l 	 -19.7283 	
+[info] knee_tx_l 	 0.402770 	
+[info] knee_ty_l 	 0.526721 	
+[info] knee_tz_l 	 -0.156121 	
+[info] pf_flex_l 	 -77.7407 	
+[info] pf_rot_l 	 -26.053 	
+[info] pf_tilt_l 	 5.41973 	
+[info] pf_tx_l 	 0.858372 	
+[info] pf_ty_l 	 0.233146 	
+[info] pf_tz_l 	 -0.0875994 	
+[info] Time: 0.21
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 5.95394 	
+[info] knee_rot_l 	 -21.9337 	
+[info] knee_tx_l 	 -0.114061 	
+[info] knee_ty_l 	 -0.143099 	
+[info] knee_tz_l 	 0.0656702 	
+[info] pf_flex_l 	 -74.9678 	
+[info] pf_rot_l 	 -28.4021 	
+[info] pf_tilt_l 	 4.11974 	
+[info] pf_tx_l 	 -0.29996 	
+[info] pf_ty_l 	 -0.0408959 	
+[info] pf_tz_l 	 0.161193 	
+[info] Time: 0.22
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 8.58609 	
+[info] knee_rot_l 	 -26.6448 	
+[info] knee_tx_l 	 -0.0344515 	
+[info] knee_ty_l 	 -0.124552 	
+[info] knee_tz_l 	 -0.0503100 	
+[info] pf_flex_l 	 -73.7801 	
+[info] pf_rot_l 	 -29.5808 	
+[info] pf_tilt_l 	 3.80902 	
+[info] pf_tx_l 	 -0.159813 	
+[info] pf_ty_l 	 -0.383483 	
+[info] pf_tz_l 	 -0.161452 	
+[info] Time: 0.23
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 8.15442 	
+[info] knee_rot_l 	 -30.1735 	
+[info] knee_tx_l 	 0.118292 	
+[info] knee_ty_l 	 -0.067786 	
+[info] knee_tz_l 	 0.0683429 	
+[info] pf_flex_l 	 -72.8188 	
+[info] pf_rot_l 	 -30.4571 	
+[info] pf_tilt_l 	 4.13526 	
+[info] pf_tx_l 	 0.228247 	
+[info] pf_ty_l 	 -0.0457862 	
+[info] pf_tz_l 	 -0.108797 	
+[info] Time: 0.24
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 8.17708 	
+[info] knee_rot_l 	 -32.8356 	
+[info] knee_tx_l 	 -0.15456 	
+[info] knee_ty_l 	 -0.00270942 	
+[info] knee_tz_l 	 0.0321907 	
+[info] pf_flex_l 	 -72.4351 	
+[info] pf_rot_l 	 -30.4051 	
+[info] pf_tilt_l 	 4.36995 	
+[info] pf_tx_l 	 -0.0736853 	
+[info] pf_ty_l 	 0.0288554 	
+[info] pf_tz_l 	 -0.0274784 	
+[info] Time: 0.25
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 7.8912 	
+[info] knee_rot_l 	 -35.4948 	
+[info] knee_tx_l 	 0.112287 	
+[info] knee_ty_l 	 0.0291406 	
+[info] knee_tz_l 	 0.0276335 	
+[info] pf_flex_l 	 -72.6655 	
+[info] pf_rot_l 	 -30.5319 	
+[info] pf_tilt_l 	 4.24775 	
+[info] pf_tx_l 	 0.143681 	
+[info] pf_ty_l 	 -0.00517757 	
+[info] pf_tz_l 	 0.0678531 	
+[info] Time: 0.26
+[info] 		 VALUE 		DELTA
+[info] knee_add_l 	 8.02108 	
+[info] knee_rot_l 	 -35.8198 	
+[info] knee_tx_l 	 -0.122065 	
+[info] knee_ty_l 	 0.00159184 	
+[info] knee_tz_l 	 0.0253731 	
+[info] pf_flex_l 	 -72.7321 	
+[info] pf_rot_l 	 -30.862 	
+[info] pf_tilt_l 	 4.21642 	
+[info] pf_tx_l 	 -0.0292112 	
+[info] pf_ty_l 	 0.0210656 	
+[info] pf_tz_l 	 0.0950368 	
