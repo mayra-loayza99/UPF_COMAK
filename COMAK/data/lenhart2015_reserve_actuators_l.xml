@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Reserve actuators for LEFT-leg COMAK simulation (bilateral model).
+    Includes secondary-coord actuators for LEFT TF+PF only.
+    Right TF/PF secondary coords are prescribed in this simulation → no actuators needed.
+-->
+<OpenSimDocument Version="30000">
+    <ForceSet name="gait2354_CMC">
+        <defaults>
+            <CoordinateActuator>
+                <components />
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate></coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+        </defaults>
+        <objects>
+            <!-- Pelvis (6) -->
+            <CoordinateActuator name="pelvis_tilt_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pelvis_tilt</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pelvis_list_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pelvis_list</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pelvis_rot_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pelvis_rot</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pelvis_tx_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pelvis_tx</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pelvis_ty_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pelvis_ty</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pelvis_tz_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pelvis_tz</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <!-- Right hip primary (3) — prescribed, kept for residual stability -->
+            <CoordinateActuator name="hip_flex_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>hip_flex_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="hip_add_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>hip_add_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="hip_rot_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>hip_rot_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <!-- NOTE: Right TF/PF secondary coords are PRESCRIBED in left-leg simulation.
+                 No reserve actuators needed for them. -->
+            <!-- Right knee / ankle (prescribed) -->
+            <CoordinateActuator name="knee_flex_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>knee_flex_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="ankle_flex_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>ankle_flex_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="subt_angle_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>subt_angle_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="mtp_angle_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>mtp_angle_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <!-- Left hip primary (3) — OPTIMIZED -->
+            <CoordinateActuator name="hip_flex_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>hip_flex_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="hip_add_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>hip_add_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="hip_rot_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>hip_rot_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <!-- Left PF secondary (6) — OPTIMIZED -->
+            <CoordinateActuator name="pf_flex_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pf_flex_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pf_rot_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pf_rot_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pf_tilt_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pf_tilt_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pf_tx_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pf_tx_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pf_ty_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pf_ty_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pf_tz_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pf_tz_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <!-- Left knee primary + TF secondary (6) — OPTIMIZED -->
+            <CoordinateActuator name="knee_flex_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>knee_flex_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="knee_add_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>knee_add_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="knee_rot_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>knee_rot_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="knee_tx_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>knee_tx_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="knee_ty_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>knee_ty_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="knee_tz_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>knee_tz_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <!-- Left ankle / foot -->
+            <CoordinateActuator name="ankle_flex_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>ankle_flex_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="subt_angle_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>subt_angle_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="mtp_angle_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>mtp_angle_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <!-- Lumbar / neck (6) -->
+            <CoordinateActuator name="lumbar_ext_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>lumbar_ext</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="lumbar_latbend_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>lumbar_latbend</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="lumbar_rot_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>lumbar_rot</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="neck_ext_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>neck_ext</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="neck_latbend_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>neck_latbend</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="neck_rot_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>neck_rot</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <!-- Arms right (6) -->
+            <CoordinateActuator name="arm_add_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>arm_add_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="arm_flex_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>arm_flex_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="arm_rot_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>arm_rot_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="elbow_flex_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>elbow_flex_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pro_sup_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pro_sup_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="wrist_flex_r_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>wrist_flex_r</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <!-- Arms left (6) -->
+            <CoordinateActuator name="arm_add_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>arm_add_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="arm_flex_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>arm_flex_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="arm_rot_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>arm_rot_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="elbow_flex_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>elbow_flex_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="pro_sup_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>pro_sup_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+            <CoordinateActuator name="wrist_flex_l_reserve">
+                <appliesForce>true</appliesForce>
+                <min_control>-Inf</min_control>
+                <max_control>Inf</max_control>
+                <coordinate>wrist_flex_l</coordinate>
+                <optimal_force>1</optimal_force>
+            </CoordinateActuator>
+        </objects>
+        <groups />
+    </ForceSet>
+</OpenSimDocument>

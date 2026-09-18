@@ -19,23 +19,15 @@ function [] = run_ik(model_file, motion_file, ik_result_dir, numeric_id, project
     end
 
     import org.opensim.modeling.*
-    Logger.setLevelString('Debug');
+    try; org.opensim.modeling.Logger.setLevelString('Debug'); catch; end
 
     limpiar_archivos_ik(ik_result_dir);
 
     if strcmp(side, 'l')
         secondary_coords = {
-            '/jointset/knee_l/knee_add_l';
-            '/jointset/knee_l/knee_rot_l';
-            '/jointset/knee_l/knee_tx_l';
-            '/jointset/knee_l/knee_ty_l';
-            '/jointset/knee_l/knee_tz_l';
-            '/jointset/pf_l/pf_flex_l';
-            '/jointset/pf_l/pf_rot_l';
-            '/jointset/pf_l/pf_tilt_l';
-            '/jointset/pf_l/pf_tx_l';
-            '/jointset/pf_l/pf_ty_l';
-            '/jointset/pf_l/pf_tz_l';
+            '/jointset/pf_l/pf_l_r3';
+            '/jointset/pf_l/pf_l_tx';
+            '/jointset/pf_l/pf_l_ty';
         };
         coupled_coord = '/jointset/knee_l/knee_flex_l';
     else

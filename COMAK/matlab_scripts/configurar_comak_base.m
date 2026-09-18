@@ -23,13 +23,27 @@ function comak_tool = configurar_comak_base(model_file, ext_load_file, results_b
 
     comak_tool = COMAKTool();
     comak_tool.set_model_file(model_file);
-    comak_tool.set_coordinates_file(['../results/' project_id '_' numeric_id ...
-        '/comak_inverse_kinematics/' results_basename '_ik.mot']);
+    % Auto-detect mirrored IK file (created by espejo_cinematica).
+    % If present, use it so the contralateral leg follows ipsilateral kinematics.
+    ik_base    = ['../results/' project_id '_' numeric_id '/comak_inverse_kinematics/' results_basename];
+    mirror_mot = [ik_base '_ik_mirror.mot'];
+    orig_mot   = [ik_base '_ik.mot'];
+    if isfile(mirror_mot)
+        comak_tool.set_coordinates_file(mirror_mot);
+    else
+        comak_tool.set_coordinates_file(orig_mot);
+    end
     comak_tool.set_external_loads_file(ext_load_file);
     comak_tool.set_results_directory(result_dir);
     comak_tool.set_results_prefix(result_prefix);
     comak_tool.set_replace_force_set(false);
-    comak_tool.set_force_set_file('../data/lenhart2015_reserve_actuators.xml');
+    % Use side-specific reserve actuator file (only secondary coords for the
+    % analyzed leg; contralateral secondary coords are prescribed, not optimized)
+    if strcmp(side, 'l')
+        comak_tool.set_force_set_file('../data/lenhart2015_reserve_actuators_l.xml');
+    else
+        comak_tool.set_force_set_file('../data/lenhart2015_reserve_actuators_r.xml');
+    end
     comak_tool.set_start_time(time_start);
     comak_tool.set_stop_time(time_stop);
     comak_tool.set_time_step(0.01);
@@ -79,6 +93,19 @@ function comak_tool = configurar_comak_base(model_file, ext_load_file, results_b
         comak_tool.set_prescribed_coordinates(30, '/jointset/hip_r/hip_rot_r');
         comak_tool.set_prescribed_coordinates(31, '/jointset/knee_r/knee_flex_r');
         comak_tool.set_prescribed_coordinates(32, '/jointset/ankle_r/ankle_flex_r');
+        % Prescribe right-side TF+PF secondary coords at defaults (bilateral model
+        % has tf_contact_r/pf_contact_r; COMAK must see all their DOFs accounted for)
+        comak_tool.set_prescribed_coordinates(33, '/jointset/knee_r/knee_add_r');
+        comak_tool.set_prescribed_coordinates(34, '/jointset/knee_r/knee_rot_r');
+        comak_tool.set_prescribed_coordinates(35, '/jointset/knee_r/knee_tx_r');
+        comak_tool.set_prescribed_coordinates(36, '/jointset/knee_r/knee_ty_r');
+        comak_tool.set_prescribed_coordinates(37, '/jointset/knee_r/knee_tz_r');
+        comak_tool.set_prescribed_coordinates(38, '/jointset/pf_r/pf_flex_r');
+        comak_tool.set_prescribed_coordinates(39, '/jointset/pf_r/pf_rot_r');
+        comak_tool.set_prescribed_coordinates(40, '/jointset/pf_r/pf_tilt_r');
+        comak_tool.set_prescribed_coordinates(41, '/jointset/pf_r/pf_tx_r');
+        comak_tool.set_prescribed_coordinates(42, '/jointset/pf_r/pf_ty_r');
+        comak_tool.set_prescribed_coordinates(43, '/jointset/pf_r/pf_tz_r');
 
         % Primary (left hip + knee + ankle)
         comak_tool.set_primary_coordinates(0, '/jointset/hip_l/hip_flex_l');
@@ -97,12 +124,12 @@ function comak_tool = configurar_comak_base(model_file, ext_load_file, results_b
             'knee_tx_l',  '/jointset/knee_l/knee_tx_l',  0.05;
             'knee_ty_l',  '/jointset/knee_l/knee_ty_l',  0.05;
             'knee_tz_l',  '/jointset/knee_l/knee_tz_l',  0.05;
-            'pf_flex_l',  '/jointset/pf_l/pf_flex_l',   0.01;
-            'pf_rot_l',   '/jointset/pf_l/pf_rot_l',    0.01;
-            'pf_tilt_l',  '/jointset/pf_l/pf_tilt_l',   0.01;
-            'pf_tx_l',    '/jointset/pf_l/pf_tx_l',     0.005;
-            'pf_ty_l',    '/jointset/pf_l/pf_ty_l',     0.005;
-            'pf_tz_l',    '/jointset/pf_l/pf_tz_l',     0.005;
+            'pf_flex_l',  '/jointset/pf_l/pf_flex_l',   0.05;
+            'pf_rot_l',   '/jointset/pf_l/pf_rot_l',    0.05;
+            'pf_tilt_l',  '/jointset/pf_l/pf_tilt_l',   0.05;
+            'pf_tx_l',    '/jointset/pf_l/pf_tx_l',     0.02;
+            'pf_ty_l',    '/jointset/pf_l/pf_ty_l',     0.02;
+            'pf_tz_l',    '/jointset/pf_l/pf_tz_l',     0.02;
         };
 
     else
@@ -113,6 +140,12 @@ function comak_tool = configurar_comak_base(model_file, ext_load_file, results_b
         comak_tool.set_prescribed_coordinates(30, '/jointset/hip_l/hip_rot_l');
         comak_tool.set_prescribed_coordinates(31, '/jointset/knee_l/knee_flex_l');
         comak_tool.set_prescribed_coordinates(32, '/jointset/ankle_l/ankle_flex_l');
+        % Prescribe left-side PF secondary coords at defaults (knee_l is a
+        % reduced/heritage scheme: only knee_flex_l exists, already prescribed
+        % above; pf_l has 3 real DOFs: pf_l_r3, pf_l_tx, pf_l_ty)
+        comak_tool.set_prescribed_coordinates(33, '/jointset/pf_l/pf_l_r3');
+        comak_tool.set_prescribed_coordinates(34, '/jointset/pf_l/pf_l_tx');
+        comak_tool.set_prescribed_coordinates(35, '/jointset/pf_l/pf_l_ty');
 
         % Primary (right hip + knee + ankle)
         comak_tool.set_primary_coordinates(0, '/jointset/hip_r/hip_flex_r');
@@ -150,7 +183,7 @@ function comak_tool = configurar_comak_base(model_file, ext_load_file, results_b
 
     % ── Optimizer settings ────────────────────────────────────────────────────
     comak_tool.set_settle_secondary_coordinates_at_start(true);
-    comak_tool.set_settle_threshold(1e-3);
+    comak_tool.set_settle_threshold(1e-2);
     comak_tool.set_settle_accuracy(1e-2);
     comak_tool.set_settle_internal_step_limit(10000);
     comak_tool.set_print_settle_sim_results(true);

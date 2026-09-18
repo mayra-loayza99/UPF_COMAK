@@ -1,5 +1,5 @@
 function [] = run_comak(model_file, ext_load_file, comak_result_dir, numeric_id, project_id, results_basename, time_start, time_stop, contact_energy_weight, custom_muscle_weights, comak_muscle_weight_result_dir, compare_contact_energy_weight, comak_contact_energy_result_dir, side)
-
+    
     arguments
         model_file
         ext_load_file
@@ -11,7 +11,7 @@ function [] = run_comak(model_file, ext_load_file, comak_result_dir, numeric_id,
         time_stop = -1
         contact_energy_weight = 100
         custom_muscle_weights = false
-        comak_muscle_weight_result_dir = []
+        comak_muscle_weight_result_dir = [] 
         compare_contact_energy_weight = 0
         comak_contact_energy_result_dir = []
         side = 'r'
@@ -157,38 +157,22 @@ function cost_fun_param_set = configurar_muscle_weights()
     cost_fun_param_set = COMAKCostFunctionParameterSet();
     cost_fun_param = COMAKCostFunctionParameter();
     
-    % Lista de músculos con sus pesos (derecho e izquierdo)
+    % Lista de músculos con sus pesos
     musculos = {
-        % Right leg
-        'gasmed_r',  '/forceset/gasmed_r',  4;
-        'gaslat_r',  '/forceset/gaslat_r',  7;
-        'soleus_r',  '/forceset/soleus_r',  0.9;
-        'recfem_r',  '/forceset/recfem_r',  3;
-        'glmed1_r',  '/forceset/glmed1_r',  0.9;
-        'glmed2_r',  '/forceset/glmed2_r',  0.9;
-        'glmed3_r',  '/forceset/glmed3_r',  0.9;
-        'glmin1_r',  '/forceset/glmin1_r',  0.9;
-        'glmin2_r',  '/forceset/glmin2_r',  0.9;
-        'glmin3_r',  '/forceset/glmin3_r',  0.9;
-        'bflh_r',    '/forceset/bflh_r',    2;
-        'bfsh_r',    '/forceset/bfsh_r',    2;
+        'gasmed_r', '/forceset/gasmed_r', 4;
+        'gaslat_r', '/forceset/gaslat_r', 7;
+        'soleus_r', '/forceset/soleus_r', 0.9;
+        'recfem_r', '/forceset/recfem_r', 3;
+        'glmed1_r', '/forceset/glmed1_r', 0.9;
+        'glmed2_r', '/forceset/glmed1_r', 0.9;  % Nota: usa glmed1_r (parece ser del código original)
+        'glmed3_r', '/forceset/glmed3_r', 0.9;
+        'glmin1_r', '/forceset/glmin1_r', 0.9;
+        'glmin2_r', '/forceset/glmin2_r', 0.9;
+        'glmin3_r', '/forceset/glmin3_r', 0.9;
+        'bflh_r', '/forceset/bflh_r', 2;
+        'bfsh_r', '/forceset/bfsh_r', 2;
         'semiten_r', '/forceset/semiten_r', 2;
         'semimem_r', '/forceset/semimem_r', 2;
-        % Left leg (same weights, mirrored anatomy)
-        'gasmed_l',  '/forceset/gasmed_l',  4;
-        'gaslat_l',  '/forceset/gaslat_l',  7;
-        'soleus_l',  '/forceset/soleus_l',  0.9;
-        'recfem_l',  '/forceset/recfem_l',  3;
-        'glmed1_l',  '/forceset/glmed1_l',  0.9;
-        'glmed2_l',  '/forceset/glmed2_l',  0.9;
-        'glmed3_l',  '/forceset/glmed3_l',  0.9;
-        'glmin1_l',  '/forceset/glmin1_l',  0.9;
-        'glmin2_l',  '/forceset/glmin2_l',  0.9;
-        'glmin3_l',  '/forceset/glmin3_l',  0.9;
-        'bflh_l',    '/forceset/bflh_l',    2;
-        'bfsh_l',    '/forceset/bfsh_l',    2;
-        'semiten_l', '/forceset/semiten_l', 2;
-        'semimem_l', '/forceset/semimem_l', 2;
     };
     
     for i = 1:size(musculos, 1)
@@ -198,5 +182,3 @@ function cost_fun_param_set = configurar_muscle_weights()
         cost_fun_param_set.cloneAndAppend(cost_fun_param);
     end
 end
-
-% configurar_comak_base() bilateral implementation is in configurar_comak_base.m.

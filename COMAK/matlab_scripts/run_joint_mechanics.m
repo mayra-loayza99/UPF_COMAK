@@ -30,7 +30,7 @@ function [] = run_joint_mechanics(model_file, comak_result_dir, jnt_mech_result_
     
     % LIMPIEZA INICIAL
     import org.opensim.modeling.*
-    Logger.setLevelString('Debug');
+    try; org.opensim.modeling.Logger.setLevelString('Debug'); catch; end
     
     % Limpiar archivos previos de Joint Mechanics
     limpiar_archivos_jm(jnt_mech_result_dir);
