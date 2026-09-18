@@ -1,0 +1,59 @@
+[info] Loaded library D:\mayra\Descargas\UPF_COMAK\bin\osimJAM.dll
+[info] Preparing to run ScaleTool.
+[info] Processing subject lenhart2015-scaled...
+[info] Step 1: Loading generic model
+[info] Loaded model lenhart2015 from file D:/mayra/Descargas/UPF_COMAK/COMAK/models/lenhart2015_generic/lenhart2015.osim
+[info] Loading marker set from 'D:/mayra/Descargas/UPF_COMAK/COMAK/models/lenhart2015_generic/markers.xml'.
+[info] Updated markers in model lenhart2015
+[info] Step 2: Scaling generic model
+[info] Loaded marker file D:/mayra/Descargas/UPF_COMAK/COMAK/data/HOLOA_040/standing_mirror/Standing_HOLOA_ID_40_mirror.trc (22 markers, 3572 frames)
+[info] Measurement 'pelvis'
+[info] 	pair 0 (r.asis, l.asis): model = 0.287128, experimental = 0.320832
+[info] 	pair 1 (r.asis, r.knee1): model = 0.466244, experimental = 0.344159
+[info] 	pair 2 (l.asis, l.knee1): model = 0.45399, experimental = 0.369834
+[info] 	overall scale factor = 0.890054
+[info] Measurement 'torso'
+[info] 	pair 0 (r.asis, l.asis): model = 0.287128, experimental = 0.320832
+[info] 	pair 1 (r.asis, r.knee1): model = 0.466244, experimental = 0.344159
+[info] 	pair 2 (l.asis, l.knee1): model = 0.45399, experimental = 0.369834
+[info] 	overall scale factor = 0.890054
+[info] Measurement 'rFemur'
+[info] 	pair 0 (r.asis, r.kneem): model = 0.481683, experimental = 0.427136
+[info] 	pair 1 (r.asis, r.knee1): model = 0.466244, experimental = 0.344159
+[info] 	pair 2 (r.knee1, r.mall): model = 0.400461, experimental = 0.437401
+[info] 	pair 3 (r.knee1, r.heel): model = 0.443471, experimental = 0.494031
+[info] 	overall scale factor = 0.95779
+[info] Measurement 'rTibia'
+[info] 	pair 0 (r.asis, r.kneem): model = 0.481683, experimental = 0.427136
+[info] 	pair 1 (r.asis, r.knee1): model = 0.466244, experimental = 0.344159
+[info] 	pair 2 (r.knee1, r.mall): model = 0.400461, experimental = 0.437401
+[info] 	pair 3 (r.knee1, r.heel): model = 0.443471, experimental = 0.494031
+[info] 	overall scale factor = 0.95779
+[info] Measurement 'rFoot'
+[info] 	pair 0 (r.heel, r.met): model = 0.187251, experimental = 0.197784
+[info] 	pair 1 (r.mall, r.met): model = 0.137851, experimental = 0.139931
+[info] 	overall scale factor = 1.03567
+[info] Measurement 'lFemur'
+[info] 	pair 0 (l.asis, l.kneem): model = 0.466171, experimental = 0.429296
+[info] 	pair 1 (l.asis, l.knee1): model = 0.45399, experimental = 0.369834
+[info] 	pair 2 (l.knee1, l.mall): model = 0.396859, experimental = 0.420617
+[info] 	pair 3 (l.knee1, l.heel): model = 0.43968, experimental = 0.464505
+[info] 	overall scale factor = 0.962964
+[info] Measurement 'lTibia'
+[info] 	pair 0 (l.asis, l.kneem): model = 0.466171, experimental = 0.429296
+[info] 	pair 1 (l.asis, l.knee1): model = 0.45399, experimental = 0.369834
+[info] 	pair 2 (l.knee1, l.mall): model = 0.396859, experimental = 0.420617
+[info] 	pair 3 (l.knee1, l.heel): model = 0.43968, experimental = 0.464505
+[info] 	overall scale factor = 0.962964
+[info] Measurement 'lFoot'
+[info] 	pair 0 (l.heel, l.met): model = 0.187251, experimental = 0.205182
+[info] 	pair 1 (l.mall, l.met): model = 0.137159, experimental = 0.148536
+[info] 	overall scale factor = 1.08935
+[info] Wrote model file 'D:/mayra/Descargas/UPF_COMAK/COMAK/data/HOLOA_040/model/model_HOLOA_040_mirror_scaled.osim' from model.
+[info] Step 3: Placing markers on model
+[info] Loaded marker file D:/mayra/Descargas/UPF_COMAK/COMAK/data/HOLOA_040/standing_mirror/Standing_HOLOA_ID_40_mirror.trc (22 markers, 3572 frames)
+[info] Averaged frames from time 5.0 to 7.0 in D:/mayra/Descargas/UPF_COMAK/COMAK/data/HOLOA_040/standing_mirror/Standing_HOLOA_ID_40_mirror.trc (frames 1250 to 1750)
+[info] Deleted 0 unused markers from model lenhart2015-scaled.
+[info] Frame at (t = 5.0):	 total squared error = 0.0434912, marker error: RMS = 0.044462, max = 0.076884 (r.should)
+[info] Moved markers in model lenhart2015-scaled to match locations in marker file 'D:/mayra/Descargas/UPF_COMAK/COMAK/data/HOLOA_040/standing_mirror/Standing_HOLOA_ID_40_mirror.trc'.
+[info] Wrote model file 'D:/mayra/Descargas/UPF_COMAK/COMAK/data/HOLOA_040/model/model_HOLOA_040_mirror.osim' from model lenhart2015-scaled.

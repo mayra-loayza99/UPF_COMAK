@@ -1,0 +1,47 @@
+﻿diff --git "a/D:\\mayra\\Descargas\\UPF_COMAK-master\\UPF_COMAK-master\\COMAK\\matlab_scripts\\main_comak_workflow_function.m" "b/D:\\mayra\\Descargas\\UPF_COMAK\\COMAK\\matlab_scripts\\main_comak_workflow_function.m"
+index 5a2309b..5850a85 100644
+--- "a/D:\\mayra\\Descargas\\UPF_COMAK-master\\UPF_COMAK-master\\COMAK\\matlab_scripts\\main_comak_workflow_function.m"
++++ "b/D:\\mayra\\Descargas\\UPF_COMAK\\COMAK\\matlab_scripts\\main_comak_workflow_function.m"
+@@ -173,29 +173,15 @@ function main_comak_workflow_function(directory_path)
+ %             
+             comak_time_start = tic;
+             try
+-                run_comak(model_file, ext_load_file, comak_result_dir, numeric_id, ...
+-                          project_id, results_basename, time_start, time_stop)
+-                elapsed_comak = toc(comak_time_start);
+-                time_comak = time_comak + elapsed_comak;
+-                fprintf('Ô£ô COMAK completado para %s: %.2f segundos\n', subdir, elapsed_comak);
++                run_comak(model_file, ext_load_file, comak_result_dir, numeric_id, project_id, results_basename, time_start, time_stop);
++                time_comak = time_comak + toc(comak_time_start);
++                fprintf('Ô£ô COMAK completado para %s: %.2f segundos\n', subdir, toc(comak_time_start));
+             catch ME
+                 fprintf('Ô£ù ERROR en COMAK para %s:\n%s\n', subdir, ME.message);
+-                fprintf('Stack trace:\n');
+-                for k = 1:length(ME.stack)
+-                    fprintf('  en %s (l├¡nea %d)\n', ME.stack(k).name, ME.stack(k).line);
+-                end
+-                rethrow(ME);
++                continue; % Saltar al siguiente paciente
+             end
+ 
+-            % Validaciones post-COMAK
+-            expected_sto = fullfile(comak_result_dir, [results_basename '_states.sto']);
+-            assert(isfile(expected_sto), 'COMAK no gener├│ %s', expected_sto);
+-            info = dir(expected_sto);
+-            assert(info.bytes > 10000, 'COMAK gener├│ un .sto vac├¡o (%d bytes)', info.bytes);
+-            assert(elapsed_comak > 60, ...
+-            'COMAK termin├│ en %.1f s ÔÇö sospechosamente r├ípido, revisa logs', elapsed_comak);
+-
+-            % Limpieza
++            % Ô£à LIMPIEZA POST-COMAK
+             clear ext_load_file grf_file grf_file_1 ext_load_file_1 template_file model_file_1
+             java.lang.System.gc()
+             pause(0.5)
+@@ -316,7 +302,6 @@ function main_comak_workflow_function(directory_path)
+ 
+     %% ========== REPORTES POBLACIONALES (OPCIONAL) ==========
+     % Descomentar si quieres generar reportes para todos los pacientes
+-    sf_emg = 1000;
+     
+     fprintf('\n========================================\n');
+     fprintf('GENERANDO REPORTES POBLACIONALES\n');

@@ -1,0 +1,75 @@
+﻿================================================================================
+CLASIFICACION DE DIVERGENCIAS MATLAB: master vs workspace
+Fecha: 2026-06-17
+Carpeta A (master, read-only): D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\COMAK\matlab_scripts
+Carpeta B (workspace activo):  D:\mayra\Descargas\UPF_COMAK\COMAK\matlab_scripts
+Total archivos analizados: 47
+Metodo: git diff --no-index (estricto y --ignore-all-space --ignore-cr-at-eol)
+================================================================================
+
+Archivo                                          LineasEstricto LineasSinWS Clase     
+-------                                          -------------- ----------- -----     
+check_coordinates.m                                           0           0 COSMETICO 
+check_forces.m                                                0           0 COSMETICO 
+check_trc.m                                                   0           0 COSMETICO 
+compare_contact_properties.m                                  0           0 COSMETICO 
+configurar_comak_base.m                                     251         177 SUSTANCIAL
+configureOpenSim.m                                            0           0 COSMETICO 
+create_animated_joint_mechanics_gif.m                         0           0 COSMETICO 
+create_report.m                                               0           0 COSMETICO 
+createExternalLoadsXML.m                                      0           0 COSMETICO 
+createPieChartWithRunTimes.m                                  0           0 COSMETICO 
+extract_bodyweight_from_emt.m                                 0           0 COSMETICO 
+extract_bodyweight_from_mdx.m                                 0           0 COSMETICO 
+generateMeanReport.m                                          0           0 COSMETICO 
+generatePatientReport.m                                       0           0 COSMETICO 
+list_model_coordinates.m                                      0           0 COSMETICO 
+main_comak_workflow_function.m                               29          25 SUSTANCIAL
+plot_activation_vs_emg.m                                      0           0 COSMETICO 
+plot_activation_vs_emg_save_data.m                            0           0 COSMETICO 
+plot_activations.m                                            0           0 COSMETICO 
+plot_activations_save_data.m                                  0           0 COSMETICO 
+PLOT_AFTER_PARAVIEW.m                                         0           0 COSMETICO 
+plot_all_patients_activation_vs_emg.m                         0           0 COSMETICO 
+plot_all_patients_activations.m                               0           0 COSMETICO 
+plot_all_patients_joint_mechanics.m                           0           0 COSMETICO 
+plot_all_patients_joint_mechanics_save_data.m                 0           0 COSMETICO 
+plot_all_patients_kinematics.m                                0           0 COSMETICO 
+plot_all_patients_kinematics_save_data.m                      0           0 COSMETICO 
+plot_all_patients_pressure_and_area.m                         0           0 COSMETICO 
+plot_all_patients_primary_coordinates_vs_mocap.m              0           0 COSMETICO 
+PLOT_EVERYTHING_RESULTS.m                                     0           0 COSMETICO 
+plot_joint_mechanics_extended.m                               0           0 COSMETICO 
+plot_joint_mechanics_extended_save_data.m                     0           0 COSMETICO 
+plot_kinematics.m                                             0           0 COSMETICO 
+plot_kinematics_save_data.m                                   0           0 COSMETICO 
+plot_primary_coordinates_vs_mocap.m                           0           0 COSMETICO 
+plot_primary_coordinates_vs_mocap_save_data.m                 0           0 COSMETICO 
+preprocess_emg.m                                              0           0 COSMETICO 
+process_grand_challenge_trc.m                                 0           0 COSMETICO 
+read_opensim_mot.m                                            0           0 COSMETICO 
+run_comak.m                                                 507         501 SUSTANCIAL
+run_ik.m                                                    154          98 SUSTANCIAL
+run_joint_mechanics.m                                         2           2 MENOR     
+run_workflow.m                                                0           0 COSMETICO 
+runParaviewVisualization.m                                    0           0 COSMETICO 
+save_output_to_text_file.m                                    0           0 COSMETICO 
+scratch_paper.m                                               0           0 COSMETICO 
+shadedErrorBar.m                                              0           0 COSMETICO 
+
+
+
+=== RESUMEN POR CLASE ===
+COSMETICO: 42 archivos
+MENOR: 1 archivos
+SUSTANCIAL: 4 archivos
+
+=== MENORES (1-10 lineas sin whitespace) ===
+  run_joint_mechanics.m  [estricto=2, sinWS=2]
+
+=== SUSTANCIALES (>10 lineas sin whitespace) ===
+  configurar_comak_base.m  [estricto=251, sinWS=177]
+  main_comak_workflow_function.m  [estricto=29, sinWS=25]
+  run_comak.m  [estricto=507, sinWS=501]
+  run_ik.m  [estricto=154, sinWS=98]
+

@@ -1,0 +1,93 @@
+Assertion failed: Fatal Java Exception. See this file for details: C:\Users\mayra\AppData\Local\Temp\hs_error_pid14576.log
+
+Function: void __cdecl `anonymous-namespace'::mwJavaAbort(void), file b:\matlab\src\jmi\jmi\javainit.cpp, line 1399
+
+--------------------------------------------------------------------------------
+                Assertion detected at 2026-09-14 18:03:05 +0200
+--------------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding           : Disabled - No sandbox or build area path
+  Crash Mode               : continue (default)
+  Default Encoding         : windows-1252
+  Deployed                 : false
+  Graphics Driver          : Unknown hardware 
+  Graphics card 1          : Intel Corporation ( 0x8086 ) Intel(R) UHD Graphics 630 Version 27.20.100.8476 (2020-7-8)
+  Graphics card 2          : NVIDIA ( 0x10de ) NVIDIA GeForce GTX 1650 Version 32.0.15.8183 (2025-11-4)
+  Java Version             : Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  MATLAB Architecture      : win64
+  MATLAB Entitlement ID    : 1980473
+  MATLAB Root              : C:\Program Files\MATLAB\R2020b
+  MATLAB Version           : 9.9.0.1467703 (R2020b)
+  OpenGL                   : hardware
+  Operating System         : Microsoft Windows 11 Home
+  Process ID               : 14576
+  Processor ID             : x86 Family 6 Model 158 Stepping 10, GenuineIntel
+  Session Key              : 9b288461-bc68-49e2-9a64-276d99d8c56f
+  Window System            : Version 10.0 (Build 26200)
+
+Fault Count: 1
+
+
+Additional Log Files:
+  Java Crash Report        : C:\Users\mayra\AppData\Local\Temp\hs_error_pid14576.log
+
+
+Assertion in void __cdecl `anonymous-namespace'::mwJavaAbort(void) at b:\matlab\src\jmi\jmi\javainit.cpp line 1399:
+Fatal Java Exception. See this file for details: C:\Users\mayra\AppData\Local\Temp\hs_error_pid14576.log
+
+Current Thread: '' id 26708
+
+Register State (captured):
+  RAX = 00007ffeb890f118  RBX = 00007ffeb890f118
+  RCX = 0000000dd76fd1c0  RDX = 0000000000000000
+  RSP = 0000000dd76fd100  RBP = 0000000000000577
+  RSI = 000001b9bb035670  RDI = 00007ffeb890f118
+ 
+   R8 = 0000000000000004   R9 = 0000000dd76fd068
+  R10 = 000006266fc4d66d  R11 = 00007ffeb88ff1ae
+  R12 = 0000000dd76fd800  R13 = 0000000dd76fea40
+  R14 = 00007ffeac4ebc78  R15 = 00007ffeb88ff058
+ 
+  RIP = 00007ffeb86a4e2a  EFL = 00000206
+ 
+   CS = 0033   FS = 0053   GS = 002b
+
+Stack Trace (captured):
+[  0] 0x00007ffeb869cac3 C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00051907
+[  1] 0x00007ffeb86999d1 C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00039377
+[  2] 0x00007ffeb86a0fb6 C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00069558
+[  3] 0x00007ffeb869f839 C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00063545
+[  4] 0x00007ffeb86a46ab C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00083627
+[  5] 0x00007ffeac44f3f9   C:\Program Files\MATLAB\R2020b\bin\win64\jmi.dll+00652281
+[  6] 0x0000000061f89ead C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+02727597
+[  7] 0x0000000061f7208b C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+02629771
+[  8] 0x0000000061f8ac26 C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+02731046
+[  9] 0x0000000061f8f52d C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+02749741
+[ 10] 0x0000000062025d98 C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+03366296
+[ 11] 0x00007fffd80e54ff                      C:\WINDOWS\SYSTEM32\ntdll.dll+01463551
+[ 12] 0x00007fffd804bd25                      C:\WINDOWS\SYSTEM32\ntdll.dll+00834853
+[ 13] 0x00007fffd80e4e3e                      C:\WINDOWS\SYSTEM32\ntdll.dll+01461822
+[ 14] 0x00007ffea33b930a D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimSimulation.dll+02069258
+[ 15] 0x00007ffea33b931e D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimSimulation.dll+02069278
+[ 16] 0x00007ffea326f989 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimSimulation.dll+00719241
+[ 17] 0x00007ffea3277f53 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimSimulation.dll+00753491
+[ 18] 0x00007ffea31fb347 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimSimulation.dll+00242503
+[ 19] 0x00007ffea31e54b8 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimSimulation.dll+00152760
+[ 20] 0x00007ffea31eb233 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimSimulation.dll+00176691
+[ 21] 0x00007ffea31fb1d9 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimSimulation.dll+00242137
+[ 22] 0x00007ffea31ee0ef D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimSimulation.dll+00188655
+[ 23] 0x00007ffea30544ba D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimCommon.dll+00672954
+[ 24] 0x00007ffea3054202 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimCommon.dll+00672258
+[ 25] 0x00007ffea30400da D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimCommon.dll+00590042
+[ 26] 0x00007ffea3c2de28 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimJAM.dll+00581160
+[ 27] 0x00007ffea42c8e65   D:\mayra\Descargas\UPF_COMAK\bin\osimJavaJNI.dll+03509861
+[ 28] 0x00007ffea3fa7b0b   D:\mayra\Descargas\UPF_COMAK\bin\osimJavaJNI.dll+00228107
+[ 29] 0x000001b981ff9f2e                                   <unknown-module>+00000000
+
+** This crash report has been saved to disk as C:\Users\mayra\AppData\Local\Temp\matlab_crash_dump.14576-1 **
+
+
+
+MATLAB is exiting because of fatal error
+ERROR: MATLAB error Exit Status: 0x00000003, abort()

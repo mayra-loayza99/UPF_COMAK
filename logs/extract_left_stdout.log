@@ -1,0 +1,92 @@
+[info] Loaded model lenhart2015 from file COMAK\models\lenhart2015_generic\_tmp_bilateral.osim
+Input : COMAK\python\model_two_legs_fixed.osim
+Output: COMAK\models\lenhart2015_generic\lenhart2015_left.osim
+
+[PASO 1] Removing R forces...
+  WARNING [ForceSet]: 'pf_contact_r' not found — skipping
+  WARNING [ForceSet]: 'tf_contact_r' not found — skipping
+  Removed 134 from ForceSet
+
+[PASO 2] Removing R ContactGeometry...
+  Removed 3 from ContactGeometrySet
+
+[PASO 3] Removing R markers (prefix 'r.')...
+  Removed 10 from MarkerSet
+
+[PASO 4] Removing R joints...
+  Removed 8 from JointSet
+
+[PASO 5] Removing R bodies...
+  Removed 8 from BodySet
+
+[BUG FIX 1] Correcting mesh_back_file for L contact geometry...
+  femur_cartilage_l: mesh_back_file -> lenhart2015-L-femur-bone.stl
+  tibia_cartilage_l: mesh_back_file -> lenhart2015-L-tibia-bone.stl
+  patella_cartilage_l: mesh_back_file -> lenhart2015-L-patella-bone.stl
+
+[BUG FIX 2] Correcting tibia_proximal_l attached geometry...
+  WARNING BUG FIX 2 skipped (non-critical display fix): 'Body' object has no attribute 'getProperty_attached_geometry'
+
+[FINALIZE] Calling finalizeConnections()...
+[VALIDATE] Calling initSystem()...
+  initSystem(): OK
+
+============================================================
+PRE-SAVE REPORT
+============================================================
+  Bodies total          : 19
+  Bodies L (or neutral) : 15
+  Joints total          : 19
+  Forces total          : 134
+  Muscles L (_l suffix) : 134
+  Smith2018 contacts    : 2
+  SpringGeneralizedForce: 12
+  Markers               : 12
+
+  Coordinates:
+    pelvis_tilt                              1
+    pelvis_list                              1
+    pelvis_rot                               1
+    pelvis_tx                                2
+    pelvis_ty                                2
+    pelvis_tz                                2
+    hip_flex_l                               1
+    hip_add_l                                1
+    hip_rot_l                                1
+    pf_flex_l                                1
+    pf_rot_l                                 1
+    pf_tilt_l                                1
+    pf_tx_l                                  2
+    pf_ty_l                                  2
+    pf_tz_l                                  2
+    knee_flex_l                              1
+    knee_add_l                               1
+    knee_rot_l                               1
+    knee_tx_l                                2
+    knee_ty_l                                2
+    knee_tz_l                                2
+    ankle_flex_l                             3
+    subt_angle_l                             3
+    mtp_angle_l                              3
+    lumbar_ext                               1
+    lumbar_latbend                           1
+    lumbar_rot                               1
+    neck_ext                                 1
+    neck_latbend                             1
+    neck_rot                                 1
+    arm_add_r                                1
+    arm_flex_r                               1
+    arm_rot_r                                1
+    elbow_flex_r                             1
+    pro_sup_r                                1
+    wrist_flex_r                             1
+    arm_add_l                                1
+    arm_flex_l                               1
+    arm_rot_l                                1
+    elbow_flex_l                             1
+    pro_sup_l                                1
+    wrist_flex_l                             1
+============================================================
+
+Saved: COMAK\models\lenhart2015_generic\lenhart2015_left.osim
+

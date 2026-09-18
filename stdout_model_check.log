@@ -1,0 +1,10 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\AppData\Local\Temp\Editor_kkjxv] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[> In path (line 109)
+In addpath (line 86)
+In startup (line 2)] 
+[info] Loaded model lenhart2015-scaled from file COMAK/data/HOLOA_040/model/model_HOLOA_040.osim
+ORIGINAL: NumContactGeometries=3 NumForces=134
+[info] Loaded model lenhart2015-scaled from file COMAK/data/HOLOA_040/model/model_HOLOA_040_mirror.osim
+MIRROR: NumContactGeometries=6 NumForces=268

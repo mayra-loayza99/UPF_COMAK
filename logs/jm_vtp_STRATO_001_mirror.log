@@ -1,0 +1,421 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\AppData\Local\Temp\Editor_kkjxv] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[> In path (line 109)
+In addpath (line 86)
+In startup (line 2)] 
+[info] Set log level to Debug.
+Archivos previos de Joint Mechanics eliminados.
+=== CONFIGURACI‡N JOINT MECHANICS ===
+Paciente: STRATO_001_mirror
+Directorio resultados: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics
+Running JointMechanicsTool...
+[debug] Object.registerType: Millard2012EquilibriumMuscle.
+[debug] Object.registerType: replacing registered object of type Millard2012EquilibriumMuscle with a new default object of the same type.
+[info] Loaded model lenhart2015-scaled from file D:\mayra\Descargas\UPF_COMAK\COMAK\data\STRATO_001\model\model_STRATO_001_mirror.osim
+[info] Time: 4.848
+[info] Time: 4.85896
+[info] Time: 4.86992
+[info] Time: 4.88088
+[info] Time: 4.89184
+[info] Time: 4.90280
+[info] Time: 4.91376
+[info] Time: 4.92472
+[info] Time: 4.93568
+[info] Time: 4.94664
+[info] Time: 4.9576
+[info] Time: 4.96856
+[info] Time: 4.97952
+[info] Time: 4.99048
+[info] Time: 5.00144
+[info] Time: 5.0124
+[info] Time: 5.02336
+[info] Time: 5.03432
+[info] Time: 5.04528
+[info] Time: 5.05624
+[info] Time: 5.0672
+[info] Time: 5.07816
+[info] Time: 5.08912
+[info] Time: 5.10008
+[info] Time: 5.11104
+[info] Time: 5.122
+[info] Time: 5.13296
+[info] Time: 5.14392
+[info] Time: 5.15488
+[info] Time: 5.16584
+[info] Time: 5.1768
+[info] Time: 5.18776
+[info] Time: 5.19872
+[info] Time: 5.20968
+[info] Time: 5.22064
+[info] Time: 5.2316
+[info] Time: 5.24256
+[info] Time: 5.25352
+[info] Time: 5.26448
+[info] Time: 5.27544
+[info] Time: 5.2864
+[info] Time: 5.29736
+[info] Time: 5.30832
+[info] Time: 5.31928
+[info] Time: 5.33024
+[info] Time: 5.3412
+[info] Time: 5.35216
+[info] Time: 5.36312
+[info] Time: 5.37408
+[info] Time: 5.38504
+[info] Time: 5.396
+[info] Time: 5.40696
+[info] Time: 5.41792
+[info] Time: 5.42888
+[info] Time: 5.43984
+[info] Time: 5.45080
+[info] Time: 5.46176
+[info] Time: 5.47272
+[info] Time: 5.48368
+[info] Time: 5.49464
+[info] Time: 5.50560
+[info] Time: 5.51656
+[info] Time: 5.52752
+[info] Time: 5.53848
+[info] Time: 5.54944
+[info] Time: 5.56040
+[info] Time: 5.57136
+[info] Time: 5.58232
+[info] Time: 5.59328
+[info] Time: 5.60424
+[info] Time: 5.6152
+[info] Time: 5.62616
+[info] Time: 5.63712
+[info] Time: 5.64808
+[info] Time: 5.65904
+[info] Time: 5.67
+[info] Time: 5.68096
+[info] Time: 5.69192
+[info] Time: 5.70288
+[info] Time: 5.71384
+[info] Time: 5.7248
+[info] Time: 5.73576
+[info] Time: 5.74672
+[info] Time: 5.75768
+[info] Time: 5.76864
+[info] Time: 5.7796
+[info] Time: 5.79056
+[info] Time: 5.80152
+[info] Time: 5.81248
+[info] Time: 5.82344
+[info] Time: 5.8344
+[info] Time: 5.84536
+[info] Time: 5.85632
+[info] Time: 5.86728
+[info] Time: 5.87824
+[info] Time: 5.8892
+[info] Time: 5.90016
+[info] Time: 5.91112
+[info] Time: 5.92208
+[info] Time: 5.93304
+[info] Time: 5.944
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_tibia_cartilage
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_femur_cartilage
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_patella_cartilage
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pelvis_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pelvis_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pelvis_geom_3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_femur_bone
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_femur_cartilage
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_patella_bone
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_patella_cartilage
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_tibia_bone
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_tibia_cartilage
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_fibula_bone
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_talus_r_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_9
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_10
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_r_geom_11
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_9
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_10
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_11
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_12
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_13
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_r_geom_14
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_femur_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_patella_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_tibia_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_tibia_l_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_talus_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_9
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_10
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_calcn_l_geom_11
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_9
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_10
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_11
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_12
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_13
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_toes_l_geom_14
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_9
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_10
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_11
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_12
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_13
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_14
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_15
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_16
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_17
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_18
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_19
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_20
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_21
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_torso_geom_22
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_neckhead_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_neckhead_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_neckhead_geom_3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_neckhead_geom_4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_neckhead_geom_5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_neckhead_geom_6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_neckhead_geom_7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_neckhead_geom_8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_neckhead_geom_9
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_humerus_r_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ulna_r_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_radius_r_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_9
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_10
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_11
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_12
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_13
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_14
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_15
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_16
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_17
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_18
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_19
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_20
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_21
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_22
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_23
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_24
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_25
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_26
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_r_geom_27
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_humerus_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ulna_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_radius_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_9
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_10
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_11
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_12
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_13
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_14
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_15
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_16
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_17
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_18
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_19
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_20
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_21
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_22
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_23
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_24
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_25
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_26
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_hand_l_geom_27
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLd1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLd2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLd3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLd4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLd5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLs1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLs2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLs3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLs4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLs5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLs6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLpl1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLpl2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLpl3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLpl4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLpl5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLpl6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLam1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLam2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLam3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLam4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLam5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ACLam6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLal1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLal2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLal3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLal4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLal5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLpm1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLpm2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLpm3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLpm4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PCLpm5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_LCL1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_LCL2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_LCL3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_LCL4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PT1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PT2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PT3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PT4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PT5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PT6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_lPFL1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_lPFL2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_lPFL3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_lPFL4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_lPFL5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_lPFL6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_lPFL7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_lPFL8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_mPFL1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_mPFL2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_mPFL3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_mPFL4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_mPFL5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_mPFL6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLp1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLp2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLp3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLp4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_MCLp5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PFL1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PFL2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PFL3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PFL4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_PFL5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pCAP1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pCAP2
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pCAP3
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pCAP4
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pCAP5
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pCAP6
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pCAP7
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pCAP8
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ITB1
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_addbrev_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_addlong_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_addmagProx_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_addmagMid_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_addmagDist_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_addmagIsch_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_bflh_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_bfsh_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_edl_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_ehl_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_fdl_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_fhl_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_gaslat_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_gasmed_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_gem_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_glmax1_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_glmax2_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_glmax3_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_glmed1_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_glmed2_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_glmed3_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_glmin1_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_glmin2_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_glmin3_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_grac_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_iliacus_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pect_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_perbrev_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_perlong_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_pertert_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_piri_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_psoas_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_quadfem_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_recfem_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_sart_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_semimem_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_semiten_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_soleus_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_tfl_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_tibant_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_tibpost_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_vasint_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_vaslat_r
+Writing .vtp files: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics/walking_001_mirror_vasmed_r
+[info] Joint Mechanics Analysis complete.
+[info] Printed results to: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffea33b930a, pid=14576, tid=0x0000000000006854
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_202-b08) (build 1.8.0_202-b08)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.202-b08 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# CJoint Mechanics completado y memoria limpiada.
+=== JOINT MECHANICS FINALIZADO ===
+
+  0x00007ffea33b930a
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# An error report file with more information is saved as:
+# C:\Users\mayra\AppData\Local\Temp\hs_error_pid14576.log
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#

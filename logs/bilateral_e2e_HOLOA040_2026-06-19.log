@@ -1,0 +1,1021 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\AppData\Local\Temp\Editor_kkjxv] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[> In path (line 109)
+In addpath (line 86)
+In startup (line 2)] 
+[info] Set log level to Info.
+[info] Loaded library D:\mayra\Descargas\UPF_COMAK\bin\osimJAM.dll
+osimJAM plugin loaded.
+
+==============================================
+BILATERAL COMAK TEST
+Subject  : HOLOA_040
+Model    : model_two_legs_HOLOA_040.osim
+TRC      : W1_HOLOA_ID_40.trc
+GRF      : W1_HOLOA_ID_40.mot
+Time     : 4.088  5.064 s
+==============================================
+
+--- Preparing bilateral model (side=r) ---
+[info] Loaded model lenhart2015-scaled from file D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\COMAK\processed_data\HOLOA_040\model\model_two_legs_HOLOA_040.osim
+preparar_modelo_bilateral: disabled 134 contralateral forces (side=r)
+  -> D:\mayra\Descargas\UPF_COMAK\COMAK\matlab_scripts\..\results\HOLOA_040\model_two_legs_HOLOA_040_r_prepared.osim
+
+--- STEP 1/3: IK (side=r) ---
+[info] Set log level to Debug.
+=== EJECUTANDO IK: 19-Jun-2026 17:52:09 ===
+Paciente: HOLOA_040  |  Side: R
+Running COMAKInverseKinematicsTool...
+[info] Loaded model lenhart2015-scaled from file D:\mayra\Descargas\UPF_COMAK\COMAK\matlab_scripts\..\results\HOLOA_040\model_two_legs_HOLOA_040_r_prepared.osim
+[warning] Couldn't find file 'pelvis.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\pelvis.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\pelvis.vtp
+[debug] C:\Program Files\OpenSim\Geometry\pelvis.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'pelvflip.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\pelvflip.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\pelvflip.vtp
+[debug] C:\Program Files\OpenSim\Geometry\pelvflip.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'sacrum.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\sacrum.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\sacrum.vtp
+[debug] C:\Program Files\OpenSim\Geometry\sacrum.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-R-femur-bone.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-R-femur-bone.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-R-femur-bone.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-R-femur-bone.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-R-femur-cartilage.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-R-femur-cartilage.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-R-femur-cartilage.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-R-femur-cartilage.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-R-patella-bone.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-R-patella-bone.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-R-patella-bone.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-R-patella-bone.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-R-patella-cartilage.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-R-patella-cartilage.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-R-patella-cartilage.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-R-patella-cartilage.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-R-tibia-bone.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-R-tibia-bone.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-R-tibia-bone.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-R-tibia-bone.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-R-tibia-cartilage.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-R-tibia-cartilage.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-R-tibia-cartilage.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-R-tibia-cartilage.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-R-fibula-bone.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-R-fibula-bone.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-R-fibula-bone.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-R-fibula-bone.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'talus_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\talus_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\talus_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\talus_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'calcaneous_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\calcaneous_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\calcaneous_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\calcaneous_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'navicular_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\navicular_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\navicular_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\navicular_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'cuboid_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\cuboid_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\cuboid_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\cuboid_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'first_cuneiform_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\first_cuneiform_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\first_cuneiform_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\first_cuneiform_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'second_cuneiform_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\second_cuneiform_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\second_cuneiform_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\second_cuneiform_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'third_cuneiform_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\third_cuneiform_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\third_cuneiform_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\third_cuneiform_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal1_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal1_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal1_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal1_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal2_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal2_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal2_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal2_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal3_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal3_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal3_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal3_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal4_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal4_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal4_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal4_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal5_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal5_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal5_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal5_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx1_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx1_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx1_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx1_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx2_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx2_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx2_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx2_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx3_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx3_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx3_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx3_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx4_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx4_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx4_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx4_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx5_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx5_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx5_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx5_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'mid_phalanx2_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\mid_phalanx2_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\mid_phalanx2_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\mid_phalanx2_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'mid_phalanx3_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\mid_phalanx3_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\mid_phalanx3_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\mid_phalanx3_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'mid_phalanx4_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\mid_phalanx4_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\mid_phalanx4_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\mid_phalanx4_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'mid_phalanx5_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\mid_phalanx5_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\mid_phalanx5_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\mid_phalanx5_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx1_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx1_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx1_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx1_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx2_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx2_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx2_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx2_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx3_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx3_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx3_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx3_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx4_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx4_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx4_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx4_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx5_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx5_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx5_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx5_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'femur_l.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\femur_l.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\femur_l.vtp
+[debug] C:\Program Files\OpenSim\Geometry\femur_l.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-L-femur-bone.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-L-femur-bone.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-L-femur-bone.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-L-femur-bone.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-L-femur-cartilage.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-L-femur-cartilage.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-L-femur-cartilage.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-L-femur-cartilage.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-L-patella-bone.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-L-patella-bone.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-L-patella-bone.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-L-patella-bone.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-L-patella-cartilage.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-L-patella-cartilage.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-L-patella-cartilage.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-L-patella-cartilage.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-L-tibia-bone.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-L-tibia-bone.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-L-tibia-bone.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-L-tibia-bone.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-R-tibia-cartilage.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-R-tibia-cartilage.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-R-tibia-cartilage.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-R-tibia-cartilage.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lenhart2015-L-fibula-bone.stl'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-L-fibula-bone.stl
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-L-fibula-bone.stl
+[debug] C:\Program Files\OpenSim\Geometry\lenhart2015-L-fibula-bone.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'tibia_l.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\tibia_l.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\tibia_l.vtp
+[debug] C:\Program Files\OpenSim\Geometry\tibia_l.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'fibula_l.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\fibula_l.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\fibula_l.vtp
+[debug] C:\Program Files\OpenSim\Geometry\fibula_l.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'talus_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\talus_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\talus_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\talus_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'calcaneous_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\calcaneous_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\calcaneous_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\calcaneous_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'navicular_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\navicular_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\navicular_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\navicular_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'cuboid_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\cuboid_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\cuboid_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\cuboid_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'first_cuneiform_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\first_cuneiform_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\first_cuneiform_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\first_cuneiform_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'second_cuneiform_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\second_cuneiform_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\second_cuneiform_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\second_cuneiform_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'third_cuneiform_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\third_cuneiform_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\third_cuneiform_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\third_cuneiform_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal1_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal1_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal1_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal1_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal2_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal2_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal2_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal2_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal3_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal3_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal3_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal3_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal4_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal4_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal4_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal4_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metatarsal5_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metatarsal5_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metatarsal5_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metatarsal5_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx1_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx1_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx1_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx1_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx2_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx2_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx2_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx2_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx3_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx3_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx3_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx3_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx4_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx4_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx4_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx4_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'prox_phalanx5_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\prox_phalanx5_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\prox_phalanx5_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\prox_phalanx5_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'mid_phalanx2_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\mid_phalanx2_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\mid_phalanx2_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\mid_phalanx2_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'mid_phalanx3_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\mid_phalanx3_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\mid_phalanx3_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\mid_phalanx3_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'mid_phalanx4_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\mid_phalanx4_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\mid_phalanx4_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\mid_phalanx4_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'mid_phalanx5_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\mid_phalanx5_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\mid_phalanx5_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\mid_phalanx5_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx1_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx1_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx1_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx1_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx2_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx2_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx2_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx2_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx3_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx3_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx3_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx3_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx4_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx4_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx4_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx4_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'distal_phalanx5_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\distal_phalanx5_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\distal_phalanx5_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\distal_phalanx5_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lumbar1sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lumbar1sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lumbar1sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\lumbar1sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lumbar2sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lumbar2sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lumbar2sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\lumbar2sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lumbar3sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lumbar3sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lumbar3sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\lumbar3sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lumbar4sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lumbar4sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lumbar4sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\lumbar4sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lumbar5.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lumbar5.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lumbar5.vtp
+[debug] C:\Program Files\OpenSim\Geometry\lumbar5.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'ribcage_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\ribcage_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\ribcage_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\ribcage_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic1_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic1_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic1_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic1_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic2_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic2_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic2_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic2_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic3_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic3_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic3_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic3_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic4_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic4_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic4_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic4_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic5_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic5_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic5_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic5_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic6_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic6_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic6_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic6_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic7_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic7_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic7_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic7_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic8_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic8_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic8_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic8_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic9_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic9_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic9_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic9_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic10_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic10_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic10_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic10_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic11_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic11_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic11_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic11_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thoracic12_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thoracic12_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thoracic12_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thoracic12_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'clavicle_rvsm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\clavicle_rvsm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\clavicle_rvsm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\clavicle_rvsm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'scapula_rvsm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\scapula_rvsm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\scapula_rvsm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\scapula_rvsm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'clavicle_lvsm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\clavicle_lvsm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\clavicle_lvsm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\clavicle_lvsm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'scapula_lvsm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\scapula_lvsm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\scapula_lvsm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\scapula_lvsm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'cerv1sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\cerv1sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\cerv1sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\cerv1sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'cerv2sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\cerv2sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\cerv2sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\cerv2sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'cerv3sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\cerv3sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\cerv3sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\cerv3sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'cerv4sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\cerv4sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\cerv4sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\cerv4sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'cerv5sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\cerv5sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\cerv5sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\cerv5sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'cerv6sm.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\cerv6sm.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\cerv6sm.vtp
+[debug] C:\Program Files\OpenSim\Geometry\cerv6sm.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'cerv7.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\cerv7.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\cerv7.vtp
+[debug] C:\Program Files\OpenSim\Geometry\cerv7.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'skull_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\skull_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\skull_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\skull_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'jaw_s.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\jaw_s.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\jaw_s.vtp
+[debug] C:\Program Files\OpenSim\Geometry\jaw_s.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'humerus_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\humerus_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\humerus_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\humerus_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'ulna_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\ulna_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\ulna_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\ulna_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'radius_rv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\radius_rv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\radius_rv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\radius_rv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'pisiform_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\pisiform_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\pisiform_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\pisiform_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lunate_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lunate_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lunate_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\lunate_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\scaphoid_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\scaphoid_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\scaphoid_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\triquetrum_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\triquetrum_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\triquetrum_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'hamate_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\hamate_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\hamate_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\hamate_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'capitate_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\capitate_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\capitate_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\capitate_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\trapezoid_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\trapezoid_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\trapezoid_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'trapezium_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\trapezium_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\trapezium_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\trapezium_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal2_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal2_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal2_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\index_proximal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\index_proximal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\index_proximal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'index_medial_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\index_medial_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\index_medial_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\index_medial_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'index_distal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\index_distal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\index_distal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\index_distal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal3_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal3_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal3_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\middle_proximal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\middle_proximal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\middle_proximal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\middle_medial_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\middle_medial_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\middle_medial_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\middle_distal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\middle_distal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\middle_distal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal4_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal4_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal4_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\ring_proximal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\ring_proximal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\ring_proximal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\ring_medial_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\ring_medial_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\ring_medial_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\ring_distal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\ring_distal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\ring_distal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal5_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal5_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal5_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\little_proximal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\little_proximal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\little_proximal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'little_medial_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\little_medial_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\little_medial_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\little_medial_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'little_distal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\little_distal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\little_distal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\little_distal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal1_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal1_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal1_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thumb_proximal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thumb_proximal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thumb_proximal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thumb_distal_rvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thumb_distal_rvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thumb_distal_rvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'humerus_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\humerus_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\humerus_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\humerus_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'ulna_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\ulna_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\ulna_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\ulna_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'radius_lv.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\radius_lv.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\radius_lv.vtp
+[debug] C:\Program Files\OpenSim\Geometry\radius_lv.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'pisiform_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\pisiform_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\pisiform_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\pisiform_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'lunate_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lunate_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lunate_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\lunate_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\scaphoid_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\scaphoid_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\scaphoid_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\triquetrum_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\triquetrum_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\triquetrum_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'hamate_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\hamate_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\hamate_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\hamate_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'capitate_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\capitate_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\capitate_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\capitate_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\trapezoid_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\trapezoid_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\trapezoid_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'trapezium_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\trapezium_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\trapezium_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\trapezium_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal2_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal2_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal2_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\index_proximal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\index_proximal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\index_proximal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'index_medial_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\index_medial_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\index_medial_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\index_medial_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'index_distal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\index_distal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\index_distal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\index_distal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal3_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal3_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal3_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\middle_proximal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\middle_proximal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\middle_proximal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\middle_medial_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\middle_medial_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\middle_medial_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\middle_distal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\middle_distal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\middle_distal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal4_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal4_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal4_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\ring_proximal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\ring_proximal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\ring_proximal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\ring_medial_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\ring_medial_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\ring_medial_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\ring_distal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\ring_distal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\ring_distal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal5_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal5_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal5_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\little_proximal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\little_proximal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\little_proximal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'little_medial_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\little_medial_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\little_medial_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\little_medial_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'little_distal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\little_distal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\little_distal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\little_distal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\metacarpal1_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\metacarpal1_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\metacarpal1_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thumb_proximal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thumb_proximal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thumb_proximal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[debug] The following locations were tried:
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\thumb_distal_lvs.vtp
+[debug] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\thumb_distal_lvs.vtp
+[debug] C:\Program Files\OpenSim\Geometry\thumb_distal_lvs.vtp
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[error] Couldn't find file 'lenhart2015-R-femur-cartilage.stl'.
+[error] The following locations were tried:
+[error] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\lenhart2015-R-femur-cartilage.stl
+[error] d:\mayra\Descargas\UPF_COMAK\COMAK\results\HOLOA_040\Geometry\lenhart2015-R-femur-cartilage.stl
+[error] C:\Program Files\OpenSim\Geometry\lenhart2015-R-femur-cartilage.stl
+[debug] Set environment variable OPENSIM_HOME to search $OPENSIM_HOME/Geometry.
+[error] COMAKInverseKinematicsTool::run() caught an exception: 
+ 
+	Thrown at Smith2018ContactMesh.cpp:303 in findMeshFile().
+IK completado y memoria limpiada.
+IK completed in 1.2 s
+--- Mirroring IK kinematics (side=r) ---
+FATAL: espejo_cinematica: cannot open D:\mayra\Descargas\UPF_COMAK\COMAK\matlab_scripts\..\results\HOLOA_040\comak_inverse_kinematics\walking_040_ik.mot

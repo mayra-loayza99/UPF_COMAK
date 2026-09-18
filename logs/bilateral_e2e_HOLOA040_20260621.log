@@ -1,0 +1,377 @@
+osimJAM plugin loaded.
+
+==============================================
+BILATERAL COMAK TEST
+Subject  : HOLOA_040
+Model    : model_two_legs_HOLOA_040.osim
+TRC      : W1_HOLOA_ID_40.trc
+GRF      : W1_HOLOA_ID_40.mot
+Time     : 4.088 – 5.064 s
+==============================================
+
+--- Preparing bilateral model (side=r) ---
+preparar_modelo_bilateral: disabled 134 contralateral forces (side=r)
+  -> D:\mayra\Descargas\UPF_COMAK\COMAK\matlab_scripts\..\results\HOLOA_040\model_two_legs_HOLOA_040_r_prepared.osim
+
+--- STEP 1/3: IK (side=r) ---
+=== EJECUTANDO IK: 21-Jun-2026 23:09:09 ===
+Paciente: HOLOA_040  |  Side: R
+Running COMAKInverseKinematicsTool...
+Frame 404 (t=4.088):	total squared error = 0.00282225, marker error: RMS=0.0125216, max=0.0243247 (sacrum)
+Frame 405 (t=4.092):	total squared error = 0.00265764, marker error: RMS=0.012151, max=0.0239976 (sacrum)
+Frame 406 (t=4.096):	total squared error = 0.00239774, marker error: RMS=0.0115416, max=0.0224971 (sacrum)
+Frame 407 (t=4.1):	total squared error = 0.00253777, marker error: RMS=0.0118738, max=0.0230592 (r.bar1)
+Frame 408 (t=4.104):	total squared error = 0.00237708, marker error: RMS=0.0114917, max=0.0239257 (r.bar1)
+Frame 409 (t=4.108):	total squared error = 0.00240626, marker error: RMS=0.0115621, max=0.0244153 (r.bar1)
+Frame 410 (t=4.112):	total squared error = 0.00233156, marker error: RMS=0.0113812, max=0.0253396 (r.bar1)
+Frame 411 (t=4.116):	total squared error = 0.00235222, marker error: RMS=0.0114315, max=0.026244 (r.bar1)
+Frame 412 (t=4.12):	total squared error = 0.00229964, marker error: RMS=0.011303, max=0.0269091 (r.bar1)
+Frame 413 (t=4.124):	total squared error = 0.00221404, marker error: RMS=0.0110906, max=0.0257621 (r.bar1)
+Frame 414 (t=4.128):	total squared error = 0.00219972, marker error: RMS=0.0110547, max=0.0263856 (r.bar1)
+Frame 415 (t=4.132):	total squared error = 0.00216029, marker error: RMS=0.0109552, max=0.0251363 (r.bar1)
+Frame 416 (t=4.136):	total squared error = 0.00219855, marker error: RMS=0.0110518, max=0.0253987 (r.bar1)
+Frame 417 (t=4.14):	total squared error = 0.00223653, marker error: RMS=0.0111468, max=0.0240277 (r.bar1)
+Frame 418 (t=4.144):	total squared error = 0.00197587, marker error: RMS=0.0104771, max=0.0228851 (r.bar1)
+Frame 419 (t=4.148):	total squared error = 0.00206002, marker error: RMS=0.0106979, max=0.022323 (r.bar1)
+Frame 420 (t=4.152):	total squared error = 0.00237413, marker error: RMS=0.0114846, max=0.0240384 (r.bar1)
+Frame 421 (t=4.156):	total squared error = 0.00220534, marker error: RMS=0.0110688, max=0.0226773 (r.bar1)
+Frame 422 (t=4.16):	total squared error = 0.00240872, marker error: RMS=0.011568, max=0.0250447 (r.bar1)
+Frame 423 (t=4.164):	total squared error = 0.00230799, marker error: RMS=0.0113235, max=0.0234011 (r.bar1)
+Frame 424 (t=4.168):	total squared error = 0.00242956, marker error: RMS=0.0116179, max=0.0244917 (r.bar1)
+Frame 425 (t=4.172):	total squared error = 0.00230677, marker error: RMS=0.0113205, max=0.0220901 (r.bar1)
+Frame 426 (t=4.176):	total squared error = 0.0023614, marker error: RMS=0.0114538, max=0.0217929 (r.bar1)
+Frame 427 (t=4.18):	total squared error = 0.00238455, marker error: RMS=0.0115098, max=0.0216902 (r.bar1)
+Frame 428 (t=4.184):	total squared error = 0.00212695, marker error: RMS=0.0108703, max=0.019515 (r.bar1)
+Frame 429 (t=4.188):	total squared error = 0.00210875, marker error: RMS=0.0108237, max=0.0199222 (r.bar1)
+Frame 430 (t=4.192):	total squared error = 0.00195199, marker error: RMS=0.0104136, max=0.0192861 (r.bar1)
+Frame 431 (t=4.196):	total squared error = 0.00178898, marker error: RMS=0.00996935, max=0.0170003 (r.bar1)
+Frame 432 (t=4.2):	total squared error = 0.00174179, marker error: RMS=0.00983697, max=0.0156856 (r.bar1)
+Frame 433 (t=4.204):	total squared error = 0.00161433, marker error: RMS=0.00947021, max=0.0148843 (sacrum)
+Frame 434 (t=4.208):	total squared error = 0.0015126, marker error: RMS=0.00916697, max=0.0144731 (r.asis)
+Frame 435 (t=4.212):	total squared error = 0.00147046, marker error: RMS=0.00903838, max=0.0133754 (r.asis)
+Frame 436 (t=4.216):	total squared error = 0.00139227, marker error: RMS=0.00879479, max=0.0135876 (r.asis)
+Frame 437 (t=4.22):	total squared error = 0.00138403, marker error: RMS=0.00876872, max=0.0134907 (r.should)
+Frame 438 (t=4.224):	total squared error = 0.00142775, marker error: RMS=0.00890614, max=0.0135226 (r.asis)
+Frame 439 (t=4.228):	total squared error = 0.00137409, marker error: RMS=0.00873717, max=0.0140943 (l.asis)
+Frame 440 (t=4.232):	total squared error = 0.00116358, marker error: RMS=0.0080401, max=0.0126557 (sacrum)
+Frame 441 (t=4.236):	total squared error = 0.00107458, marker error: RMS=0.00772651, max=0.0122932 (l.asis)
+Frame 442 (t=4.24):	total squared error = 0.00116774, marker error: RMS=0.00805447, max=0.0124632 (l.asis)
+Frame 443 (t=4.244):	total squared error = 0.00109469, marker error: RMS=0.00779845, max=0.0134069 (sacrum)
+Frame 444 (t=4.248):	total squared error = 0.00112579, marker error: RMS=0.00790848, max=0.0128514 (sacrum)
+Frame 445 (t=4.252):	total squared error = 0.00110644, marker error: RMS=0.00784022, max=0.013109 (sacrum)
+Frame 446 (t=4.256):	total squared error = 0.00120893, marker error: RMS=0.00819529, max=0.0132925 (sacrum)
+Frame 447 (t=4.26):	total squared error = 0.00145439, marker error: RMS=0.00898886, max=0.0163742 (l.bar2)
+Frame 448 (t=4.264):	total squared error = 0.00115348, marker error: RMS=0.00800512, max=0.0134544 (sacrum)
+Frame 449 (t=4.268):	total squared error = 0.00114993, marker error: RMS=0.00799279, max=0.013547 (sacrum)
+Frame 450 (t=4.272):	total squared error = 0.00118107, marker error: RMS=0.00810031, max=0.0135061 (sacrum)
+Frame 451 (t=4.276):	total squared error = 0.00131451, marker error: RMS=0.00854565, max=0.0145345 (sacrum)
+Frame 452 (t=4.28):	total squared error = 0.00123322, marker error: RMS=0.00827722, max=0.0147553 (sacrum)
+Frame 453 (t=4.284):	total squared error = 0.0012541, marker error: RMS=0.00834698, max=0.0146027 (sacrum)
+Frame 454 (t=4.288):	total squared error = 0.00134706, marker error: RMS=0.00865083, max=0.0152465 (sacrum)
+Frame 455 (t=4.292):	total squared error = 0.00131905, marker error: RMS=0.0085604, max=0.0151602 (sacrum)
+Frame 456 (t=4.296):	total squared error = 0.00128806, marker error: RMS=0.00845926, max=0.0147742 (sacrum)
+Frame 457 (t=4.3):	total squared error = 0.00114566, marker error: RMS=0.00797795, max=0.0134566 (sacrum)
+Frame 458 (t=4.304):	total squared error = 0.00112104, marker error: RMS=0.00789175, max=0.013656 (sacrum)
+Frame 459 (t=4.308):	total squared error = 0.00112263, marker error: RMS=0.00789737, max=0.0145521 (sacrum)
+Frame 460 (t=4.312):	total squared error = 0.00116516, marker error: RMS=0.00804558, max=0.0158251 (sacrum)
+Frame 461 (t=4.316):	total squared error = 0.00136767, marker error: RMS=0.00871675, max=0.0189772 (l.bar2)
+Frame 462 (t=4.32):	total squared error = 0.00140415, marker error: RMS=0.00883225, max=0.017105 (l.bar2)
+Frame 463 (t=4.324):	total squared error = 0.00141171, marker error: RMS=0.00885597, max=0.0204937 (l.bar2)
+Frame 464 (t=4.328):	total squared error = 0.00111679, marker error: RMS=0.0078768, max=0.0127218 (sacrum)
+Frame 465 (t=4.332):	total squared error = 0.00111466, marker error: RMS=0.00786927, max=0.0134569 (sacrum)
+Frame 466 (t=4.336):	total squared error = 0.00108188, marker error: RMS=0.0077527, max=0.0152665 (sacrum)
+Frame 467 (t=4.34):	total squared error = 0.00104992, marker error: RMS=0.00763734, max=0.015711 (sacrum)
+Frame 468 (t=4.344):	total squared error = 0.000982135, marker error: RMS=0.00738668, max=0.0142086 (sacrum)
+Frame 469 (t=4.348):	total squared error = 0.00100464, marker error: RMS=0.00747082, max=0.0144831 (sacrum)
+Frame 470 (t=4.352):	total squared error = 0.00103634, marker error: RMS=0.00758777, max=0.0147232 (sacrum)
+Frame 471 (t=4.356):	total squared error = 0.00102747, marker error: RMS=0.00755525, max=0.0163331 (sacrum)
+Frame 472 (t=4.36):	total squared error = 0.00105042, marker error: RMS=0.00763917, max=0.0144957 (l.bar1)
+Frame 473 (t=4.364):	total squared error = 0.00109959, marker error: RMS=0.00781589, max=0.0156157 (l.bar1)
+Frame 474 (t=4.368):	total squared error = 0.0012468, marker error: RMS=0.00832266, max=0.0154368 (l.bar1)
+Frame 475 (t=4.372):	total squared error = 0.00118396, marker error: RMS=0.00811022, max=0.0168503 (l.bar1)
+Frame 476 (t=4.376):	total squared error = 0.00130913, marker error: RMS=0.00852815, max=0.0167338 (l.bar1)
+Frame 477 (t=4.38):	total squared error = 0.00129759, marker error: RMS=0.0084905, max=0.0171794 (l.bar1)
+Frame 478 (t=4.384):	total squared error = 0.00126522, marker error: RMS=0.0083839, max=0.0172841 (l.bar1)
+Frame 479 (t=4.388):	total squared error = 0.00118741, marker error: RMS=0.00812202, max=0.019007 (l.bar1)
+Frame 480 (t=4.392):	total squared error = 0.00124811, marker error: RMS=0.00832704, max=0.0188399 (l.bar1)
+Frame 481 (t=4.396):	total squared error = 0.00127864, marker error: RMS=0.00842825, max=0.0201921 (l.bar1)
+Frame 482 (t=4.4):	total squared error = 0.00126255, marker error: RMS=0.00837507, max=0.0207256 (l.bar1)
+Frame 483 (t=4.404):	total squared error = 0.00133697, marker error: RMS=0.00861836, max=0.0209126 (l.bar1)
+Frame 484 (t=4.408):	total squared error = 0.00151991, marker error: RMS=0.0091891, max=0.0205048 (l.bar1)
+Frame 485 (t=4.412):	total squared error = 0.00143843, marker error: RMS=0.00893939, max=0.022285 (l.bar1)
+Frame 486 (t=4.416):	total squared error = 0.00149668, marker error: RMS=0.0091186, max=0.0225005 (l.bar1)
+Frame 487 (t=4.42):	total squared error = 0.00136752, marker error: RMS=0.00871627, max=0.0230017 (l.bar1)
+Frame 488 (t=4.424):	total squared error = 0.00144549, marker error: RMS=0.00896131, max=0.0237922 (l.bar1)
+Frame 489 (t=4.428):	total squared error = 0.00126427, marker error: RMS=0.00838078, max=0.0219494 (l.bar1)
+Frame 490 (t=4.432):	total squared error = 0.0011974, marker error: RMS=0.0081561, max=0.0197864 (l.bar1)
+Frame 491 (t=4.436):	total squared error = 0.00115132, marker error: RMS=0.00799763, max=0.0199848 (l.bar1)
+Frame 492 (t=4.44):	total squared error = 0.00119275, marker error: RMS=0.00814025, max=0.0202254 (l.bar1)
+Frame 493 (t=4.444):	total squared error = 0.00124939, marker error: RMS=0.0083313, max=0.0205165 (l.bar1)
+Frame 494 (t=4.448):	total squared error = 0.00145437, marker error: RMS=0.0089888, max=0.0210675 (l.bar1)
+Frame 495 (t=4.452):	total squared error = 0.00124287, marker error: RMS=0.00830953, max=0.0207842 (l.bar1)
+Frame 496 (t=4.456):	total squared error = 0.00130477, marker error: RMS=0.00851394, max=0.0208315 (l.bar1)
+Frame 497 (t=4.46):	total squared error = 0.00134725, marker error: RMS=0.00865143, max=0.0216051 (l.bar1)
+Frame 498 (t=4.464):	total squared error = 0.00128397, marker error: RMS=0.00844582, max=0.0208843 (l.bar1)
+Frame 499 (t=4.468):	total squared error = 0.00132449, marker error: RMS=0.00857803, max=0.0204001 (l.bar1)
+Frame 500 (t=4.472):	total squared error = 0.00120047, marker error: RMS=0.00816655, max=0.0190229 (l.bar1)
+Frame 501 (t=4.476):	total squared error = 0.00129782, marker error: RMS=0.00849123, max=0.0195926 (l.bar1)
+Frame 502 (t=4.48):	total squared error = 0.00125844, marker error: RMS=0.00836141, max=0.019989 (l.bar1)
+Frame 503 (t=4.484):	total squared error = 0.00131448, marker error: RMS=0.00854556, max=0.0183124 (l.bar1)
+Frame 504 (t=4.488):	total squared error = 0.00145127, marker error: RMS=0.00897919, max=0.0187184 (l.bar1)
+Frame 505 (t=4.492):	total squared error = 0.00142042, marker error: RMS=0.00888326, max=0.0199497 (l.bar1)
+Frame 506 (t=4.496):	total squared error = 0.00166942, marker error: RMS=0.00963045, max=0.0199729 (l.bar1)
+Frame 507 (t=4.5):	total squared error = 0.00138924, marker error: RMS=0.00878521, max=0.0183338 (l.bar1)
+Frame 508 (t=4.504):	total squared error = 0.0014983, marker error: RMS=0.00912354, max=0.0192977 (l.bar1)
+Frame 509 (t=4.508):	total squared error = 0.00175373, marker error: RMS=0.00987064, max=0.0212995 (l.bar1)
+Frame 510 (t=4.512):	total squared error = 0.00196305, marker error: RMS=0.0104431, max=0.0233989 (l.bar2)
+Frame 511 (t=4.516):	total squared error = 0.0013463, marker error: RMS=0.00864838, max=0.0198268 (l.bar1)
+Frame 512 (t=4.52):	total squared error = 0.001445, marker error: RMS=0.00895978, max=0.0200806 (l.bar1)
+Frame 513 (t=4.524):	total squared error = 0.00155431, marker error: RMS=0.00929249, max=0.0199829 (l.bar1)
+Frame 514 (t=4.528):	total squared error = 0.00245197, marker error: RMS=0.0116714, max=0.0258289 (l.should)
+Frame 515 (t=4.532):	total squared error = 0.00205738, marker error: RMS=0.0106911, max=0.0205268 (l.should)
+Frame 516 (t=4.536):	total squared error = 0.00163573, marker error: RMS=0.00953279, max=0.019892 (l.bar1)
+Frame 517 (t=4.54):	total squared error = 0.00153438, marker error: RMS=0.00923273, max=0.0187521 (l.bar1)
+Frame 518 (t=4.544):	total squared error = 0.00121488, marker error: RMS=0.00821544, max=0.0176955 (l.bar1)
+Frame 519 (t=4.548):	total squared error = 0.00123333, marker error: RMS=0.00827758, max=0.0186838 (l.bar1)
+Frame 520 (t=4.552):	total squared error = 0.0012579, marker error: RMS=0.00835962, max=0.0190995 (l.bar1)
+Frame 521 (t=4.556):	total squared error = 0.00127581, marker error: RMS=0.00841891, max=0.0190503 (l.bar1)
+Frame 522 (t=4.56):	total squared error = 0.00129701, marker error: RMS=0.0084886, max=0.0189366 (l.bar1)
+Frame 523 (t=4.564):	total squared error = 0.00125996, marker error: RMS=0.00836645, max=0.0195823 (l.bar1)
+Frame 524 (t=4.568):	total squared error = 0.00125264, marker error: RMS=0.00834213, max=0.0194062 (l.bar1)
+Frame 525 (t=4.572):	total squared error = 0.00131798, marker error: RMS=0.00855692, max=0.0192714 (l.bar1)
+Frame 526 (t=4.576):	total squared error = 0.00141287, marker error: RMS=0.0088596, max=0.0191281 (l.bar1)
+Frame 527 (t=4.58):	total squared error = 0.00140327, marker error: RMS=0.00882946, max=0.0211943 (l.bar1)
+Frame 528 (t=4.584):	total squared error = 0.00143823, marker error: RMS=0.00893878, max=0.0208419 (l.bar1)
+Frame 529 (t=4.588):	total squared error = 0.00149752, marker error: RMS=0.00912115, max=0.0216616 (l.bar1)
+Frame 530 (t=4.592):	total squared error = 0.00146735, marker error: RMS=0.00902881, max=0.0213581 (l.bar1)
+Frame 531 (t=4.596):	total squared error = 0.00155692, marker error: RMS=0.0093003, max=0.0225612 (l.bar1)
+Frame 532 (t=4.6):	total squared error = 0.00146968, marker error: RMS=0.00903599, max=0.0217449 (l.bar1)
+Frame 533 (t=4.604):	total squared error = 0.00147726, marker error: RMS=0.00905924, max=0.0213527 (l.bar1)
+Frame 534 (t=4.608):	total squared error = 0.00135143, marker error: RMS=0.00866484, max=0.0203337 (l.bar1)
+Frame 535 (t=4.612):	total squared error = 0.00130809, marker error: RMS=0.00852477, max=0.0190393 (l.bar1)
+Frame 536 (t=4.616):	total squared error = 0.00131306, marker error: RMS=0.00854093, max=0.0193261 (l.bar1)
+Frame 537 (t=4.62):	total squared error = 0.00115811, marker error: RMS=0.0080212, max=0.0180387 (l.bar1)
+Frame 538 (t=4.624):	total squared error = 0.00120242, marker error: RMS=0.00817318, max=0.0182817 (l.bar1)
+Frame 539 (t=4.628):	total squared error = 0.00113975, marker error: RMS=0.00795734, max=0.017501 (l.bar1)
+Frame 540 (t=4.632):	total squared error = 0.00107596, marker error: RMS=0.00773148, max=0.0162325 (l.bar1)
+Frame 541 (t=4.636):	total squared error = 0.00111653, marker error: RMS=0.00787587, max=0.0159343 (l.bar1)
+Frame 542 (t=4.64):	total squared error = 0.00103893, marker error: RMS=0.00759726, max=0.0141082 (l.bar1)
+Frame 543 (t=4.644):	total squared error = 0.00105785, marker error: RMS=0.00766611, max=0.0152727 (l.bar1)
+Frame 544 (t=4.648):	total squared error = 0.00103424, marker error: RMS=0.00758008, max=0.0145057 (l.bar1)
+Frame 545 (t=4.652):	total squared error = 0.00125199, marker error: RMS=0.00833997, max=0.0152441 (l.bar1)
+Frame 546 (t=4.656):	total squared error = 0.00103671, marker error: RMS=0.00758914, max=0.0140912 (l.bar1)
+Frame 547 (t=4.66):	total squared error = 0.000967549, marker error: RMS=0.00733163, max=0.0126929 (l.bar1)
+Frame 548 (t=4.664):	total squared error = 0.000944761, marker error: RMS=0.00724477, max=0.011685 (l.bar1)
+Frame 549 (t=4.668):	total squared error = 0.000887647, marker error: RMS=0.00702237, max=0.010727 (l.bar1)
+Frame 550 (t=4.672):	total squared error = 0.000892169, marker error: RMS=0.00704024, max=0.0109421 (c7)
+Frame 551 (t=4.676):	total squared error = 0.000866124, marker error: RMS=0.00693672, max=0.00979609 (r.met)
+Frame 552 (t=4.68):	total squared error = 0.00090595, marker error: RMS=0.0070944, max=0.011676 (c7)
+Frame 553 (t=4.684):	total squared error = 0.000869773, marker error: RMS=0.00695131, max=0.0101739 (r.met)
+Frame 554 (t=4.688):	total squared error = 0.00101477, marker error: RMS=0.0075084, max=0.0106806 (r.bar1)
+Frame 555 (t=4.692):	total squared error = 0.000958985, marker error: RMS=0.0072991, max=0.0113529 (c7)
+Frame 556 (t=4.696):	total squared error = 0.000946595, marker error: RMS=0.0072518, max=0.0108182 (r.bar2)
+Frame 557 (t=4.7):	total squared error = 0.00106711, marker error: RMS=0.00769961, max=0.0118236 (r.bar2)
+Frame 558 (t=4.704):	total squared error = 0.00112681, marker error: RMS=0.00791204, max=0.0131356 (r.bar2)
+Frame 559 (t=4.708):	total squared error = 0.00109589, marker error: RMS=0.00780274, max=0.0133119 (r.bar2)
+Frame 560 (t=4.712):	total squared error = 0.00107572, marker error: RMS=0.00773062, max=0.0139963 (r.bar2)
+Frame 561 (t=4.716):	total squared error = 0.00113732, marker error: RMS=0.00794886, max=0.0152866 (r.bar2)
+Frame 562 (t=4.72):	total squared error = 0.0013221, marker error: RMS=0.00857029, max=0.016369 (r.bar2)
+Frame 563 (t=4.724):	total squared error = 0.0013101, marker error: RMS=0.0085313, max=0.0159495 (r.bar2)
+Frame 564 (t=4.728):	total squared error = 0.00141537, marker error: RMS=0.00886746, max=0.0173283 (r.bar2)
+Frame 565 (t=4.732):	total squared error = 0.00141293, marker error: RMS=0.00885979, max=0.0159468 (r.bar2)
+Frame 566 (t=4.736):	total squared error = 0.00144418, marker error: RMS=0.00895725, max=0.0172411 (r.bar2)
+Frame 567 (t=4.74):	total squared error = 0.00146201, marker error: RMS=0.00901238, max=0.0175352 (r.bar2)
+Frame 568 (t=4.744):	total squared error = 0.00143815, marker error: RMS=0.00893851, max=0.0162033 (r.bar2)
+Frame 569 (t=4.748):	total squared error = 0.00142069, marker error: RMS=0.00888408, max=0.0171321 (r.bar2)
+Frame 570 (t=4.752):	total squared error = 0.00139719, marker error: RMS=0.00881032, max=0.0162162 (r.bar2)
+Frame 571 (t=4.756):	total squared error = 0.00138734, marker error: RMS=0.00877922, max=0.0171704 (r.bar2)
+Frame 572 (t=4.76):	total squared error = 0.00138238, marker error: RMS=0.00876349, max=0.0164207 (r.bar2)
+Frame 573 (t=4.764):	total squared error = 0.00132221, marker error: RMS=0.00857067, max=0.0153974 (r.bar2)
+Frame 574 (t=4.768):	total squared error = 0.00129819, marker error: RMS=0.00849245, max=0.0155608 (r.bar2)
+Frame 575 (t=4.772):	total squared error = 0.00131357, marker error: RMS=0.0085426, max=0.0160821 (r.bar1)
+Frame 576 (t=4.776):	total squared error = 0.00129471, marker error: RMS=0.00848104, max=0.0167817 (r.bar1)
+Frame 577 (t=4.78):	total squared error = 0.00128816, marker error: RMS=0.00845959, max=0.0173364 (r.bar1)
+Frame 578 (t=4.784):	total squared error = 0.0012743, marker error: RMS=0.00841395, max=0.0172086 (r.bar1)
+Frame 579 (t=4.788):	total squared error = 0.0012831, marker error: RMS=0.00844295, max=0.0177357 (r.bar1)
+Frame 580 (t=4.792):	total squared error = 0.0012969, marker error: RMS=0.00848822, max=0.0184962 (r.bar1)
+Frame 581 (t=4.796):	total squared error = 0.00134087, marker error: RMS=0.00863092, max=0.0188599 (r.bar1)
+Frame 582 (t=4.8):	total squared error = 0.00147794, marker error: RMS=0.00906134, max=0.0198356 (r.bar1)
+Frame 583 (t=4.804):	total squared error = 0.00145785, marker error: RMS=0.00899954, max=0.0199892 (r.bar1)
+Frame 584 (t=4.808):	total squared error = 0.00151195, marker error: RMS=0.009165, max=0.0204295 (r.bar1)
+Frame 585 (t=4.812):	total squared error = 0.00155813, marker error: RMS=0.00930393, max=0.021116 (r.bar1)
+Frame 586 (t=4.816):	total squared error = 0.00152155, marker error: RMS=0.00919405, max=0.0209945 (r.bar1)
+Frame 587 (t=4.82):	total squared error = 0.00157715, marker error: RMS=0.00936054, max=0.020745 (r.bar1)
+Frame 588 (t=4.824):	total squared error = 0.00153409, marker error: RMS=0.00923186, max=0.0209302 (r.bar1)
+Frame 589 (t=4.828):	total squared error = 0.00151777, marker error: RMS=0.00918261, max=0.0206545 (r.bar1)
+Frame 590 (t=4.832):	total squared error = 0.00170939, marker error: RMS=0.00974505, max=0.0199476 (r.bar1)
+Frame 591 (t=4.836):	total squared error = 0.00190078, marker error: RMS=0.0102761, max=0.0206654 (r.bar1)
+Frame 592 (t=4.84):	total squared error = 0.0019181, marker error: RMS=0.0103229, max=0.0207123 (r.bar1)
+Frame 593 (t=4.844):	total squared error = 0.00205737, marker error: RMS=0.010691, max=0.020812 (r.bar1)
+Frame 594 (t=4.848):	total squared error = 0.00219037, marker error: RMS=0.0110312, max=0.0209044 (r.bar1)
+Frame 595 (t=4.852):	total squared error = 0.00213786, marker error: RMS=0.0108982, max=0.0212366 (r.bar1)
+Frame 596 (t=4.856):	total squared error = 0.002291, marker error: RMS=0.0112817, max=0.0212908 (r.bar1)
+Frame 597 (t=4.86):	total squared error = 0.00222657, marker error: RMS=0.011122, max=0.0211475 (r.bar1)
+Frame 598 (t=4.864):	total squared error = 0.00231967, marker error: RMS=0.0113521, max=0.0217382 (r.bar1)
+Frame 599 (t=4.868):	total squared error = 0.00226466, marker error: RMS=0.0112167, max=0.0212799 (r.bar1)
+Frame 600 (t=4.872):	total squared error = 0.00238296, marker error: RMS=0.011506, max=0.0220586 (r.bar1)
+Frame 601 (t=4.876):	total squared error = 0.0023429, marker error: RMS=0.0114088, max=0.0217633 (r.bar1)
+Frame 602 (t=4.88):	total squared error = 0.00245799, marker error: RMS=0.0116857, max=0.0222482 (r.bar1)
+Frame 603 (t=4.884):	total squared error = 0.00232858, marker error: RMS=0.0113739, max=0.0223935 (r.bar1)
+Frame 604 (t=4.888):	total squared error = 0.00227359, marker error: RMS=0.0112388, max=0.022011 (r.bar1)
+Frame 605 (t=4.892):	total squared error = 0.00234789, marker error: RMS=0.011421, max=0.02212 (r.bar1)
+Frame 606 (t=4.896):	total squared error = 0.00239151, marker error: RMS=0.0115266, max=0.0222854 (r.bar1)
+Frame 607 (t=4.9):	total squared error = 0.0023579, marker error: RMS=0.0114453, max=0.0217163 (r.bar1)
+Frame 608 (t=4.904):	total squared error = 0.00236727, marker error: RMS=0.011468, max=0.0218975 (r.bar1)
+Frame 609 (t=4.908):	total squared error = 0.00237317, marker error: RMS=0.0114823, max=0.0213226 (r.bar1)
+Frame 610 (t=4.912):	total squared error = 0.00250826, marker error: RMS=0.0118046, max=0.0213248 (r.bar1)
+Frame 611 (t=4.916):	total squared error = 0.00248593, marker error: RMS=0.0117519, max=0.0214208 (r.bar1)
+Frame 612 (t=4.92):	total squared error = 0.00265493, marker error: RMS=0.0121448, max=0.0211337 (r.bar1)
+Frame 613 (t=4.924):	total squared error = 0.00236998, marker error: RMS=0.0114745, max=0.0218102 (r.bar1)
+Frame 614 (t=4.928):	total squared error = 0.00236158, marker error: RMS=0.0114542, max=0.0215276 (r.bar1)
+Frame 615 (t=4.932):	total squared error = 0.00240464, marker error: RMS=0.0115582, max=0.0216889 (r.asis)
+Frame 616 (t=4.936):	total squared error = 0.00221392, marker error: RMS=0.0110903, max=0.0212245 (r.asis)
+Frame 617 (t=4.94):	total squared error = 0.00227774, marker error: RMS=0.011249, max=0.0217235 (r.asis)
+Frame 618 (t=4.944):	total squared error = 0.00221498, marker error: RMS=0.011093, max=0.0212836 (r.asis)
+Frame 619 (t=4.948):	total squared error = 0.00226581, marker error: RMS=0.0112196, max=0.0222646 (r.asis)
+Frame 620 (t=4.952):	total squared error = 0.00242311, marker error: RMS=0.0116025, max=0.0225461 (r.asis)
+Frame 621 (t=4.956):	total squared error = 0.00246496, marker error: RMS=0.0117022, max=0.0241382 (r.asis)
+Frame 622 (t=4.96):	total squared error = 0.00254925, marker error: RMS=0.0119006, max=0.0243344 (r.asis)
+Frame 623 (t=4.964):	total squared error = 0.0023472, marker error: RMS=0.0114193, max=0.0242811 (r.asis)
+Frame 624 (t=4.968):	total squared error = 0.00241089, marker error: RMS=0.0115732, max=0.0243043 (r.asis)
+Frame 625 (t=4.972):	total squared error = 0.00244638, marker error: RMS=0.011658, max=0.0255002 (r.asis)
+Frame 626 (t=4.976):	total squared error = 0.00255378, marker error: RMS=0.0119112, max=0.0257101 (r.asis)
+Frame 627 (t=4.98):	total squared error = 0.00261286, marker error: RMS=0.0120482, max=0.0266619 (r.asis)
+Frame 628 (t=4.984):	total squared error = 0.00261063, marker error: RMS=0.012043, max=0.0263186 (r.asis)
+Frame 629 (t=4.988):	total squared error = 0.00259639, marker error: RMS=0.0120101, max=0.0267962 (r.asis)
+Frame 630 (t=4.992):	total squared error = 0.00254612, marker error: RMS=0.0118933, max=0.0266016 (r.asis)
+Frame 631 (t=4.996):	total squared error = 0.00244494, marker error: RMS=0.0116546, max=0.0265295 (r.asis)
+Frame 632 (t=5):	total squared error = 0.00242955, marker error: RMS=0.0116179, max=0.0261592 (r.asis)
+Frame 633 (t=5.004):	total squared error = 0.00231845, marker error: RMS=0.0113491, max=0.0261883 (r.asis)
+Frame 634 (t=5.008):	total squared error = 0.00228469, marker error: RMS=0.0112662, max=0.025516 (r.asis)
+Frame 635 (t=5.012):	total squared error = 0.00231485, marker error: RMS=0.0113403, max=0.0251866 (r.asis)
+Frame 636 (t=5.016):	total squared error = 0.00235592, marker error: RMS=0.0114405, max=0.0247847 (r.asis)
+Frame 637 (t=5.02):	total squared error = 0.00212362, marker error: RMS=0.0108618, max=0.0251034 (r.asis)
+Frame 638 (t=5.024):	total squared error = 0.0021224, marker error: RMS=0.0108587, max=0.0247904 (r.asis)
+Frame 639 (t=5.028):	total squared error = 0.00213754, marker error: RMS=0.0108973, max=0.0245451 (r.asis)
+Frame 640 (t=5.032):	total squared error = 0.00212437, marker error: RMS=0.0108637, max=0.0250969 (r.asis)
+Frame 641 (t=5.036):	total squared error = 0.00213034, marker error: RMS=0.010879, max=0.0250755 (r.asis)
+Frame 642 (t=5.04):	total squared error = 0.00214574, marker error: RMS=0.0109182, max=0.0250961 (r.asis)
+Frame 643 (t=5.044):	total squared error = 0.0021873, marker error: RMS=0.0110235, max=0.025079 (r.asis)
+Frame 644 (t=5.048):	total squared error = 0.0022443, marker error: RMS=0.0111662, max=0.0253445 (r.asis)
+Frame 645 (t=5.052):	total squared error = 0.00225151, marker error: RMS=0.0111841, max=0.0243067 (r.asis)
+Frame 646 (t=5.056):	total squared error = 0.00227009, marker error: RMS=0.0112301, max=0.0243694 (r.asis)
+Frame 647 (t=5.06):	total squared error = 0.00234551, marker error: RMS=0.0114152, max=0.0242574 (r.asis)
+Frame 648 (t=5.064):	total squared error = 0.00235003, marker error: RMS=0.0114262, max=0.0242149 (r.asis)
+IK completado y memoria limpiada.
+IK completed in 541.9 s
+--- Mirroring IK kinematics (side=r) ---
+espejo_cinematica: 5 coord pairs mirrored (side=r) -> walking_040_ik_mirror.mot
+
+--- STEP 2/3: COMAK (side=r) ---
+=== CONFIGURACIÓN COMAK ===
+Paciente: HOLOA_040
+Tiempo: 4.088 - 5.064 s
+Contact energy weight: 0.0
+Running COMAK Tool with default muscle weights and contact energy weight = 0 ...
+#################################################################################################
+#################################################################################################
+##                                                                                             ##
+##    WWWWWW WWWW      WWWWWWW        WWWWWWW    WWWWWWWW       WWWWWWWWW    WWWWWWWW  WWWWWWW ##
+##  WWWWWWWWWWWWW   WWWWWWWWWWWWW    WWWWWWWWW   WWWWWWWW        WWWWWWWWW    WWWWWWW  WWWWWWW ##
+## WWWWWW    WWWW  WWWWWW   WWWWWW   WWWWW  WWWWWWW  WWWWW       WWWWWWWWW     WWWWWW  WWWW    ##
+## WWWWWW          WWWWWW   WWWWWW   WWWWW  WWWWWWW  WWWWW       WWW  WWWWW    WWWWWWWWWWW     ##
+## WWWWWW    WWW   WWWWWW   WWWWWW  WWWWWW   WWWWW   WWWWW      WWWWWWWWWWW    WWWWWW WWWWWW   ##
+## WWWWWWW  WWWWW   WWWWWW WWWWWW   WWWWWW  WWWWWW   WWWWWW   WWWWW    WWWWWW WWWWWWW  WWWWWWW ##
+##   WWWWWWWWWW       WWWWWWWWW    WWWWWWW WWWWWWWW  WWWWWWW  WWWWWW  WWWWWWW WWWWWWWW WWWWWWW ##
+##                                                                                             ##
+#################################################################################################
+#################################################################################################
+      ##           Concurrent Optimization of Muscle Activations and Kinematics          ##
+      ##                                                                                 ##
+      ##               Developed by Colin Smith [1,2] and Darryl Thelen [1]              ##
+      ##                       1. University of Wisconsin-Madison                        ##
+      ##                                   2. ETH Zurich                                 ##
+      #####################################################################################
+      #####################################################################################
+
+
+
+--------------------------------------------------------------------------------
+                Assertion detected at 2026-06-21 23:18:41 +0200
+--------------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding           : Disabled - No sandbox or build area path
+  Crash Mode               : continue (default)
+  Default Encoding         : windows-1252
+  Deployed                 : false
+  Graphics Driver          : Unknown hardware 
+  Graphics card 1          : Intel Corporation ( 0x8086 ) Intel(R) UHD Graphics 630 Version 27.20.100.8476 (2020-7-8)
+  Graphics card 2          : NVIDIA ( 0x10de ) NVIDIA GeForce GTX 1650 Version 32.0.15.8183 (2025-11-4)
+  Java Version             : Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  MATLAB Architecture      : win64
+  MATLAB Entitlement ID    : 1980473
+  MATLAB Root              : C:\Program Files\MATLAB\R2020b
+  MATLAB Version           : 9.9.0.1467703 (R2020b)
+  OpenGL                   : hardware
+  Operating System         : Microsoft Windows 11 Home
+  Process ID               : 4380
+  Processor ID             : x86 Family 6 Model 158 Stepping 10, GenuineIntel
+  Session Key              : 6b5bca28-ce05-48b4-a07a-0e50fcec5f6d
+  Window System            : Version 10.0 (Build 26200)
+
+Fault Count: 1
+
+
+Additional Log Files:
+  Java Crash Report        : C:\Users\mayra\AppData\Local\Temp\hs_error_pid4380.log
+
+
+Assertion in void __cdecl `anonymous-namespace'::mwJavaAbort(void) at b:\matlab\src\jmi\jmi\javainit.cpp line 1399:
+Fatal Java Exception. See this file for details: C:\Users\mayra\AppData\Local\Temp\hs_error_pid4380.log
+
+Current Thread: 'MCR 0 interpreter thread' id 28028
+
+Register State (captured):
+  RAX = 00007ffdb995f118  RBX = 00007ffdb995f118
+  RCX = 0000005592fefa90  RDX = 0000000000000000
+  RSP = 0000005592fef9d0  RBP = 0000000000000577
+  RSI = 000001e6b67d7060  RDI = 00007ffdb995f118
+ 
+   R8 = 0000000000000004   R9 = 0000005592fef938
+  R10 = 00005fa9ee075003  R11 = 00007ffdb994f1c5
+  R12 = 0000005592ff00d0  R13 = 000001e680000170
+  R14 = 00007ffdecffbc78  R15 = 00007ffdb994f058
+ 
+  RIP = 00007ffdb96f4e2a  EFL = 00000202
+ 
+   CS = 0033   FS = 0053   GS = 002b
+
+Stack Trace (captured):
+[  0] 0x00007ffdb96ecac3 C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00051907
+[  1] 0x00007ffdb96e99d1 C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00039377
+[  2] 0x00007ffdb96f0fb6 C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00069558
+[  3] 0x00007ffdb96ef839 C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00063545
+[  4] 0x00007ffdb96f46ab C:\Program Files\MATLAB\R2020b\bin\win64\libmwfl.dll+00083627
+[  5] 0x00007ffdecf5f3f9   C:\Program Files\MATLAB\R2020b\bin\win64\jmi.dll+00652281
+[  6] 0x0000000059ae9ead C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+02727597
+[  7] 0x0000000059ad208b C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+02629771
+[  8] 0x0000000059aeac26 C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+02731046
+[  9] 0x0000000059aef52d C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+02749741
+[ 10] 0x0000000059b85d98 C:\Program Files\MATLAB\R2020b\sys\java\jre\win64\jre\bin\server\jvm.dll+03366296
+[ 11] 0x00007ffe717c47af                      C:\WINDOWS\SYSTEM32\ntdll.dll+01460143
+[ 12] 0x00007ffe716821c7                      C:\WINDOWS\SYSTEM32\ntdll.dll+00139719
+[ 13] 0x00007ffe717c40ee                      C:\WINDOWS\SYSTEM32\ntdll.dll+01458414
+[ 14] 0x00007ffe0263c319 C:\Program Files\MATLAB\R2020b\bin\win64\VCRUNTIME140.dll+00049945
+[ 15] 0x00007ffd7d30a75c D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimJAM.dll+00042844
+[ 16] 0x00007ffd7d36850e D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimJAM.dll+00427278
+[ 17] 0x00007ffd7d36a090 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimJAM.dll+00434320
+[ 18] 0x00007ffd7d3717f1 D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\bin\osimJAM.dll+00464881
+[ 19] 0x00007ffd75a69fb2   D:\mayra\Descargas\UPF_COMAK\bin\osimJavaJNI.dll+03579826
+[ 20] 0x000001e680019f2e                                   <unknown-module>+00000000
+
+** This crash report has been saved to disk as C:\Users\mayra\AppData\Local\Temp\matlab_crash_dump.4380-1 **
+
+
+
+MATLAB is exiting because of fatal error

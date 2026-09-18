@@ -1,0 +1,10 @@
+Using ffmpeg at: D:\mayra\Descargas\UPF_COMAK\COMAK\matlab_scripts\ffmpeg\ffmpeg-8.0.1-essentials_build\bin\ffmpeg.EXE
+Converting frames to video: ../results/STRATO_001_mirror/graphics/paraview/side_animation_STRATO_001_mirror.mp4
+Animation saved as ../results/STRATO_001_mirror/graphics/paraview/side_animation_STRATO_001_mirror.mp4
+Converting frames to video: ../results/STRATO_001_mirror/graphics/paraview/top_animation_STRATO_001_mirror.mp4
+Animation saved as ../results/STRATO_001_mirror/graphics/paraview/top_animation_STRATO_001_mirror.mp4
+[INFO] Palette generated and saved as ../results/STRATO_001_mirror/graphics/paraview/side_animation_STRATO_001_mirror_palette.png
+[INFO] Conversion successful. GIF saved as ../results/STRATO_001_mirror/graphics/paraview/side_animation_STRATO_001_mirror.gif
+[INFO] Palette generated and saved as ../results/STRATO_001_mirror/graphics/paraview/top_animation_STRATO_001_mirror_palette.png
+[INFO] Conversion successful. GIF saved as ../results/STRATO_001_mirror/graphics/paraview/top_animation_STRATO_001_mirror.gif
+

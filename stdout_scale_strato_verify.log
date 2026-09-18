@@ -1,0 +1,59 @@
+[info] Loaded library D:\mayra\Descargas\UPF_COMAK\bin\osimJAM.dll
+[info] Preparing to run ScaleTool.
+[info] Processing subject lenhart2015-scaled...
+[info] Step 1: Loading generic model
+[info] Loaded model lenhart2015 from file D:/mayra/Descargas/UPF_COMAK/COMAK/models/lenhart2015_generic/lenhart2015.osim
+[info] Loading marker set from 'D:/mayra/Descargas/UPF_COMAK/COMAK/models/lenhart2015_generic/markers.xml'.
+[info] Updated markers in model lenhart2015
+[info] Step 2: Scaling generic model
+[info] Loaded marker file D:/mayra/Descargas/UPF_COMAK/COMAK/data/STRATO_001/standing/Standing_STRATO_ID_01.trc (22 markers, 2688 frames)
+[info] Measurement 'pelvis'
+[info] 	pair 0 (r.asis, l.asis): model = 0.287128, experimental = 0.269472
+[info] 	pair 1 (r.asis, r.knee1): model = 0.466244, experimental = 0.445294
+[info] 	pair 2 (l.asis, l.knee1): model = 0.45399, experimental = 0.453238
+[info] 	overall scale factor = 0.963973
+[info] Measurement 'torso'
+[info] 	pair 0 (r.asis, l.asis): model = 0.287128, experimental = 0.269472
+[info] 	pair 1 (r.asis, r.knee1): model = 0.466244, experimental = 0.445294
+[info] 	pair 2 (l.asis, l.knee1): model = 0.45399, experimental = 0.453238
+[info] 	overall scale factor = 0.963973
+[info] Measurement 'rFemur'
+[info] 	pair 0 (r.asis, r.kneem): model = 0.481683, experimental = 0.489618
+[info] 	pair 1 (r.asis, r.knee1): model = 0.466244, experimental = 0.445294
+[info] 	pair 2 (r.knee1, r.mall): model = 0.400461, experimental = 0.360872
+[info] 	pair 3 (r.knee1, r.heel): model = 0.443471, experimental = 0.409349
+[info] 	overall scale factor = 0.948935
+[info] Measurement 'rTibia'
+[info] 	pair 0 (r.asis, r.kneem): model = 0.481683, experimental = 0.489618
+[info] 	pair 1 (r.asis, r.knee1): model = 0.466244, experimental = 0.445294
+[info] 	pair 2 (r.knee1, r.mall): model = 0.400461, experimental = 0.360872
+[info] 	pair 3 (r.knee1, r.heel): model = 0.443471, experimental = 0.409349
+[info] 	overall scale factor = 0.948935
+[info] Measurement 'rFoot'
+[info] 	pair 0 (r.heel, r.met): model = 0.187251, experimental = 0.185008
+[info] 	pair 1 (r.mall, r.met): model = 0.137851, experimental = 0.130230
+[info] 	overall scale factor = 0.966368
+[info] Measurement 'lFemur'
+[info] 	pair 0 (l.asis, l.kneem): model = 0.466171, experimental = 0.489305
+[info] 	pair 1 (l.asis, l.knee1): model = 0.45399, experimental = 0.453238
+[info] 	pair 2 (l.knee1, l.mall): model = 0.396859, experimental = 0.360125
+[info] 	pair 3 (l.knee1, l.heel): model = 0.43968, experimental = 0.406473
+[info] 	overall scale factor = 0.969971
+[info] Measurement 'lTibia'
+[info] 	pair 0 (l.asis, l.kneem): model = 0.466171, experimental = 0.489305
+[info] 	pair 1 (l.asis, l.knee1): model = 0.45399, experimental = 0.453238
+[info] 	pair 2 (l.knee1, l.mall): model = 0.396859, experimental = 0.360125
+[info] 	pair 3 (l.knee1, l.heel): model = 0.43968, experimental = 0.406473
+[info] 	overall scale factor = 0.969971
+[info] Measurement 'lFoot'
+[info] 	pair 0 (l.heel, l.met): model = 0.187251, experimental = 0.194277
+[info] 	pair 1 (l.mall, l.met): model = 0.137159, experimental = 0.135307
+[info] 	overall scale factor = 1.01201
+[info] Wrote model file 'D:/mayra/Descargas/UPF_COMAK/COMAK/data/STRATO_001/model/model_STRATO_001_verify_scaled.osim' from model.
+[info] Step 3: Placing markers on model
+[info] Loaded marker file D:/mayra/Descargas/UPF_COMAK/COMAK/data/STRATO_001/standing/Standing_STRATO_ID_01.trc (22 markers, 2688 frames)
+[info] Averaged frames from time 5.0 to 7.0 in D:/mayra/Descargas/UPF_COMAK/COMAK/data/STRATO_001/standing/Standing_STRATO_ID_01.trc (frames 1250 to 1750)
+[info] Deleted 0 unused markers from model lenhart2015-scaled.
+[info] Frame at (t = 5.0):	 total squared error = 0.00884561, marker error: RMS = 0.0200518, max = 0.0389673 (r.bar1)
+[info] Moved markers in model lenhart2015-scaled to match locations in marker file 'D:/mayra/Descargas/UPF_COMAK/COMAK/data/STRATO_001/standing/Standing_STRATO_ID_01.trc'.
+[info] Wrote model file 'D:/mayra/Descargas/UPF_COMAK/COMAK/data/STRATO_001/model/model_STRATO_001_verify.osim' from model lenhart2015-scaled.

@@ -1,0 +1,15 @@
+﻿warning: in the working copy of 'D:\mayra\Descargas\UPF_COMAK-master\UPF_COMAK-master\COMAK\matlab_scripts\run_joint_mechanics.m', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'D:\mayra\Descargas\UPF_COMAK\COMAK\matlab_scripts\run_joint_mechanics.m', LF will be replaced by CRLF the next time Git touches it
+diff --git "a/D:\\mayra\\Descargas\\UPF_COMAK-master\\UPF_COMAK-master\\COMAK\\matlab_scripts\\run_joint_mechanics.m" "b/D:\\mayra\\Descargas\\UPF_COMAK\\COMAK\\matlab_scripts\\run_joint_mechanics.m"
+index 8e84c11..92ec1c7 100644
+--- "a/D:\\mayra\\Descargas\\UPF_COMAK-master\\UPF_COMAK-master\\COMAK\\matlab_scripts\\run_joint_mechanics.m"
++++ "b/D:\\mayra\\Descargas\\UPF_COMAK\\COMAK\\matlab_scripts\\run_joint_mechanics.m"
+@@ -30,7 +30,7 @@ function [] = run_joint_mechanics(model_file, comak_result_dir, jnt_mech_result_
+     
+     % LIMPIEZA INICIAL
+     import org.opensim.modeling.*
+-    Logger.setLevelString('Debug');
++    try; org.opensim.modeling.Logger.setLevelString('Debug'); catch; end
+     
+     % Limpiar archivos previos de Joint Mechanics
+     limpiar_archivos_jm(jnt_mech_result_dir);

@@ -1,0 +1,142 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\AppData\Local\Temp\Editor_kkjxv] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[> In path (line 109)
+In addpath (line 86)
+In startup (line 2)] 
+
+========================================
+RUN_JOINT_MECHANICS_ONLY - STRATO_001_mirror side=r
+========================================
+model_file: D:\mayra\Descargas\UPF_COMAK\COMAK\data\STRATO_001\model\model_STRATO_001_mirror.osim
+comak_result_dir: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\comak
+jnt_mech_result_dir: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics
+input_states_file: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\comak\walking_001_mirror_states.sto
+time_start: 4.848, time_stop: 5.944
+print_vtp: 0
+========================================
+
+[info] Set log level to Debug.
+Archivos previos de Joint Mechanics eliminados.
+=== CONFIGURACI‡N JOINT MECHANICS ===
+Paciente: STRATO_001_mirror
+Directorio resultados: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics
+Running JointMechanicsTool...
+[debug] Object.registerType: Millard2012EquilibriumMuscle.
+[debug] Object.registerType: replacing registered object of type Millard2012EquilibriumMuscle with a new default object of the same type.
+[info] Loaded model lenhart2015-scaled from file D:\mayra\Descargas\UPF_COMAK\COMAK\data\STRATO_001\model\model_STRATO_001_mirror.osim
+[info] Time: 4.848
+[info] Time: 4.85896
+[info] Time: 4.86992
+[info] Time: 4.88088
+[info] Time: 4.89184
+[info] Time: 4.90280
+[info] Time: 4.91376
+[info] Time: 4.92472
+[info] Time: 4.93568
+[info] Time: 4.94664
+[info] Time: 4.9576
+[info] Time: 4.96856
+[info] Time: 4.97952
+[info] Time: 4.99048
+[info] Time: 5.00144
+[info] Time: 5.0124
+[info] Time: 5.02336
+[info] Time: 5.03432
+[info] Time: 5.04528
+[info] Time: 5.05624
+[info] Time: 5.0672
+[info] Time: 5.07816
+[info] Time: 5.08912
+[info] Time: 5.10008
+[info] Time: 5.11104
+[info] Time: 5.122
+[info] Time: 5.13296
+[info] Time: 5.14392
+[info] Time: 5.15488
+[info] Time: 5.16584
+[info] Time: 5.1768
+[info] Time: 5.18776
+[info] Time: 5.19872
+[info] Time: 5.20968
+[info] Time: 5.22064
+[info] Time: 5.2316
+[info] Time: 5.24256
+[info] Time: 5.25352
+[info] Time: 5.26448
+[info] Time: 5.27544
+[info] Time: 5.2864
+[info] Time: 5.29736
+[info] Time: 5.30832
+[info] Time: 5.31928
+[info] Time: 5.33024
+[info] Time: 5.3412
+[info] Time: 5.35216
+[info] Time: 5.36312
+[info] Time: 5.37408
+[info] Time: 5.38504
+[info] Time: 5.396
+[info] Time: 5.40696
+[info] Time: 5.41792
+[info] Time: 5.42888
+[info] Time: 5.43984
+[info] Time: 5.45080
+[info] Time: 5.46176
+[info] Time: 5.47272
+[info] Time: 5.48368
+[info] Time: 5.49464
+[info] Time: 5.50560
+[info] Time: 5.51656
+[info] Time: 5.52752
+[info] Time: 5.53848
+[info] Time: 5.54944
+[info] Time: 5.56040
+[info] Time: 5.57136
+[info] Time: 5.58232
+[info] Time: 5.59328
+[info] Time: 5.60424
+[info] Time: 5.6152
+[info] Time: 5.62616
+[info] Time: 5.63712
+[info] Time: 5.64808
+[info] Time: 5.65904
+[info] Time: 5.67
+[info] Time: 5.68096
+[info] Time: 5.69192
+[info] Time: 5.70288
+[info] Time: 5.71384
+[info] Time: 5.7248
+[info] Time: 5.73576
+[info] Time: 5.74672
+[info] Time: 5.75768
+[info] Time: 5.76864
+[info] Time: 5.7796
+[info] Time: 5.79056
+[info] Time: 5.80152
+[info] Time: 5.81248
+[info] Time: 5.82344
+[info] Time: 5.8344
+[info] Time: 5.84536
+[info] Time: 5.85632
+[info] Time: 5.86728
+[info] Time: 5.87824
+[info] Time: 5.8892
+[info] Time: 5.90016
+[info] Time: 5.91112
+[info] Time: 5.92208
+[info] Time: 5.93304
+[info] Time: 5.944
+[info] Joint Mechanics Analysis complete.
+[info] Printed results to: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics
+Joint Mechanics completado y memoria limpiada.
+=== JOINT MECHANICS FINALIZADO ===
+
+
+ Joint Mechanics completado para STRATO_001_mirror: 31.03 segundos
+
+--- Contenido de D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\joint_mechanics ---
+  walking_001_mirror_ForceReporter_forces.sto           1865610 bytes
+
+========================================
+RUN_JOINT_MECHANICS_ONLY finalizado.
+========================================

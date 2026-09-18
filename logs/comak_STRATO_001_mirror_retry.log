@@ -1,0 +1,61 @@
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\AppData\Local\Temp\Editor_kkjxv] 
+[Warning: Name is nonexistent or not a directory: C:\Users\mayra\OneDrive - estudiant.upf.edu\Documentos\MATLAB\crptool] 
+[> In path (line 109)
+In addpath (line 86)
+In startup (line 2)] 
+
+========================================
+RUN_COMAK_ONLY - STRATO_001_mirror side=r
+========================================
+model_file: D:\mayra\Descargas\UPF_COMAK\COMAK\data\STRATO_001\model\model_STRATO_001_mirror.osim
+ext_load_file: D:\mayra\Descargas\UPF_COMAK\COMAK\data\STRATO_001\walking_mirror\external_loads_mirror.xml
+comak_result_dir: D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\comak
+ik_mot_file (referencia, run_comak lo relee internamente): D:\mayra\Descargas\UPF_COMAK\COMAK\results\STRATO_001_mirror\comak_inverse_kinematics\walking_001_mirror_ik.mot
+========================================
+
+[info] Set log level to Debug.
+=== CONFIGURACI‡N COMAK ===
+Paciente: STRATO_001_mirror
+Tiempo: 4.848 - 5.944 s
+Contact energy weight: 100.0
+Running COMAK Tool with default muscle weights and contact energy weight = 100 ...
+#################################################################################################
+#################################################################################################
+##                                                                                             ##
+##    WWWWWW WWWW      WWWWWWW        WWWWWWW    WWWWWWWW       WWWWWWWWW    WWWWWWWW  WWWWWWW ##
+##  WWWWWWWWWWWWW   WWWWWWWWWWWWW    WWWWWWWWW   WWWWWWWW        WWWWWWWWW    WWWWWWW  WWWWWWW ##
+## WWWWWW    WWWW  WWWWWW   WWWWWW   WWWWW  WWWWWWW  WWWWW       WWWWWWWWW     WWWWWW  WWWW    ##
+## WWWWWW          WWWWWW   WWWWWW   WWWWW  WWWWWWW  WWWWW       WWW  WWWWW    WWWWWWWWWWW     ##
+## WWWWWW    WWW   WWWWWW   WWWWWW  WWWWWW   WWWWW   WWWWW      WWWWWWWWWWW    WWWWWW WWWWWW   ##
+## WWWWWWW  WWWWW   WWWWWW WWWWWW   WWWWWW  WWWWWW   WWWWWW   WWWWW    WWWWWW WWWWWWW  WWWWWWW ##
+##   WWWWWWWWWW       WWWWWWWWW    WWWWWWW WWWWWWWW  WWWWWWW  WWWWWW  WWWWWWW WWWWWWWW WWWWWWW ##
+##                                                                                             ##
+#################################################################################################
+#################################################################################################
+      ##           Concurrent Optimization of Muscle Activations and Kinematics          ##
+      ##                                                                                 ##
+      ##               Developed by Colin Smith [1,2] and Darryl Thelen [1]              ##
+      ##                       1. University of Wisconsin-Madison                        ##
+      ##                                   2. ETH Zurich                                 ##
+      #####################################################################################
+      #####################################################################################
+
+
+[debug] Object.registerType: Millard2012EquilibriumMuscle.
+[debug] Object.registerType: replacing registered object of type Millard2012EquilibriumMuscle with a new default object of the same type.
+[info] Loaded model lenhart2015-scaled from file D:\mayra\Descargas\UPF_COMAK\COMAK\data\STRATO_001\model\model_STRATO_001_mirror.osim
+[info] Adding force object set from ../data/lenhart2015_reserve_actuators_r.xml
+[debug] Object.registerType: CoordinateActuator.
+[debug] Object.registerType: replacing registered object of type CoordinateActuator with a new default object of the same type.
+[warning] WARNING: Coordinate (pf_l_r3) was not listed in COMAKTool params file. Assumed PRESCRIBED.
+[warning] WARNING: Coordinate (pf_l_tx) was not listed in COMAKTool params file. Assumed PRESCRIBED.
+[warning] WARNING: Coordinate (pf_l_ty) was not listed in COMAKTool params file. Assumed PRESCRIBED.
+[error] COMAKTool::run() caught an exception: 
+ prescribed_coordinate: /jointset/knee_l/knee_add_l not found in model.
+	Thrown at COMAKTool.cpp:227 in initialize().
+COMAK default completado y limpiado.
+=== COMAK FINALIZADO ===
+
+
+ COMAK completado para STRATO_001_mirror: 25.11 segundos
