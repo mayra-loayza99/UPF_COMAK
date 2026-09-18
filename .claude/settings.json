@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(D:\\mayra\\Descargas\\UPF_COMAK-master\\**)",
+      "Write(D:\\mayra\\Descargas\\UPF_COMAK-master\\**)",
+      "Bash(rm:D:\\mayra\\Descargas\\UPF_COMAK-master*)",
+      "Bash(del:D:\\mayra\\Descargas\\UPF_COMAK-master*)"
+    ],
+    "allow": [
+      "Read(D:\\mayra\\Descargas\\UPF_COMAK-master\\**)"
+    ]
+  }
+}
