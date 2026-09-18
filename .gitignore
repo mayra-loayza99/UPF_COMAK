@@ -8,3 +8,21 @@ dist/
 build/
 .env
 .venv
+
+# Runtime logs (regenerated per MATLAB run, grows unbounded - not curated evidence like logs/)
+**/opensim.log
+
+# Subject data and results (motion capture, scaled models, simulation outputs) - kept local only
+COMAK/data/HOLOA_*/
+COMAK/data/STRATO_*/
+COMAK/results/
+COMAK/inputs/
+
+# Per-subject tracking spreadsheets/CSVs (OA side, sex, group per volunteer) - kept local only
+subject_comak_status.xlsx
+COMAK/python/subject_comak_status.xlsx
+HOLOASTRATO-OASide_DATA_*.csv
+COMAK/python/HOLOASTRATO-OASide_DATA_*.csv
+
+# Excel lock file
+~$*.xlsx
